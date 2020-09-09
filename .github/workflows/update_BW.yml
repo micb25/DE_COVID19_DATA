@@ -26,7 +26,7 @@ jobs:
       - name: Commit files
         run: |
           git config --local user.name  ${{ github.actor }}
-          git add ./data_BW/*.html
+          git add ./data_BW/*.pdf
           git commit -m "daily BW update"
       - name: Push changes
         uses: ad-m/github-push-action@master
