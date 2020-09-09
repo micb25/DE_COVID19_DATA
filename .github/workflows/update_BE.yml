@@ -1,0 +1,35 @@
+name: daily BE update
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "0 19 * * *"
+
+jobs:
+  update_page:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@master
+      - name: set up Python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.6'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+      - name: download BE data
+        run: cd .github/workflows/ && env python3 ./download_BE.py && cd ../../
+      - name: Commit files
+        run: |
+          git config --local user.name  ${{ github.actor }}
+          git add ./data_BE/*.html
+          git commit -m "daily BE update"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true 
