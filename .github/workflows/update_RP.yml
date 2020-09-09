@@ -1,11 +1,8 @@
 name: daily RP update
 
 on:
-  push:
-    branches:
-      - master
   schedule:
-    - cron: "0 22 * * *"
+    - cron: "0 17 * * *"
 
 jobs:
   update_page:
