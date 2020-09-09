@@ -1,11 +1,8 @@
 name: daily HB update
 
 on:
-  push:
-    branches:
-      - master
   schedule:
-    - cron: "30 20 * * *"
+    - cron: "30 22 * * *"
 
 jobs:
   update_page:
