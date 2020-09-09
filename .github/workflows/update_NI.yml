@@ -1,9 +1,6 @@
 name: daily NI update
 
 on:
-  push:
-    branches:
-      - master
   schedule:
     - cron: "30 19 * * *"
 
