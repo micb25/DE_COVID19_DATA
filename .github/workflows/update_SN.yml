@@ -1,9 +1,6 @@
 name: daily SN update
 
 on:
-  push:
-    branches:
-      - master
   schedule:
     - cron: "0 20 * * *"
 
