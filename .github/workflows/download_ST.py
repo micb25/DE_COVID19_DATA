@@ -11,7 +11,7 @@ FILENAME = "ST_{}.pdf".format(DATE_STR)
 FULLNAME = DATAPATH + FILENAME
 HTML_URL = "https://ms.sachsen-anhalt.de/themen/gesundheit/aktuell/coronavirus/"
 
-PDF_RE   = re.compile(r"\"(https://ms.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/MS/MS/Presse_Corona/[a-zA-Z0-9_]*.pdf)\"")
+PDF_RE   = re.compile(r"\"(https://ms.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/MS/MS/Presse_Corona/01_PM_Corona_ab_Juli/[a-zA-Z0-9_]*.pdf)\"")
 
 if os.path.isfile(FULLNAME):
 
