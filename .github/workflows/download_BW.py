@@ -11,6 +11,7 @@ DATE_SHR = datetime.fromtimestamp(datetime.now().timestamp()).strftime('%y%m%d')
 FILENAME = "BW_{}.pdf".format(DATE_STR)
 FULLNAME = DATAPATH + FILENAME
 CSV_URL  = "https://www.baden-wuerttemberg.de/fileadmin/redaktion/dateien/PDF/Coronainfos/{}_COVID_Tagesbericht_LGA.pdf".format(DATE_SHR)
+CSV_URL2 = "https://www.baden-wuerttemberg.de/fileadmin/redaktion/dateien/PDF/Coronainfos/{}_COVID_Lagebericht_LGA.pdf".format(DATE_SHR)
 
 if os.path.isfile(FULLNAME):
 
@@ -28,8 +29,11 @@ else:
     
     r = requests.get(CSV_URL, headers=headers, allow_redirects=True, timeout=5.0)
     if r.status_code != 200:
-        print("Download failed!")
-        sys.exit(1)
+        
+        r = requests.get(CSV_URL2, headers=headers, allow_redirects=True, timeout=5.0)
+        if r.status_code != 200:
+            print("Download failed!")
+            sys.exit(1)
         
     with open(FULLNAME, 'wb') as df:
         df.write(r.content)
