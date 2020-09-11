@@ -3,7 +3,7 @@
 Gesammelte COVID19-Daten von den deutschen Landesbehörden.
 
 | Kürzel      | Land                   | Ordner               | Quelle |
-| :-:         | :--                    | :-:                  | :--    |
+| :-:         | :--                    | :--                  | :--    |
 | BW          | Baden-Württemberg      | [data_BW](data_BW/) | [https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/infektionen-und-todesfaelle-in-baden-wuerttemberg/](https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/infektionen-und-todesfaelle-in-baden-wuerttemberg/) |
 | BY          | Bayern                 | [data_BY](data_BY/) | [https://www.lgl.bayern.de/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/karte_coronavirus/index.htm](https://www.lgl.bayern.de/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/karte_coronavirus/index.htm) |
 | BE          | Berlin                 | [data_BE](data_BE/) | [https://www.berlin.de/corona/lagebericht/desktop/corona.html#fallzahlen](https://www.berlin.de/corona/lagebericht/desktop/corona.html#fallzahlen) |
