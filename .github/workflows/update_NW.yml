@@ -1,10 +1,6 @@
 name: daily NW update
 
 on:
-  push:
-    branches:
-      - master
-      
   schedule:
     - cron: "0 16 * * *"
 
