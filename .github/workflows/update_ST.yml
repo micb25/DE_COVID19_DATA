@@ -1,6 +1,9 @@
 name: daily ST update
 
 on:
+  push:
+    branches:
+      - master
   schedule:
     - cron: "0 22 * * *"
 
