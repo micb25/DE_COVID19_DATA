@@ -20,7 +20,7 @@ FULLNAME = DATAPATH + FILENAME
 HTML_URL = "https://www.lagus.mv-regierung.de/Gesundheit/InfektionsschutzPraevention/Daten-Corona-Pandemie"
 SERVER   = "https://www.lagus.mv-regierung.de"
 
-pdf_filename_pattern = re.compile(r"[a-zA-Z0-9_\-]*.pdf")
+pdf_filename_pattern = re.compile(r"[a-zA-Z0-9_\-äöüÄÖÜ]*.pdf")
 
 PDF_RE1  = re.compile(r"<a title=\"Download: MV-Lagebericht(.*?)>")
 PDF_RE2  = re.compile(r"<a title=\"Download: Wöchentlicher Bericht über Zahl der Abstriche(.*?)>")
