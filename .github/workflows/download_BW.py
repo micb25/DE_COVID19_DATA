@@ -10,8 +10,12 @@ DATE_STR = datetime.fromtimestamp(datetime.now().timestamp()).strftime('%Y-%m-%d
 DATE_SHR = datetime.fromtimestamp(datetime.now().timestamp()).strftime('%y%m%d')
 FILENAME = "BW_{}.pdf".format(DATE_STR)
 FULLNAME = DATAPATH + FILENAME
-CSV_URL  = "https://www.baden-wuerttemberg.de/fileadmin/redaktion/dateien/PDF/Coronainfos/{}_COVID_Tagesbericht_LGA.pdf".format(DATE_SHR)
+CSV_URL1 = "https://www.baden-wuerttemberg.de/fileadmin/redaktion/dateien/PDF/Coronainfos/{}_COVID_Tagesbericht_LGA.pdf".format(DATE_SHR)
 CSV_URL2 = "https://www.baden-wuerttemberg.de/fileadmin/redaktion/dateien/PDF/Coronainfos/{}_COVID_Lagebericht_LGA.pdf".format(DATE_SHR)
+CSV_URL3 = "https://www.baden-wuerttemberg.de/fileadmin/redaktion/m-sm/intern/downloads/Downloads_Gesundheitsschutz/{}_COVID_Tagesbericht_LGA.pdf".format(DATE_SHR)
+CSV_URL4 = "https://www.baden-wuerttemberg.de/fileadmin/redaktion/m-sm/intern/downloads/Downloads_Gesundheitsschutz/{}_COVID_Lagebericht_LGA.pdf".format(DATE_SHR)
+
+CSV_URLS = [CSV_URL1, CSV_URL2, CSV_URL3, CSV_URL4]
 
 if os.path.isfile(FULLNAME):
 
@@ -27,14 +31,16 @@ else:
         
     headers = { 'Pragma': 'no-cache', 'Cache-Control': 'no-cache' }
     
-    r = requests.get(CSV_URL, headers=headers, allow_redirects=True, timeout=5.0)
-    if r.status_code != 200:
+    for CSV_URL in CSV_URLS:
         
-        r = requests.get(CSV_URL2, headers=headers, allow_redirects=True, timeout=5.0)
-        if r.status_code != 200:
-            print("Download failed!")
-            sys.exit(1)
-        
-    with open(FULLNAME, 'wb') as df:
-        df.write(r.content)
-        df.close()        
+        r = requests.get(CSV_URL, headers=headers, allow_redirects=True, timeout=5.0)
+        if r.status_code == 200:
+            
+            with open(FULLNAME, 'wb') as df:
+                df.write(r.content)
+                df.close()        
+                
+            sys.exit(0)
+    
+    print("Download failed!")
+    sys.exit(1)
