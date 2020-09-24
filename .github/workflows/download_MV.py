@@ -66,13 +66,13 @@ else:
         i += 1
         
         pre = PDF_RE.findall( r.text.replace("\n", "") )
-        if len(pre) != 1:
-            print("Download failed (link not found)!")
+        if len(pre) < 0:
+            print("Download failed (link not found, #1)!")
             continue
             
         pdf1 = PDF_LINK.findall(pre[0])
         if len(pdf1) != 1:
-            print("Download failed (link not found)!")
+            print("Download failed (link not found, #2)!")
             continue
             
         pdf1_url = SERVER + requests.utils.quote(pdf1[0])
