@@ -10,7 +10,7 @@ DATE_STR = datetime.fromtimestamp(datetime.now().timestamp()).strftime('%Y-%m-%d
 DATE_SHR = datetime.fromtimestamp(datetime.now().timestamp()).strftime('%Y_%m_%d')
 FILENAME = "HE_{}.pdf".format(DATE_STR)
 FULLNAME = DATAPATH + FILENAME
-CSV_URL  = "https://soziales.hessen.de/sites/default/files/media/{}_bulletin_coronavirus.pdf".format(DATE_SHR)
+CSV_URL  = "https://soziales.hessen.de/sites/default/files/media/hsm/{}_bulletin_coronavirus.pdf".format(DATE_SHR)
 
 if os.path.isfile(FULLNAME):
 
