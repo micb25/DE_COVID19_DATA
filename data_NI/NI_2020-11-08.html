@@ -1,0 +1,1475 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lagebericht zu COVID-19 in Niedersachsen | Niedersächsisches Landesgesundheitsamt</title>
+  <link rel="stylesheet" href="css/styleguide/typography.css">
+  <link rel="stylesheet" href="css/styleguide/links.css">
+  <link rel="stylesheet" href="css/styleguide/tables.css">
+  <link rel="stylesheet" href="css/styleguide/buttons.css">
+  <link rel="stylesheet" href="css/styleguide/modules/box.css">
+  <link rel="stylesheet" href="js/leaflet/leaflet.css">
+  <script src="js/nlgamap/nlga.polyfills.min.js"></script>
+  <script src="js/leaflet/leaflet.js"></script>
+  <script src="js/nlgamap/nlga_map_defaults.js?v5"></script>
+  <script src="js/nlgamap/NLGAMap.min.js?v5"></script>
+  <script src="js/highcharts-8.0.4/highcharts.js"></script>
+  <script src="js/highcharts-8.0.4/modules/accessibility.js"></script>
+  <script src="js/highcharts-8.0.4/modules/data.js"></script>
+  <script src="js/highcharts-8.0.4/modules/exporting.js"></script>
+  <script src="js/highcharts.default.js"></script>
+  <link rel="stylesheet" href="css/styles.css?v5">
+  <style>
+    html,
+    body{
+      margin: 0;
+      padding: 0;
+    }
+    .content{
+      max-width: 738px;
+      background: white;
+    }
+  </style>
+</head>
+<body>
+<div class="content">
+  
+<hgroup>
+  <h1>Lagebericht zu COVID-19 in Niedersachsen</h1>
+  <h3 class="left" style="margin-top:1rem">Datenstand 08.11.2020 09:00</h3>
+</hgroup>
+<br>
+<hr>
+
+
+
+<h2 id="top">Inhalt</h2>
+
+<nav>
+  <ul>
+    <li>
+      Aktuelle Situation
+      <ul>
+        <li>Regionale Verteilung</li>
+        <li>Altersverteilung</li>
+      </ul>
+    </li>
+    <li>
+      Pandemieverlauf
+      <ul>
+        <li>Erkrankte</li>
+        <li>Verstorbene</li>
+      </ul>
+    </li>
+    <li>Erläuterungen</li>
+    <li>Downloads, Daten als CSV</li>
+  </ul>
+</nav>
+
+
+<section id="current">
+
+  <h2>Aktuelle Situation</h2>
+  <table class="table-total">
+  <thead>
+    <th colspan="4">Fallzahlen der laborbestätigten COVID-19-Fälle in Niedersachsen</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Fälle <br><br><br>
+        <span class="big">46306</span> <br>
+        (+1320*)      </td>
+      <td>
+        Verstorbene** <br><br><br>
+        <span class="big">822</span> <br>
+        (+6*)      </td>
+      <td>
+        Genesene*** <br><br><br>
+        <span class="big">28644</span> <br>
+        (+755*)      </td>
+      <td>
+        7-Tagesinzidenz <br>pro 100.000 Einwohner<br><br>
+        <span class="big">102,2</span><br>
+      </td>
+    </tr>
+
+  </tbody>
+  <tfoot>
+    <td colspan="4">*Änderung zum Vortag, **verstorben an und mit SARS-Cov2, ***Schätzwert</td>
+  </tfoot>
+</table>  
+
+  <br><br>
+  <h3 id="regional_7">Regionale Verteilung der 7-Tagesinzidenz im Verlauf (24.03.2020 – 08.11.2020)
+    <br>Startbild: aktuelle Woche
+  </h3>
+  <p><br />
+ </p>
+
+  <p><strong>Die Landkarte mit den 7-Tages-Inzidenzen</strong> wird voraussichtlich am 9.11. wieder zur Verf&uuml;gung stehen. <br/>
+	Die entsprechenden Daten f&uuml;r die Landkreise/kreisfreien St&auml;dte k&ouml;nnen der folgenden Tabelle entnommen werden.</p>
+  <h3>Tabelle 1. Bestätigte Covid-19-Fälle in Niedersachsen, dem NLGA übermittelte Fälle, kumulativ seit KW 4/2020</h3>
+
+  <p>Die genauen Fallzahlen in den einzelnen Landkreisen oder kreisfreien Städten in der letzten Woche sowie im Gesamtzeitraum sind in der folgenden Tabelle aufgeführt; hier wird auch die Zahl der an oder mit einer COVID-19-Infektion Verstorbenen angeführt. Es werden jeweils alle Fälle mit einer laborbestätigten Infektion gezählt.</p>
+
+  <p>Die Zahlen in Klammern geben die Veränderung zum Vortag an.</p>
+
+  <table class="table-region">
+  <thead>
+    <th class="left">Landkreise, kreisfreie Städte</th>
+    <th class="right">Gesamtzahl der Fälle</th>
+    <th class="right">Gesamt Inzidenz pro 100.000 Einwohner</th>
+    <th class="right">Gesamtzahl der Fälle der letzten 7 Tage</th>
+    <th class="right">7-Tagesinzidenz pro 100.000 Einwohner</th>
+    <th class="right">Gesamtzahl der Todesfälle </th>
+  </thead>
+  <tbody>
+
+                <tr>
+        <td>Ammerland</td>
+        <td align="right">458 (+22)</td>
+        <td align="right">366,8</td>
+        <td align="right">82</td>
+        <td align="right">65,7</td>
+        <td align="right">6</td>
+      </tr>
+                <tr>
+        <td>Aurich</td>
+        <td align="right">650 (+14)</td>
+        <td align="right">342,7</td>
+        <td align="right">114</td>
+        <td align="right">60,1</td>
+        <td align="right">10</td>
+      </tr>
+                <tr>
+        <td>Braunschweig, Stadt</td>
+        <td align="right">1091 (+91)</td>
+        <td align="right">437,4</td>
+        <td align="right">214</td>
+        <td align="right">85,8</td>
+        <td align="right">18</td>
+      </tr>
+                <tr>
+        <td>Celle</td>
+        <td align="right">746 (+24)</td>
+        <td align="right">416,7</td>
+        <td align="right">137</td>
+        <td align="right">76,5</td>
+        <td align="right">18</td>
+      </tr>
+                <tr>
+        <td>Cloppenburg</td>
+        <td align="right">2687 (+193)</td>
+        <td align="right">1 574,3</td>
+        <td align="right">564</td>
+        <td align="right">330,4</td>
+        <td align="right">8 (+1)</td>
+      </tr>
+                <tr>
+        <td>Cuxhaven</td>
+        <td align="right">819 (+24)</td>
+        <td align="right">413,6</td>
+        <td align="right">144</td>
+        <td align="right">72,7</td>
+        <td align="right">24</td>
+      </tr>
+                <tr>
+        <td>Delmenhorst, Stadt</td>
+        <td align="right">929 (+27)</td>
+        <td align="right">1 197,8</td>
+        <td align="right">154</td>
+        <td align="right">198,6</td>
+        <td align="right">8</td>
+      </tr>
+                <tr>
+        <td>Diepholz</td>
+        <td align="right">1486 (+47)</td>
+        <td align="right">684,5</td>
+        <td align="right">338</td>
+        <td align="right">155,7</td>
+        <td align="right">28</td>
+      </tr>
+                <tr>
+        <td>Emden, Stadt</td>
+        <td align="right">177 (+15)</td>
+        <td align="right">354,6</td>
+        <td align="right">57</td>
+        <td align="right">114,2</td>
+        <td align="right">1</td>
+      </tr>
+                <tr>
+        <td>Emsland</td>
+        <td align="right">2226 (+37)</td>
+        <td align="right">680,8</td>
+        <td align="right">339</td>
+        <td align="right">103,7</td>
+        <td align="right">27</td>
+      </tr>
+                <tr>
+        <td>Friesland</td>
+        <td align="right">212 (+5)</td>
+        <td align="right">214,8</td>
+        <td align="right">24</td>
+        <td align="right">24,3</td>
+        <td align="right">2</td>
+      </tr>
+                <tr>
+        <td>Gifhorn</td>
+        <td align="right">611 (+73)</td>
+        <td align="right">346,1</td>
+        <td align="right">146</td>
+        <td align="right">82,7</td>
+        <td align="right">7</td>
+      </tr>
+                <tr>
+        <td>Goslar</td>
+        <td align="right">524 (+9)</td>
+        <td align="right">384,5</td>
+        <td align="right">83</td>
+        <td align="right">60,9</td>
+        <td align="right">27</td>
+      </tr>
+                <tr>
+        <td>Grafschaft Bentheim</td>
+        <td align="right">1162 (+30)</td>
+        <td align="right">847,2</td>
+        <td align="right">148</td>
+        <td align="right">107,9</td>
+        <td align="right">23</td>
+      </tr>
+                <tr>
+        <td>Göttingen</td>
+        <td align="right">2007</td>
+        <td align="right">615,6</td>
+        <td align="right">129</td>
+        <td align="right">39,6</td>
+        <td align="right">82</td>
+      </tr>
+                <tr>
+        <td>Hameln-Pyrmont</td>
+        <td align="right">588</td>
+        <td align="right">395,8</td>
+        <td align="right">153</td>
+        <td align="right">103,0</td>
+        <td align="right">7</td>
+      </tr>
+                <tr>
+        <td>Hannover, Region</td>
+        <td align="right">8458 (+91)</td>
+        <td align="right">731,0</td>
+        <td align="right">1500</td>
+        <td align="right">129,6</td>
+        <td align="right">154</td>
+      </tr>
+                <tr>
+        <td>Harburg</td>
+        <td align="right">1442</td>
+        <td align="right">566,8</td>
+        <td align="right">151</td>
+        <td align="right">59,3</td>
+        <td align="right">25</td>
+      </tr>
+                <tr>
+        <td>Heidekreis</td>
+        <td align="right">403 (+28)</td>
+        <td align="right">286,5</td>
+        <td align="right">100</td>
+        <td align="right">71,1</td>
+        <td align="right">5</td>
+      </tr>
+                <tr>
+        <td>Helmstedt</td>
+        <td align="right">286 (+20)</td>
+        <td align="right">313,3</td>
+        <td align="right">45</td>
+        <td align="right">49,3</td>
+        <td align="right">2</td>
+      </tr>
+                <tr>
+        <td>Hildesheim</td>
+        <td align="right">1563 (+41)</td>
+        <td align="right">566,7</td>
+        <td align="right">255</td>
+        <td align="right">92,5</td>
+        <td align="right">26 (+2)</td>
+      </tr>
+                <tr>
+        <td>Holzminden</td>
+        <td align="right">186</td>
+        <td align="right">264,0</td>
+        <td align="right">20</td>
+        <td align="right">28,4</td>
+        <td align="right">7</td>
+      </tr>
+                <tr>
+        <td>Leer</td>
+        <td align="right">539 (+15)</td>
+        <td align="right">315,7</td>
+        <td align="right">56</td>
+        <td align="right">32,8</td>
+        <td align="right">10 (+2)</td>
+      </tr>
+                <tr>
+        <td>Lüchow-Dannenberg</td>
+        <td align="right">134 (+3)</td>
+        <td align="right">276,8</td>
+        <td align="right">25</td>
+        <td align="right">51,6</td>
+        <td align="right">4</td>
+      </tr>
+                <tr>
+        <td>Lüneburg</td>
+        <td align="right">564 (+35)</td>
+        <td align="right">306,3</td>
+        <td align="right">180</td>
+        <td align="right">97,8</td>
+        <td align="right">2</td>
+      </tr>
+                <tr>
+        <td>Nienburg (Weser)</td>
+        <td align="right">387 (+16)</td>
+        <td align="right">318,8</td>
+        <td align="right">78</td>
+        <td align="right">64,3</td>
+        <td align="right">4</td>
+      </tr>
+                <tr>
+        <td>Northeim</td>
+        <td align="right">453</td>
+        <td align="right">342,4</td>
+        <td align="right">50</td>
+        <td align="right">37,8</td>
+        <td align="right">6</td>
+      </tr>
+                <tr>
+        <td>Oldenburg</td>
+        <td align="right">1135</td>
+        <td align="right">867,1</td>
+        <td align="right">102</td>
+        <td align="right">77,9</td>
+        <td align="right">16</td>
+      </tr>
+                <tr>
+        <td>Oldenburg (Oldb), Stadt</td>
+        <td align="right">709 (+37)</td>
+        <td align="right">419,3</td>
+        <td align="right">169</td>
+        <td align="right">100,0</td>
+        <td align="right">3</td>
+      </tr>
+                <tr>
+        <td>Osnabrück</td>
+        <td align="right">3170 (+130)</td>
+        <td align="right">885,3</td>
+        <td align="right">632</td>
+        <td align="right">176,5</td>
+        <td align="right">84</td>
+      </tr>
+                <tr>
+        <td>Osnabrück, Stadt</td>
+        <td align="right">1401 (+40)</td>
+        <td align="right">847,8</td>
+        <td align="right">214</td>
+        <td align="right">129,5</td>
+        <td align="right">18</td>
+      </tr>
+                <tr>
+        <td>Osterholz</td>
+        <td align="right">549</td>
+        <td align="right">481,9</td>
+        <td align="right">107</td>
+        <td align="right">93,9</td>
+        <td align="right">1</td>
+      </tr>
+                <tr>
+        <td>Peine</td>
+        <td align="right">691 (+16)</td>
+        <td align="right">512,6</td>
+        <td align="right">146</td>
+        <td align="right">108,3</td>
+        <td align="right">15</td>
+      </tr>
+                <tr>
+        <td>Rotenburg (Wümme)</td>
+        <td align="right">636</td>
+        <td align="right">388,3</td>
+        <td align="right">77</td>
+        <td align="right">47,0</td>
+        <td align="right">4</td>
+      </tr>
+                <tr>
+        <td>Salzgitter, Stadt</td>
+        <td align="right">613 (+29)</td>
+        <td align="right">587,8</td>
+        <td align="right">131</td>
+        <td align="right">125,6</td>
+        <td align="right">13</td>
+      </tr>
+                <tr>
+        <td>Schaumburg</td>
+        <td align="right">805 (+16)</td>
+        <td align="right">510,1</td>
+        <td align="right">187</td>
+        <td align="right">118,5</td>
+        <td align="right">8</td>
+      </tr>
+                <tr>
+        <td>Stade</td>
+        <td align="right">640</td>
+        <td align="right">312,9</td>
+        <td align="right">89</td>
+        <td align="right">43,5</td>
+        <td align="right">9</td>
+      </tr>
+                <tr>
+        <td>Uelzen</td>
+        <td align="right">186 (+5)</td>
+        <td align="right">201,3</td>
+        <td align="right">43</td>
+        <td align="right">46,5</td>
+        <td align="right">0</td>
+      </tr>
+                <tr>
+        <td>Vechta</td>
+        <td align="right">2026 (+95)</td>
+        <td align="right">1 418,6</td>
+        <td align="right">438</td>
+        <td align="right">306,7</td>
+        <td align="right">20</td>
+      </tr>
+                <tr>
+        <td>Verden</td>
+        <td align="right">1141 (+63)</td>
+        <td align="right">832,0</td>
+        <td align="right">280</td>
+        <td align="right">204,2</td>
+        <td align="right">11</td>
+      </tr>
+                <tr>
+        <td>Wesermarsch</td>
+        <td align="right">377 (+7)</td>
+        <td align="right">425,6</td>
+        <td align="right">45</td>
+        <td align="right">50,8</td>
+        <td align="right">8</td>
+      </tr>
+                <tr>
+        <td>Wilhelmshaven, Stadt</td>
+        <td align="right">142 (+7)</td>
+        <td align="right">186,6</td>
+        <td align="right">35</td>
+        <td align="right">46,0</td>
+        <td align="right">1</td>
+      </tr>
+                <tr>
+        <td>Wittmund</td>
+        <td align="right">171 (+5)</td>
+        <td align="right">300,4</td>
+        <td align="right">37</td>
+        <td align="right">65,0</td>
+        <td align="right">2 (+1)</td>
+      </tr>
+                <tr>
+        <td>Wolfenbüttel</td>
+        <td align="right">459 (+8)</td>
+        <td align="right">383,7</td>
+        <td align="right">90</td>
+        <td align="right">75,2</td>
+        <td align="right">16</td>
+      </tr>
+                <tr>
+        <td>Wolfsburg, Stadt</td>
+        <td align="right">666 (+2)</td>
+        <td align="right">535,5</td>
+        <td align="right">63</td>
+        <td align="right">50,7</td>
+        <td align="right">52</td>
+      </tr>
+    
+      <tr style="font-weight:bold">
+        <td>Niedersachsen gesamt</td>
+                <td align="right">46306 (+1320)</td>
+        <td align="right">579,3</td>
+        <td align="right">8171</td>
+        <td align="right">102,2</td>
+        <td align="right">822 (+6)</td>
+      </tr>
+  </tbody>
+</table>
+<p class="subtitle">Tabelle 1. Gesamtzahl der laborbestätigten COVID-19-Fälle und Todesfälle für die betrachteten Landkreise oder kreisfreien Städte in Niedersachsen, Datenstand: 08.11.2020 09:00 (n= 46306)</p>
+  <br>
+  <h3 id="alter_7">Altersverteilung der letzten 7 Tage (01.11.2020 - 07.11.2020)</h3>
+  <p>Für ganz Niedersachsen sind die in den letzten 7 Tagen aufgetretenen Fälle nach Alter und Geschlecht differenziert dargestellt:</p>
+  
+  <figure role="group">
+  <h4></h4>
+  <div id="chart_7_days_age" class="chart "></div>
+  <figcaption class="subtitle"></figcaption>
+</figure>
+
+<script>
+(function () {
+
+  new Highcharts.Chart({
+    chart: {
+      renderTo: 'chart_7_days_age',
+      type: 'column'
+    },
+
+    exporting: {
+      filename: "Covid-19_NDS_" + '7_Tage_Altersgruppe',
+    },
+    
+    credits: {
+      text: "Datenstand: " + '08.11.2020 09:00',
+    },
+
+    xAxis: {
+      categories: ["0-9","10-19","20-29","30-39","40-49","50-59","60-69","70-79","80-89","90+"],
+      title: {
+        text: 'Altersgruppe'
+      }
+    },
+
+    yAxis: [
+      {
+        title: {
+          text: 'Anzahl'
+        }
+                , allowDecimals: false
+              }
+    ],
+
+    series: [
+              {
+          name: "männlich",
+          data: [["0-9",243],["10-19",546],["20-29",824],["30-39",621],["40-49",504],["50-59",640],["60-69",344],["70-79",168],["80-89",109],["90+",20]]        },
+              {
+          name: "weiblich",
+          data: [["0-9",212],["10-19",477],["20-29",757],["30-39",591],["40-49",613],["50-59",670],["60-69",328],["70-79",155],["80-89",189],["90+",58]]        },
+              {
+          name: "divers",
+          data: [["0-9",0],["10-19",0],["20-29",0],["30-39",0],["40-49",0],["50-59",0],["60-69",0],["70-79",0],["80-89",0],["90+",0]]        },
+          ]
+  });
+})();
+</script>
+
+  <figure role="group">
+  <h4></h4>
+  <div id="chart_7_days_inc" class="chart "></div>
+  <figcaption class="subtitle">Abbildung 2. Altersverteilung der laborbestätigten COVID-19-Fälle (nur Fälle mit Angabe zu Geschlecht; 7-Tagesinzidenz für Geschlecht divers aufgrund fehlender Bevölkerungsstatistik nicht berechenbar), in den letzten 7 Tagen (01.11.2020 - 07.11.2020, Meldedatum, Niedersachsen, 08.11.2020 09:00 (n = 8069)</figcaption>
+</figure>
+
+<script>
+(function () {
+
+  new Highcharts.Chart({
+    chart: {
+      renderTo: 'chart_7_days_inc',
+      type: 'column'
+    },
+
+    exporting: {
+      filename: "Covid-19_NDS_" + '7_Tage_Altersgruppe_Inzidenz',
+    },
+    
+    credits: {
+      text: "Datenstand: " + '08.11.2020 09:00',
+    },
+
+    xAxis: {
+      categories: ["0-9","10-19","20-29","30-39","40-49","50-59","60-69","70-79","80-89","90+"],
+      title: {
+        text: 'Altersgruppe'
+      }
+    },
+
+    yAxis: [
+      {
+        title: {
+          text: '7-Tagesinzidenz'
+        }
+              }
+    ],
+
+    series: [
+              {
+          name: "männlich",
+          data: [["0-9",64.7],["10-19",137.1],["20-29",167.1],["30-39",128.2],["40-49",105.2],["50-59",96.5],["60-69",69.6],["70-79",48.4],["80-89",57.1],["90+",92.1]]        },
+              {
+          name: "weiblich",
+          data: [["0-9",59.5],["10-19",127.7],["20-29",170.9],["30-39",126.6],["40-49",126.5],["50-59",101.1],["60-69",63.2],["70-79",38.9],["80-89",66.9],["90+",98]]        },
+          ]
+  });
+})();
+</script>
+  
+</section><section id="timeline">
+
+  <h2>Pandemieverlauf</h2>
+
+  <p>
+  Insgesamt wurden <b>46306</b> COVID-19 Fälle aus den 45 Landkreisen oder kreisfreien Städten, zum Datenstand 08.11.2020 09:00, dem NLGA elektronisch übermittelt.
+  </p>
+  
+  <p>
+    Von den laborbestätigten COVID-19-Fällen wurden <b>822</b> Fälle als an und mit COVID-19 verstorben gemeldet. 
+  </p>
+  
+  <p>
+  Von der Gesamtzahl der Fälle gelten <b>28644</b> Fälle als genesen (61.9%). 
+  </p>
+
+  <br><br>
+  <h3 id="erkrankte">Erkrankte</h3>
+
+  <p>Dargestellt sind die Meldefälle pro Meldedatum (Abbildung 3) und die über das Infektionsgeschehen kumulierten Fälle (Abbildung 4). Mit den Abbildungen soll vor allem die Dynamik im zeitlichen Verlauf illustriert werden. Daher wird auf eine Darstellung des zeitlich vorgelagerten singulären COVID-19-Falls (Anfang Februar) verzichtet.</p>
+
+  <figure role="group">
+  <h4>Entwicklung der laborbestätigten COVID-19-Fälle</h4>
+  <div id="chart_timeline" class="chart "></div>
+  <figcaption class="subtitle">Abbildung 3. Entwicklung der Anzahl der laborbestätigten COVID-19-Fälle (Stabdiagramm, Exakte Fallzahlen für das Meldedatum) sowie geglätteter Verlauf (durchgezogene Linie, Durchschnitt der vorangegangenen sieben Tage), Niedersachsen, Datenstand: 08.11.2020 09:00 (n=46306)<br><br>
+    Da die Fallzahlen der letzten Tage durch den Melde- und Übermittlungsprozess unvollständig sind, ist die Linie für die letzten Tage nur gepunktet.</figcaption>
+</figure>
+
+<script>
+(function () {
+  var chart_data = [[1580774400000,1],[1580860800000,0],[1580947200000,0],[1581033600000,0],[1581120000000,0],[1581206400000,0],[1581292800000,0],[1581379200000,0],[1581465600000,0],[1581552000000,0],[1581638400000,0],[1581724800000,0],[1581811200000,0],[1581897600000,0],[1581984000000,0],[1582070400000,0],[1582156800000,0],[1582243200000,0],[1582329600000,0],[1582416000000,0],[1582502400000,0],[1582588800000,0],[1582675200000,0],[1582761600000,0],[1582848000000,0],[1582934400000,0],[1583020800000,1],[1583107200000,2],[1583193600000,6],[1583280000000,4],[1583366400000,6],[1583452800000,7],[1583539200000,8],[1583625600000,4],[1583712000000,14],[1583798400000,35],[1583884800000,63],[1583971200000,68],[1584057600000,91],[1584144000000,77],[1584230400000,68],[1584316800000,157],[1584403200000,175],[1584489600000,271],[1584576000000,249],[1584662400000,265],[1584748800000,179],[1584835200000,108],[1584921600000,243],[1585008000000,294],[1585094400000,378],[1585180800000,373],[1585267200000,411],[1585353600000,345],[1585440000000,177],[1585526400000,311],[1585612800000,359],[1585699200000,369],[1585785600000,332],[1585872000000,388],[1585958400000,223],[1586044800000,142],[1586131200000,228],[1586217600000,372],[1586304000000,333],[1586390400000,312],[1586476800000,260],[1586563200000,128],[1586649600000,150],[1586736000000,80],[1586822400000,166],[1586908800000,227],[1586995200000,241],[1587081600000,197],[1587168000000,142],[1587254400000,96],[1587340800000,131],[1587427200000,162],[1587513600000,160],[1587600000000,140],[1587686400000,118],[1587772800000,66],[1587859200000,49],[1587945600000,75],[1588032000000,100],[1588118400000,85],[1588204800000,83],[1588291200000,39],[1588377600000,36],[1588464000000,14],[1588550400000,92],[1588636800000,80],[1588723200000,91],[1588809600000,86],[1588896000000,75],[1588982400000,29],[1589068800000,10],[1589155200000,48],[1589241600000,50],[1589328000000,79],[1589414400000,40],[1589500800000,42],[1589587200000,22],[1589673600000,9],[1589760000000,69],[1589846400000,63],[1589932800000,94],[1590019200000,50],[1590105600000,95],[1590192000000,37],[1590278400000,9],[1590364800000,45],[1590451200000,59],[1590537600000,122],[1590624000000,76],[1590710400000,64],[1590796800000,59],[1590883200000,23],[1590969600000,42],[1591056000000,56],[1591142400000,121],[1591228800000,100],[1591315200000,94],[1591401600000,60],[1591488000000,31],[1591574400000,55],[1591660800000,76],[1591747200000,64],[1591833600000,50],[1591920000000,75],[1592006400000,30],[1592092800000,13],[1592179200000,36],[1592265600000,59],[1592352000000,55],[1592438400000,84],[1592524800000,77],[1592611200000,43],[1592697600000,12],[1592784000000,16],[1592870400000,71],[1592956800000,34],[1593043200000,41],[1593129600000,39],[1593216000000,29],[1593302400000,14],[1593388800000,32],[1593475200000,26],[1593561600000,34],[1593648000000,34],[1593734400000,32],[1593820800000,6],[1593907200000,17],[1593993600000,28],[1594080000000,14],[1594166400000,18],[1594252800000,14],[1594339200000,11],[1594425600000,3],[1594512000000,2],[1594598400000,22],[1594684800000,27],[1594771200000,30],[1594857600000,26],[1594944000000,40],[1595030400000,76],[1595116800000,11],[1595203200000,20],[1595289600000,65],[1595376000000,56],[1595462400000,29],[1595548800000,22],[1595635200000,33],[1595721600000,21],[1595808000000,27],[1595894400000,62],[1595980800000,52],[1596067200000,61],[1596153600000,60],[1596240000000,62],[1596326400000,15],[1596412800000,59],[1596499200000,59],[1596585600000,77],[1596672000000,82],[1596758400000,92],[1596844800000,39],[1596931200000,16],[1597017600000,89],[1597104000000,64],[1597190400000,108],[1597276800000,91],[1597363200000,72],[1597449600000,57],[1597536000000,17],[1597622400000,105],[1597708800000,156],[1597795200000,149],[1597881600000,86],[1597968000000,110],[1598054400000,47],[1598140800000,16],[1598227200000,126],[1598313600000,115],[1598400000000,98],[1598486400000,111],[1598572800000,84],[1598659200000,63],[1598745600000,31],[1598832000000,67],[1598918400000,97],[1599004800000,103],[1599091200000,94],[1599177600000,92],[1599264000000,65],[1599350400000,28],[1599436800000,112],[1599523200000,73],[1599609600000,111],[1599696000000,102],[1599782400000,120],[1599868800000,83],[1599955200000,78],[1600041600000,116],[1600128000000,198],[1600214400000,180],[1600300800000,169],[1600387200000,204],[1600473600000,101],[1600560000000,68],[1600646400000,89],[1600732800000,143],[1600819200000,193],[1600905600000,189],[1600992000000,164],[1601078400000,171],[1601164800000,56],[1601251200000,120],[1601337600000,140],[1601424000000,210],[1601510400000,268],[1601596800000,247],[1601683200000,214],[1601769600000,120],[1601856000000,121],[1601942400000,318],[1602028800000,384],[1602115200000,358],[1602201600000,338],[1602288000000,269],[1602374400000,204],[1602460800000,300],[1602547200000,443],[1602633600000,515],[1602720000000,554],[1602806400000,523],[1602892800000,415],[1602979200000,258],[1603065600000,355],[1603152000000,581],[1603238400000,852],[1603324800000,937],[1603411200000,766],[1603497600000,847],[1603584000000,396],[1603670400000,657],[1603756800000,1072],[1603843200000,1316],[1603929600000,1522],[1604016000000,1450],[1604102400000,994],[1604188800000,712],[1604275200000,1010],[1604361600000,1258],[1604448000000,1500],[1604534400000,1370],[1604620800000,1345],[1604707200000,976],[1604793600000,8]];
+  
+  var chart_data_mean_7 = chart_data.map(function (point, idx) {
+    var idx_7 = (idx-7 < 0) ? 0 : idx-7;
+    var sum_7 = chart_data.slice(idx_7, idx).reduce(function (acc, val) { return acc + val[1]}, 0); //sum current and last 6 days
+    var sum_7_mean = Math.round((sum_7/7 + Number.EPSILON) * 100) / 100; //round 2 decimals
+    return [point[0], sum_7_mean];
+  });
+  
+  new Highcharts.Chart({
+    chart: {
+      renderTo: 'chart_timeline',
+      type: 'column'
+    },
+
+    exporting: {
+      filename: "Covid-19_NDS_" + 'Meldedatum',
+    },
+    
+    credits: {
+      text: "Datenstand: " + '08.11.2020 09:00',
+    },    
+    
+    tooltip: {
+      xDateFormat: "%d.%m.%Y",
+      shared: true
+    },
+
+    xAxis: {
+      type: 'datetime',
+      title: {
+        text: 'Meldedatum',
+        style: {color: '#000'}
+      }
+    },
+
+    yAxis: [
+      {
+        title: {
+          text: 'Anzahl übermittelter Fälle'
+        }
+      }
+    ],
+
+    series: [
+    {
+      type: 'column',
+      name: 'Fallzahl, Meldedatum',
+      data: chart_data,
+      zoneAxis: 'x',
+      zones: [
+        {
+          value: new Date().setDate(new Date('2020-11-08').getDate() -3) //timestamp last updated - 3 days
+        },
+        {
+          color: 'rgba(3,78,123,0.5)'
+        }
+      ]
+    },
+    {
+      type: 'spline',
+      name: 'Mittelwert der letzten 7 Tage',
+      data: chart_data_mean_7,
+      marker: {
+        enabled: false
+      },
+      zoneAxis: 'x',
+      zones: [
+        {
+          value: new Date().setDate(new Date().getDate() -3) //timestamp today - 3 days
+        },
+        {
+          dashStyle: 'Dot'
+        }
+      ]
+    }
+    ]
+  });
+})();
+</script>
+  <p>Bei dem geglätteten Verlauf der neu übermittelten Fallzahlen wird der Durchschnitt der vorangegangenen sieben Tage angegeben. (Zum heutigen Datum liegen nur die Meldungen bis 9 Uhr vor). Diese Darstellung ermöglicht es, die zeitliche Entwicklung um den Wochenend-Effekt zu bereinigen. (An den Wochenenden werden systembedingt weniger Fälle weitergeleitet.).</p>
+
+  <figure role="group">
+  <h4>Gesamtzahl der laborbestätigten COVID-19 Fälle</h4>
+  <div id="chart_cum_timeline" class="chart "></div>
+  <figcaption class="subtitle">Abbildung 4. Gesamtzahl der laborbestätigten COVID-19 Fälle (zeitliche Aufsummierung der Fälle nach Meldedatum), Niedersachsen, Datenstand: 08.11.2020 09:00 (n=46306)</figcaption>
+</figure>
+
+<script>
+(function () {
+  var chart_data = [[1580774400000,1],[1580860800000,0],[1580947200000,0],[1581033600000,0],[1581120000000,0],[1581206400000,0],[1581292800000,0],[1581379200000,0],[1581465600000,0],[1581552000000,0],[1581638400000,0],[1581724800000,0],[1581811200000,0],[1581897600000,0],[1581984000000,0],[1582070400000,0],[1582156800000,0],[1582243200000,0],[1582329600000,0],[1582416000000,0],[1582502400000,0],[1582588800000,0],[1582675200000,0],[1582761600000,0],[1582848000000,0],[1582934400000,0],[1583020800000,1],[1583107200000,2],[1583193600000,6],[1583280000000,4],[1583366400000,6],[1583452800000,7],[1583539200000,8],[1583625600000,4],[1583712000000,14],[1583798400000,35],[1583884800000,63],[1583971200000,68],[1584057600000,91],[1584144000000,77],[1584230400000,68],[1584316800000,157],[1584403200000,175],[1584489600000,271],[1584576000000,249],[1584662400000,265],[1584748800000,179],[1584835200000,108],[1584921600000,243],[1585008000000,294],[1585094400000,378],[1585180800000,373],[1585267200000,411],[1585353600000,345],[1585440000000,177],[1585526400000,311],[1585612800000,359],[1585699200000,369],[1585785600000,332],[1585872000000,388],[1585958400000,223],[1586044800000,142],[1586131200000,228],[1586217600000,372],[1586304000000,333],[1586390400000,312],[1586476800000,260],[1586563200000,128],[1586649600000,150],[1586736000000,80],[1586822400000,166],[1586908800000,227],[1586995200000,241],[1587081600000,197],[1587168000000,142],[1587254400000,96],[1587340800000,131],[1587427200000,162],[1587513600000,160],[1587600000000,140],[1587686400000,118],[1587772800000,66],[1587859200000,49],[1587945600000,75],[1588032000000,100],[1588118400000,85],[1588204800000,83],[1588291200000,39],[1588377600000,36],[1588464000000,14],[1588550400000,92],[1588636800000,80],[1588723200000,91],[1588809600000,86],[1588896000000,75],[1588982400000,29],[1589068800000,10],[1589155200000,48],[1589241600000,50],[1589328000000,79],[1589414400000,40],[1589500800000,42],[1589587200000,22],[1589673600000,9],[1589760000000,69],[1589846400000,63],[1589932800000,94],[1590019200000,50],[1590105600000,95],[1590192000000,37],[1590278400000,9],[1590364800000,45],[1590451200000,59],[1590537600000,122],[1590624000000,76],[1590710400000,64],[1590796800000,59],[1590883200000,23],[1590969600000,42],[1591056000000,56],[1591142400000,121],[1591228800000,100],[1591315200000,94],[1591401600000,60],[1591488000000,31],[1591574400000,55],[1591660800000,76],[1591747200000,64],[1591833600000,50],[1591920000000,75],[1592006400000,30],[1592092800000,13],[1592179200000,36],[1592265600000,59],[1592352000000,55],[1592438400000,84],[1592524800000,77],[1592611200000,43],[1592697600000,12],[1592784000000,16],[1592870400000,71],[1592956800000,34],[1593043200000,41],[1593129600000,39],[1593216000000,29],[1593302400000,14],[1593388800000,32],[1593475200000,26],[1593561600000,34],[1593648000000,34],[1593734400000,32],[1593820800000,6],[1593907200000,17],[1593993600000,28],[1594080000000,14],[1594166400000,18],[1594252800000,14],[1594339200000,11],[1594425600000,3],[1594512000000,2],[1594598400000,22],[1594684800000,27],[1594771200000,30],[1594857600000,26],[1594944000000,40],[1595030400000,76],[1595116800000,11],[1595203200000,20],[1595289600000,65],[1595376000000,56],[1595462400000,29],[1595548800000,22],[1595635200000,33],[1595721600000,21],[1595808000000,27],[1595894400000,62],[1595980800000,52],[1596067200000,61],[1596153600000,60],[1596240000000,62],[1596326400000,15],[1596412800000,59],[1596499200000,59],[1596585600000,77],[1596672000000,82],[1596758400000,92],[1596844800000,39],[1596931200000,16],[1597017600000,89],[1597104000000,64],[1597190400000,108],[1597276800000,91],[1597363200000,72],[1597449600000,57],[1597536000000,17],[1597622400000,105],[1597708800000,156],[1597795200000,149],[1597881600000,86],[1597968000000,110],[1598054400000,47],[1598140800000,16],[1598227200000,126],[1598313600000,115],[1598400000000,98],[1598486400000,111],[1598572800000,84],[1598659200000,63],[1598745600000,31],[1598832000000,67],[1598918400000,97],[1599004800000,103],[1599091200000,94],[1599177600000,92],[1599264000000,65],[1599350400000,28],[1599436800000,112],[1599523200000,73],[1599609600000,111],[1599696000000,102],[1599782400000,120],[1599868800000,83],[1599955200000,78],[1600041600000,116],[1600128000000,198],[1600214400000,180],[1600300800000,169],[1600387200000,204],[1600473600000,101],[1600560000000,68],[1600646400000,89],[1600732800000,143],[1600819200000,193],[1600905600000,189],[1600992000000,164],[1601078400000,171],[1601164800000,56],[1601251200000,120],[1601337600000,140],[1601424000000,210],[1601510400000,268],[1601596800000,247],[1601683200000,214],[1601769600000,120],[1601856000000,121],[1601942400000,318],[1602028800000,384],[1602115200000,358],[1602201600000,338],[1602288000000,269],[1602374400000,204],[1602460800000,300],[1602547200000,443],[1602633600000,515],[1602720000000,554],[1602806400000,523],[1602892800000,415],[1602979200000,258],[1603065600000,355],[1603152000000,581],[1603238400000,852],[1603324800000,937],[1603411200000,766],[1603497600000,847],[1603584000000,396],[1603670400000,657],[1603756800000,1072],[1603843200000,1316],[1603929600000,1522],[1604016000000,1450],[1604102400000,994],[1604188800000,712],[1604275200000,1010],[1604361600000,1258],[1604448000000,1500],[1604534400000,1370],[1604620800000,1345],[1604707200000,976],[1604793600000,8]];
+  
+  var sum = 0;
+  var chart_data_cum = chart_data.map(function (point) {
+    return [point[0], sum += point[1]];
+  });
+
+  new Highcharts.Chart({
+    chart: {
+      renderTo: 'chart_cum_timeline',
+      type: 'column'
+    },
+
+    exporting: {
+      filename: "Covid-19_NDS_" + 'Meldedatum_Kummulative',
+    },
+    
+    credits: {
+      text: "Datenstand: " + '08.11.2020 09:00',
+    },    
+    
+    tooltip: {
+      xDateFormat: "%d.%m.%Y",
+      shared: true
+    },
+
+    xAxis: {
+      type: 'datetime',
+      title: {
+        text: 'Meldedatum',
+        style: {color: '#000'}
+      }
+    },
+
+    yAxis: [
+      {
+        title: {
+          text: 'Kummulative Anzahl übermittelter Fälle'
+        }
+      }
+    ],
+
+    series: [
+    {
+      type: 'line',
+      name: 'Fallzahl, Meldedatum',
+      showInLegend: false,
+      data: chart_data_cum
+    }
+    ]
+  });
+})();
+</script>
+ 
+
+  <p>Die bisherigen COVID-19-Fälle verteilen sich nicht gleichmäßig über Niedersachsen, sondern es gibt deutliche regionale Unterschiede, wie man an den folgenden Abbildungen erkennt (Fallzahlen mit Bezug auf die Einwohner der Landkreise oder kreisfreien Städte).</p>
+
+  <figure role="group">
+  <h4>Regionale Verteilung der laborbestätigten COVID-19-Fälle</h4>
+  <div id="map_region_3" class="map"></div>
+  <figcaption class="subtitle">Abbildung 5. Regionale Verteilung der laborbestätigten COVID-19-Fälle, Niedersachsen Datenstand: 08.11.2020 09:00 (n= 46306)</figcaption>
+</figure>
+
+<script>
+(function (){
+
+  var date = '08.11.2020 09:00';
+
+  var map = new NLGAMap({
+    id: 'map_region_3',
+    map: {
+      zoom: 7,
+      center: [52.57679257101772, 8.163148311806514],
+      controls: {
+        attribution: {
+          text: '<b>Datenstand: ' + date + '</b> | © GeoBasis-DE / <a href="http://www.bkg.bund.de/" target="_blank">BKG</a> 2017 (Daten verändert) | <a href="https://leafletjs.com" target="_blank">Leaflet</a>',
+        }
+      }
+    },
+    baseLayer: {
+      json: '/corona/topojson/BKG_NDS_Kreise_vg2500_G_OE_Ost.topo.json',
+      propertyName: "Name",
+      styles: {
+        fillColor: '#c6c6c6',
+        color: '#bbb'
+      }
+    },
+    cityLayer: {
+      json: '/corona/topojson/NDS_Staedte.topo.json',
+      propertyName: "Name",
+      layerControl: {
+        activate: true
+      }
+    },
+    layers: {
+      choropleth: {
+        layerName: 'incidence',
+        layerControl: {
+          name: 'Inzidenz'
+        },
+        title: 'Fälle pro 100.000 Einwohner',
+        data: [{"gkz":451,"incidence":366.8,"area":62.68},{"gkz":357,"incidence":388.3,"area":30.65},{"gkz":256,"incidence":318.8,"area":27.63},{"gkz":155,"incidence":342.4,"area":35.7},{"gkz":458,"incidence":867.1,"area":106.59},{"gkz":403,"incidence":419.3,"area":687.75},{"gkz":459,"incidence":885.3,"area":149.4},{"gkz":404,"incidence":847.8,"area":1169.45},{"gkz":356,"incidence":481.9,"area":84.12},{"gkz":157,"incidence":512.6,"area":128.8},{"gkz":102,"incidence":587.8,"area":273.06},{"gkz":354,"incidence":276.8,"area":10.92},{"gkz":257,"incidence":510.1,"area":119.14},{"gkz":359,"incidence":312.9,"area":50.5},{"gkz":360,"incidence":201.3,"area":12.72},{"gkz":460,"incidence":1418.6,"area":248.83},{"gkz":361,"incidence":832,"area":144.55},{"gkz":461,"incidence":425.6,"area":45.71},{"gkz":405,"incidence":186.6,"area":132.62},{"gkz":462,"incidence":300.4,"area":26.03},{"gkz":158,"incidence":383.7,"area":63.37},{"gkz":355,"incidence":306.3,"area":42.48},{"gkz":457,"incidence":315.7,"area":49.64},{"gkz":452,"incidence":342.7,"area":50.49},{"gkz":455,"incidence":214.8,"area":34.78},{"gkz":101,"incidence":437.4,"area":566.17},{"gkz":351,"incidence":416.7,"area":48.1},{"gkz":453,"incidence":1574.3,"area":189.18},{"gkz":352,"incidence":413.6,"area":39.78},{"gkz":401,"incidence":1197.8,"area":1487.59},{"gkz":251,"incidence":684.5,"area":74.64},{"gkz":402,"incidence":354.6,"area":157.56},{"gkz":454,"incidence":680.8,"area":77.19},{"gkz":151,"incidence":346.1,"area":38.98},{"gkz":255,"incidence":264,"area":26.79},{"gkz":153,"incidence":384.5,"area":54.2},{"gkz":456,"incidence":847.2,"area":118.36},{"gkz":159,"incidence":615.6,"area":114.33},{"gkz":252,"incidence":395.8,"area":73.73},{"gkz":241,"incidence":731,"area":368.2},{"gkz":353,"incidence":566.8,"area":115.5},{"gkz":358,"incidence":286.5,"area":21.42},{"gkz":154,"incidence":313.3,"area":42.3},{"gkz":254,"incidence":566.7,"area":129.35},{"gkz":103,"incidence":535.5,"area":325.5}],
+        propertyId: 'gkz',
+        propertyValue: 'incidence',
+        mode: 'quantile',
+        popup: {
+          template: '<b>${name}</b><br><b>${value.toLocaleString()}</b> Fälle pro 100.000 Einwohner<br>' +
+                    '<b>${area.toLocaleString()}</b> Fälle pro 100km²'
+        },
+        legend: {
+          position: 'bottomleft',
+          noData: false,
+          ignoredLayersText: 'Bremen/Bremerhaven'
+        }
+      }
+    }
+  });
+
+  map.render();
+  map.leaflet.attributionControl.setPrefix(false);
+
+})();
+
+</script>
+
+  <figure role="group">
+  <h4>Geschlechtsspezifische Altersverteilung der laborbestätigten COVID-19-Fälle</h4>
+  <div id="chart_age_sex" class="chart "></div>
+  <figcaption class="subtitle">Abbildung 6. Geschlechtsspezifische Altersverteilung der laborbestätigten COVID-19-Fälle, bei denen Angaben zu Alter und Geschlecht vorhanden sind, Niedersachsen Datenstand: 08.11.2020 09:00 (n=45892)</figcaption>
+</figure>
+
+<script>
+(function () {
+
+  new Highcharts.Chart({
+    chart: {
+      renderTo: 'chart_age_sex',
+      type: 'column'
+    },
+
+    exporting: {
+      filename: "Covid-19_NDS_" + 'Altersgruppe',
+    },
+    
+    credits: {
+      text: "Datenstand: " + '08.11.2020 09:00',
+    },
+
+    xAxis: {
+      categories: ["0-9","10-19","20-29","30-39","40-49","50-59","60-69","70-79","80-89","90+"],
+      title: {
+        text: 'Altersgruppe'
+      }
+    },
+
+    yAxis: [
+      {
+        title: {
+          text: 'Anzahl der übermittelten Fälle'
+        }
+              }
+    ],
+
+    series: [
+              {
+          name: "männlich",
+          data: [["0-9",1135],["10-19",2523],["20-29",4637],["30-39",3650],["40-49",3197],["50-59",3786],["60-69",2019],["70-79",1100],["80-89",832],["90+",182]]        },
+              {
+          name: "weiblich",
+          data: [["0-9",1043],["10-19",2331],["20-29",4165],["30-39",3220],["40-49",3348],["50-59",3872],["60-69",1896],["70-79",1039],["80-89",1371],["90+",545]]        },
+              {
+          name: "divers",
+          data: [["0-9",0],["10-19",0],["20-29",0],["30-39",1],["40-49",0],["50-59",0],["60-69",0],["70-79",0],["80-89",0],["90+",0]]        },
+          ]
+  });
+})();
+</script>
+
+  <p>Zwischen den Altersgruppen gibt es deutliche Unterschiede hinsichtlich der absoluten Fallzahlen (Abbildung 6). Bei der Bewertung, welche Altersgruppen besonders stark betroffen sind, müssen neben den absoluten Fallzahlen auch die zugrundeliegenden Bevölkerungszahlen beachtet werden (Abbildung 7).</p>
+  
+  <figure role="group">
+  <h4>Geschlechtsspezifische Altersverteilung pro 100.000 Einwohner</h4>
+  <div id="chart_age_sex_inc" class="chart "></div>
+  <figcaption class="subtitle">Abbildung 7. Geschlechtsspezifische Altersverteilung der laborbestätigten COVID-19-Fälle pro 100.000 Einwohner  (nur Fälle mit Angaben zu Geschlecht und Alter; Wert für Geschlecht divers aufgrund fehlender Bevölkerungsstatistik nicht berechenbar), Niedersachsen, Datenstand: 08.11.2020 09:00 (n=45892)</figcaption>
+</figure>
+
+<script>
+(function () {
+
+  new Highcharts.Chart({
+    chart: {
+      renderTo: 'chart_age_sex_inc',
+      type: 'column'
+    },
+
+    exporting: {
+      filename: "Covid-19_NDS_" + 'Altersgruppe_Inzidenz',
+    },
+    
+    credits: {
+      text: "Datenstand: " + '08.11.2020 09:00',
+    },
+
+    xAxis: {
+      categories: ["0-9","10-19","20-29","30-39","40-49","50-59","60-69","70-79","80-89","90+"],
+      title: {
+        text: 'Altersgruppe'
+      }
+    },
+
+    yAxis: [
+      {
+        title: {
+          text: 'COVID-19-Fälle/100.000 Einwohner'
+        }
+              }
+    ],
+
+    series: [
+              {
+          name: "männlich",
+          data: [["0-9",302.2],["10-19",633.7],["20-29",940.4],["30-39",753.2],["40-49",667],["50-59",570.8],["60-69",408.6],["70-79",317.1],["80-89",435.7],["90+",837.9]]        },
+              {
+          name: "weiblich",
+          data: [["0-9",292.8],["10-19",624.1],["20-29",940.3],["30-39",689.9],["40-49",691.1],["50-59",584],["60-69",365.5],["70-79",260.6],["80-89",485.3],["90+",920.6]]        },
+          ]
+  });
+})();
+</script>
+
+  <p>Die Altersverteilung variiert über den bisherigen Verlauf der Pandemie:</p>
+
+  <figure role="group">
+  <h4>Entwicklung der Aufteilung/Verteilung der Alterskategorien</h4>
+  <div id="chart_age_week" class="chart "></div>
+  <figcaption class="subtitle"></figcaption>
+</figure>
+
+<script>
+(function () {
+
+  new Highcharts.Chart({
+    chart: {
+      renderTo: 'chart_age_week',
+      type: 'column'
+    },
+
+    colors: [
+      '#e0f3db',
+      '#ccebc5',
+      '#a8ddb5',
+      '#7bccc4',
+      '#4eb3d3',
+      '#2b8cbe',
+      '#0868ac',
+      '#084081',
+      'rgb(5, 41, 82)',
+      'rgb(2, 26, 53)',
+      'rgb(1, 13, 27)'
+    ].reverse(),
+
+    legend: {
+      align: 'right',
+      verticalAlign: 'top',
+      layout: 'vertical',
+      y: 25,
+      title: {
+        text: 'Altersgruppe'
+      }
+    },
+
+    exporting: {
+      filename: "Covid-19_NDS_" + 'Altersgruppe_Meldewoche',
+    },
+    
+    credits: {
+      text: "Datenstand: " + '08.11.2020 09:00',
+    },
+
+    plotOptions: {
+      column: {
+        stacking: 'normal',
+      }
+    },
+
+    tooltip: {
+      shared: false,
+          },
+
+    xAxis: {
+      tickWidth: 1,
+      type: 'categories',
+      categories: ["KW 09\/2020","KW 10\/2020","KW 11\/2020","KW 12\/2020","KW 13\/2020","KW 14\/2020","KW 15\/2020","KW 16\/2020","KW 17\/2020","KW 18\/2020","KW 19\/2020","KW 20\/2020","KW 21\/2020","KW 22\/2020","KW 23\/2020","KW 24\/2020","KW 25\/2020","KW 26\/2020","KW 27\/2020","KW 28\/2020","KW 29\/2020","KW 30\/2020","KW 31\/2020","KW 32\/2020","KW 33\/2020","KW 34\/2020","KW 35\/2020","KW 36\/2020","KW 37\/2020","KW 38\/2020","KW 39\/2020","KW 40\/2020","KW 41\/2020","KW 42\/2020","KW 43\/2020","KW 44\/2020","KW 45\/2020"],
+      title: {
+        text: 'Meldewoche'
+      }
+    },
+
+    yAxis: [
+      {
+        title: {
+          text: 'Anzahl übermittelter Fälle'
+        },
+        labels: {
+                  }
+      }
+      
+    ],
+
+    series: [
+              {
+          name: "90+",
+          data: [["KW 9\/2020",0],["KW 10\/2020",0],["KW 11\/2020",0],["KW 12\/2020",2],["KW 13\/2020",31],["KW 14\/2020",65],["KW 15\/2020",86],["KW 16\/2020",53],["KW 17\/2020",48],["KW 18\/2020",24],["KW 19\/2020",19],["KW 20\/2020",10],["KW 21\/2020",4],["KW 22\/2020",2],["KW 23\/2020",2],["KW 24\/2020",6],["KW 25\/2020",7],["KW 26\/2020",6],["KW 27\/2020",0],["KW 28\/2020",1],["KW 29\/2020",1],["KW 30\/2020",1],["KW 31\/2020",1],["KW 32\/2020",1],["KW 33\/2020",2],["KW 34\/2020",0],["KW 35\/2020",1],["KW 36\/2020",0],["KW 37\/2020",10],["KW 38\/2020",7],["KW 39\/2020",15],["KW 40\/2020",21],["KW 41\/2020",12],["KW 42\/2020",16],["KW 43\/2020",66],["KW 44\/2020",139],["KW 45\/2020",71]]        },
+              {
+          name: "80-89",
+          data: [["KW 9\/2020",0],["KW 10\/2020",0],["KW 11\/2020",7],["KW 12\/2020",36],["KW 13\/2020",173],["KW 14\/2020",192],["KW 15\/2020",206],["KW 16\/2020",155],["KW 17\/2020",101],["KW 18\/2020",47],["KW 19\/2020",40],["KW 20\/2020",28],["KW 21\/2020",24],["KW 22\/2020",12],["KW 23\/2020",6],["KW 24\/2020",15],["KW 25\/2020",16],["KW 26\/2020",5],["KW 27\/2020",6],["KW 28\/2020",3],["KW 29\/2020",3],["KW 30\/2020",4],["KW 31\/2020",5],["KW 32\/2020",4],["KW 33\/2020",12],["KW 34\/2020",3],["KW 35\/2020",7],["KW 36\/2020",5],["KW 37\/2020",28],["KW 38\/2020",27],["KW 39\/2020",29],["KW 40\/2020",48],["KW 41\/2020",50],["KW 42\/2020",93],["KW 43\/2020",201],["KW 44\/2020",341],["KW 45\/2020",274]]        },
+              {
+          name: "70-79",
+          data: [["KW 9\/2020",0],["KW 10\/2020",1],["KW 11\/2020",18],["KW 12\/2020",80],["KW 13\/2020",159],["KW 14\/2020",206],["KW 15\/2020",169],["KW 16\/2020",104],["KW 17\/2020",65],["KW 18\/2020",34],["KW 19\/2020",40],["KW 20\/2020",17],["KW 21\/2020",12],["KW 22\/2020",6],["KW 23\/2020",10],["KW 24\/2020",6],["KW 25\/2020",9],["KW 26\/2020",4],["KW 27\/2020",1],["KW 28\/2020",1],["KW 29\/2020",1],["KW 30\/2020",4],["KW 31\/2020",8],["KW 32\/2020",8],["KW 33\/2020",7],["KW 34\/2020",14],["KW 35\/2020",15],["KW 36\/2020",11],["KW 37\/2020",20],["KW 38\/2020",31],["KW 39\/2020",30],["KW 40\/2020",47],["KW 41\/2020",76],["KW 42\/2020",110],["KW 43\/2020",192],["KW 44\/2020",350],["KW 45\/2020",287]]        },
+              {
+          name: "60-69",
+          data: [["KW 9\/2020",1],["KW 10\/2020",7],["KW 11\/2020",51],["KW 12\/2020",186],["KW 13\/2020",295],["KW 14\/2020",258],["KW 15\/2020",203],["KW 16\/2020",116],["KW 17\/2020",86],["KW 18\/2020",49],["KW 19\/2020",42],["KW 20\/2020",29],["KW 21\/2020",31],["KW 22\/2020",23],["KW 23\/2020",30],["KW 24\/2020",15],["KW 25\/2020",13],["KW 26\/2020",14],["KW 27\/2020",10],["KW 28\/2020",5],["KW 29\/2020",10],["KW 30\/2020",16],["KW 31\/2020",12],["KW 32\/2020",22],["KW 33\/2020",22],["KW 34\/2020",28],["KW 35\/2020",31],["KW 36\/2020",24],["KW 37\/2020",39],["KW 38\/2020",57],["KW 39\/2020",71],["KW 40\/2020",84],["KW 41\/2020",152],["KW 42\/2020",256],["KW 43\/2020",393],["KW 44\/2020",643],["KW 45\/2020",608]]        },
+              {
+          name: "50-59",
+          data: [["KW 9\/2020",0],["KW 10\/2020",8],["KW 11\/2020",137],["KW 12\/2020",356],["KW 13\/2020",511],["KW 14\/2020",439],["KW 15\/2020",322],["KW 16\/2020",219],["KW 17\/2020",135],["KW 18\/2020",68],["KW 19\/2020",87],["KW 20\/2020",36],["KW 21\/2020",56],["KW 22\/2020",78],["KW 23\/2020",52],["KW 24\/2020",42],["KW 25\/2020",36],["KW 26\/2020",32],["KW 27\/2020",22],["KW 28\/2020",15],["KW 29\/2020",29],["KW 30\/2020",26],["KW 31\/2020",51],["KW 32\/2020",58],["KW 33\/2020",54],["KW 34\/2020",60],["KW 35\/2020",55],["KW 36\/2020",56],["KW 37\/2020",79],["KW 38\/2020",133],["KW 39\/2020",127],["KW 40\/2020",223],["KW 41\/2020",361],["KW 42\/2020",492],["KW 43\/2020",773],["KW 44\/2020",1263],["KW 45\/2020",1215]]        },
+              {
+          name: "40-49",
+          data: [["KW 9\/2020",0],["KW 10\/2020",8],["KW 11\/2020",90],["KW 12\/2020",266],["KW 13\/2020",317],["KW 14\/2020",287],["KW 15\/2020",215],["KW 16\/2020",136],["KW 17\/2020",77],["KW 18\/2020",48],["KW 19\/2020",61],["KW 20\/2020",45],["KW 21\/2020",83],["KW 22\/2020",59],["KW 23\/2020",67],["KW 24\/2020",46],["KW 25\/2020",41],["KW 26\/2020",46],["KW 27\/2020",34],["KW 28\/2020",17],["KW 29\/2020",39],["KW 30\/2020",49],["KW 31\/2020",52],["KW 32\/2020",56],["KW 33\/2020",75],["KW 34\/2020",102],["KW 35\/2020",108],["KW 36\/2020",76],["KW 37\/2020",87],["KW 38\/2020",160],["KW 39\/2020",137],["KW 40\/2020",202],["KW 41\/2020",322],["KW 42\/2020",410],["KW 43\/2020",701],["KW 44\/2020",1065],["KW 45\/2020",1027]]        },
+              {
+          name: "30-39",
+          data: [["KW 9\/2020",0],["KW 10\/2020",8],["KW 11\/2020",55],["KW 12\/2020",215],["KW 13\/2020",313],["KW 14\/2020",274],["KW 15\/2020",212],["KW 16\/2020",139],["KW 17\/2020",110],["KW 18\/2020",61],["KW 19\/2020",57],["KW 20\/2020",51],["KW 21\/2020",86],["KW 22\/2020",83],["KW 23\/2020",62],["KW 24\/2020",58],["KW 25\/2020",47],["KW 26\/2020",40],["KW 27\/2020",29],["KW 28\/2020",14],["KW 29\/2020",55],["KW 30\/2020",42],["KW 31\/2020",53],["KW 32\/2020",73],["KW 33\/2020",99],["KW 34\/2020",122],["KW 35\/2020",102],["KW 36\/2020",92],["KW 37\/2020",97],["KW 38\/2020",145],["KW 39\/2020",158],["KW 40\/2020",198],["KW 41\/2020",330],["KW 42\/2020",477],["KW 43\/2020",713],["KW 44\/2020",1145],["KW 45\/2020",1129]]        },
+              {
+          name: "20-29",
+          data: [["KW 9\/2020",0],["KW 10\/2020",4],["KW 11\/2020",50],["KW 12\/2020",193],["KW 13\/2020",308],["KW 14\/2020",272],["KW 15\/2020",255],["KW 16\/2020",158],["KW 17\/2020",139],["KW 18\/2020",71],["KW 19\/2020",78],["KW 20\/2020",38],["KW 21\/2020",78],["KW 22\/2020",107],["KW 23\/2020",114],["KW 24\/2020",76],["KW 25\/2020",75],["KW 26\/2020",42],["KW 27\/2020",26],["KW 28\/2020",20],["KW 29\/2020",49],["KW 30\/2020",66],["KW 31\/2020",92],["KW 32\/2020",101],["KW 33\/2020",126],["KW 34\/2020",175],["KW 35\/2020",141],["KW 36\/2020",152],["KW 37\/2020",178],["KW 38\/2020",239],["KW 39\/2020",213],["KW 40\/2020",260],["KW 41\/2020",369],["KW 42\/2020",667],["KW 43\/2020",1004],["KW 44\/2020",1507],["KW 45\/2020",1451]]        },
+              {
+          name: "10-19",
+          data: [["KW 9\/2020",0],["KW 10\/2020",0],["KW 11\/2020",6],["KW 12\/2020",55],["KW 13\/2020",94],["KW 14\/2020",98],["KW 15\/2020",83],["KW 16\/2020",48],["KW 17\/2020",44],["KW 18\/2020",22],["KW 19\/2020",21],["KW 20\/2020",19],["KW 21\/2020",21],["KW 22\/2020",57],["KW 23\/2020",92],["KW 24\/2020",55],["KW 25\/2020",66],["KW 26\/2020",30],["KW 27\/2020",29],["KW 28\/2020",10],["KW 29\/2020",25],["KW 30\/2020",24],["KW 31\/2020",47],["KW 32\/2020",70],["KW 33\/2020",67],["KW 34\/2020",98],["KW 35\/2020",116],["KW 36\/2020",77],["KW 37\/2020",97],["KW 38\/2020",178],["KW 39\/2020",175],["KW 40\/2020",174],["KW 41\/2020",231],["KW 42\/2020",343],["KW 43\/2020",481],["KW 44\/2020",879],["KW 45\/2020",961]]        },
+              {
+          name: "0-9",
+          data: [["KW 9\/2020",0],["KW 10\/2020",1],["KW 11\/2020",2],["KW 12\/2020",15],["KW 13\/2020",20],["KW 14\/2020",33],["KW 15\/2020",32],["KW 16\/2020",18],["KW 17\/2020",21],["KW 18\/2020",8],["KW 19\/2020",18],["KW 20\/2020",17],["KW 21\/2020",22],["KW 22\/2020",21],["KW 23\/2020",68],["KW 24\/2020",44],["KW 25\/2020",55],["KW 26\/2020",22],["KW 27\/2020",24],["KW 28\/2020",4],["KW 29\/2020",20],["KW 30\/2020",14],["KW 31\/2020",18],["KW 32\/2020",31],["KW 33\/2020",34],["KW 34\/2020",66],["KW 35\/2020",52],["KW 36\/2020",51],["KW 37\/2020",44],["KW 38\/2020",59],["KW 39\/2020",50],["KW 40\/2020",61],["KW 41\/2020",89],["KW 42\/2020",143],["KW 43\/2020",207],["KW 44\/2020",381],["KW 45\/2020",431]]        },
+          ]
+  });
+})();
+</script>
+
+  <figure role="group">
+  <h4></h4>
+  <div id="chart_age_week_percent" class="chart "></div>
+  <figcaption class="subtitle">Abbildung 8. Entwicklung der Verteilung der Alterskategorien der laborbestätigten COVID-19-Fälle, Niedersachsen, Datenstand: 08.11.2020 09:00 (n= 46306)</figcaption>
+</figure>
+
+<script>
+(function () {
+
+  new Highcharts.Chart({
+    chart: {
+      renderTo: 'chart_age_week_percent',
+      type: 'column'
+    },
+
+    colors: [
+      '#e0f3db',
+      '#ccebc5',
+      '#a8ddb5',
+      '#7bccc4',
+      '#4eb3d3',
+      '#2b8cbe',
+      '#0868ac',
+      '#084081',
+      'rgb(5, 41, 82)',
+      'rgb(2, 26, 53)',
+      'rgb(1, 13, 27)'
+    ].reverse(),
+
+    legend: {
+      align: 'right',
+      verticalAlign: 'top',
+      layout: 'vertical',
+      y: 25,
+      title: {
+        text: 'Altersgruppe'
+      }
+    },
+
+    exporting: {
+      filename: "Covid-19_NDS_" + 'Altersgruppe_Meldewoche_Prozent',
+    },
+    
+    credits: {
+      text: "Datenstand: " + '08.11.2020 09:00',
+    },
+
+    plotOptions: {
+      column: {
+        stacking: 'percent',
+      }
+    },
+
+    tooltip: {
+      shared: false,
+              formatter: function () {
+          return this.series.name + ': ' + '<b>' + this.y + '</b> (' + parseFloat(this.percentage).toFixed(1) + '%)';
+        }
+          },
+
+    xAxis: {
+      tickWidth: 1,
+      type: 'categories',
+      categories: ["KW 09\/2020","KW 10\/2020","KW 11\/2020","KW 12\/2020","KW 13\/2020","KW 14\/2020","KW 15\/2020","KW 16\/2020","KW 17\/2020","KW 18\/2020","KW 19\/2020","KW 20\/2020","KW 21\/2020","KW 22\/2020","KW 23\/2020","KW 24\/2020","KW 25\/2020","KW 26\/2020","KW 27\/2020","KW 28\/2020","KW 29\/2020","KW 30\/2020","KW 31\/2020","KW 32\/2020","KW 33\/2020","KW 34\/2020","KW 35\/2020","KW 36\/2020","KW 37\/2020","KW 38\/2020","KW 39\/2020","KW 40\/2020","KW 41\/2020","KW 42\/2020","KW 43\/2020","KW 44\/2020","KW 45\/2020"],
+      title: {
+        text: 'Meldewoche'
+      }
+    },
+
+    yAxis: [
+      {
+        title: {
+          text: 'Anteil übermittelter Fälle'
+        },
+        labels: {
+          format: '{value}%'        }
+      }
+      
+    ],
+
+    series: [
+              {
+          name: "90+",
+          data: [["KW 9\/2020",0],["KW 10\/2020",0],["KW 11\/2020",0],["KW 12\/2020",2],["KW 13\/2020",31],["KW 14\/2020",65],["KW 15\/2020",86],["KW 16\/2020",53],["KW 17\/2020",48],["KW 18\/2020",24],["KW 19\/2020",19],["KW 20\/2020",10],["KW 21\/2020",4],["KW 22\/2020",2],["KW 23\/2020",2],["KW 24\/2020",6],["KW 25\/2020",7],["KW 26\/2020",6],["KW 27\/2020",0],["KW 28\/2020",1],["KW 29\/2020",1],["KW 30\/2020",1],["KW 31\/2020",1],["KW 32\/2020",1],["KW 33\/2020",2],["KW 34\/2020",0],["KW 35\/2020",1],["KW 36\/2020",0],["KW 37\/2020",10],["KW 38\/2020",7],["KW 39\/2020",15],["KW 40\/2020",21],["KW 41\/2020",12],["KW 42\/2020",16],["KW 43\/2020",66],["KW 44\/2020",139],["KW 45\/2020",71]]        },
+              {
+          name: "80-89",
+          data: [["KW 9\/2020",0],["KW 10\/2020",0],["KW 11\/2020",7],["KW 12\/2020",36],["KW 13\/2020",173],["KW 14\/2020",192],["KW 15\/2020",206],["KW 16\/2020",155],["KW 17\/2020",101],["KW 18\/2020",47],["KW 19\/2020",40],["KW 20\/2020",28],["KW 21\/2020",24],["KW 22\/2020",12],["KW 23\/2020",6],["KW 24\/2020",15],["KW 25\/2020",16],["KW 26\/2020",5],["KW 27\/2020",6],["KW 28\/2020",3],["KW 29\/2020",3],["KW 30\/2020",4],["KW 31\/2020",5],["KW 32\/2020",4],["KW 33\/2020",12],["KW 34\/2020",3],["KW 35\/2020",7],["KW 36\/2020",5],["KW 37\/2020",28],["KW 38\/2020",27],["KW 39\/2020",29],["KW 40\/2020",48],["KW 41\/2020",50],["KW 42\/2020",93],["KW 43\/2020",201],["KW 44\/2020",341],["KW 45\/2020",274]]        },
+              {
+          name: "70-79",
+          data: [["KW 9\/2020",0],["KW 10\/2020",1],["KW 11\/2020",18],["KW 12\/2020",80],["KW 13\/2020",159],["KW 14\/2020",206],["KW 15\/2020",169],["KW 16\/2020",104],["KW 17\/2020",65],["KW 18\/2020",34],["KW 19\/2020",40],["KW 20\/2020",17],["KW 21\/2020",12],["KW 22\/2020",6],["KW 23\/2020",10],["KW 24\/2020",6],["KW 25\/2020",9],["KW 26\/2020",4],["KW 27\/2020",1],["KW 28\/2020",1],["KW 29\/2020",1],["KW 30\/2020",4],["KW 31\/2020",8],["KW 32\/2020",8],["KW 33\/2020",7],["KW 34\/2020",14],["KW 35\/2020",15],["KW 36\/2020",11],["KW 37\/2020",20],["KW 38\/2020",31],["KW 39\/2020",30],["KW 40\/2020",47],["KW 41\/2020",76],["KW 42\/2020",110],["KW 43\/2020",192],["KW 44\/2020",350],["KW 45\/2020",287]]        },
+              {
+          name: "60-69",
+          data: [["KW 9\/2020",1],["KW 10\/2020",7],["KW 11\/2020",51],["KW 12\/2020",186],["KW 13\/2020",295],["KW 14\/2020",258],["KW 15\/2020",203],["KW 16\/2020",116],["KW 17\/2020",86],["KW 18\/2020",49],["KW 19\/2020",42],["KW 20\/2020",29],["KW 21\/2020",31],["KW 22\/2020",23],["KW 23\/2020",30],["KW 24\/2020",15],["KW 25\/2020",13],["KW 26\/2020",14],["KW 27\/2020",10],["KW 28\/2020",5],["KW 29\/2020",10],["KW 30\/2020",16],["KW 31\/2020",12],["KW 32\/2020",22],["KW 33\/2020",22],["KW 34\/2020",28],["KW 35\/2020",31],["KW 36\/2020",24],["KW 37\/2020",39],["KW 38\/2020",57],["KW 39\/2020",71],["KW 40\/2020",84],["KW 41\/2020",152],["KW 42\/2020",256],["KW 43\/2020",393],["KW 44\/2020",643],["KW 45\/2020",608]]        },
+              {
+          name: "50-59",
+          data: [["KW 9\/2020",0],["KW 10\/2020",8],["KW 11\/2020",137],["KW 12\/2020",356],["KW 13\/2020",511],["KW 14\/2020",439],["KW 15\/2020",322],["KW 16\/2020",219],["KW 17\/2020",135],["KW 18\/2020",68],["KW 19\/2020",87],["KW 20\/2020",36],["KW 21\/2020",56],["KW 22\/2020",78],["KW 23\/2020",52],["KW 24\/2020",42],["KW 25\/2020",36],["KW 26\/2020",32],["KW 27\/2020",22],["KW 28\/2020",15],["KW 29\/2020",29],["KW 30\/2020",26],["KW 31\/2020",51],["KW 32\/2020",58],["KW 33\/2020",54],["KW 34\/2020",60],["KW 35\/2020",55],["KW 36\/2020",56],["KW 37\/2020",79],["KW 38\/2020",133],["KW 39\/2020",127],["KW 40\/2020",223],["KW 41\/2020",361],["KW 42\/2020",492],["KW 43\/2020",773],["KW 44\/2020",1263],["KW 45\/2020",1215]]        },
+              {
+          name: "40-49",
+          data: [["KW 9\/2020",0],["KW 10\/2020",8],["KW 11\/2020",90],["KW 12\/2020",266],["KW 13\/2020",317],["KW 14\/2020",287],["KW 15\/2020",215],["KW 16\/2020",136],["KW 17\/2020",77],["KW 18\/2020",48],["KW 19\/2020",61],["KW 20\/2020",45],["KW 21\/2020",83],["KW 22\/2020",59],["KW 23\/2020",67],["KW 24\/2020",46],["KW 25\/2020",41],["KW 26\/2020",46],["KW 27\/2020",34],["KW 28\/2020",17],["KW 29\/2020",39],["KW 30\/2020",49],["KW 31\/2020",52],["KW 32\/2020",56],["KW 33\/2020",75],["KW 34\/2020",102],["KW 35\/2020",108],["KW 36\/2020",76],["KW 37\/2020",87],["KW 38\/2020",160],["KW 39\/2020",137],["KW 40\/2020",202],["KW 41\/2020",322],["KW 42\/2020",410],["KW 43\/2020",701],["KW 44\/2020",1065],["KW 45\/2020",1027]]        },
+              {
+          name: "30-39",
+          data: [["KW 9\/2020",0],["KW 10\/2020",8],["KW 11\/2020",55],["KW 12\/2020",215],["KW 13\/2020",313],["KW 14\/2020",274],["KW 15\/2020",212],["KW 16\/2020",139],["KW 17\/2020",110],["KW 18\/2020",61],["KW 19\/2020",57],["KW 20\/2020",51],["KW 21\/2020",86],["KW 22\/2020",83],["KW 23\/2020",62],["KW 24\/2020",58],["KW 25\/2020",47],["KW 26\/2020",40],["KW 27\/2020",29],["KW 28\/2020",14],["KW 29\/2020",55],["KW 30\/2020",42],["KW 31\/2020",53],["KW 32\/2020",73],["KW 33\/2020",99],["KW 34\/2020",122],["KW 35\/2020",102],["KW 36\/2020",92],["KW 37\/2020",97],["KW 38\/2020",145],["KW 39\/2020",158],["KW 40\/2020",198],["KW 41\/2020",330],["KW 42\/2020",477],["KW 43\/2020",713],["KW 44\/2020",1145],["KW 45\/2020",1129]]        },
+              {
+          name: "20-29",
+          data: [["KW 9\/2020",0],["KW 10\/2020",4],["KW 11\/2020",50],["KW 12\/2020",193],["KW 13\/2020",308],["KW 14\/2020",272],["KW 15\/2020",255],["KW 16\/2020",158],["KW 17\/2020",139],["KW 18\/2020",71],["KW 19\/2020",78],["KW 20\/2020",38],["KW 21\/2020",78],["KW 22\/2020",107],["KW 23\/2020",114],["KW 24\/2020",76],["KW 25\/2020",75],["KW 26\/2020",42],["KW 27\/2020",26],["KW 28\/2020",20],["KW 29\/2020",49],["KW 30\/2020",66],["KW 31\/2020",92],["KW 32\/2020",101],["KW 33\/2020",126],["KW 34\/2020",175],["KW 35\/2020",141],["KW 36\/2020",152],["KW 37\/2020",178],["KW 38\/2020",239],["KW 39\/2020",213],["KW 40\/2020",260],["KW 41\/2020",369],["KW 42\/2020",667],["KW 43\/2020",1004],["KW 44\/2020",1507],["KW 45\/2020",1451]]        },
+              {
+          name: "10-19",
+          data: [["KW 9\/2020",0],["KW 10\/2020",0],["KW 11\/2020",6],["KW 12\/2020",55],["KW 13\/2020",94],["KW 14\/2020",98],["KW 15\/2020",83],["KW 16\/2020",48],["KW 17\/2020",44],["KW 18\/2020",22],["KW 19\/2020",21],["KW 20\/2020",19],["KW 21\/2020",21],["KW 22\/2020",57],["KW 23\/2020",92],["KW 24\/2020",55],["KW 25\/2020",66],["KW 26\/2020",30],["KW 27\/2020",29],["KW 28\/2020",10],["KW 29\/2020",25],["KW 30\/2020",24],["KW 31\/2020",47],["KW 32\/2020",70],["KW 33\/2020",67],["KW 34\/2020",98],["KW 35\/2020",116],["KW 36\/2020",77],["KW 37\/2020",97],["KW 38\/2020",178],["KW 39\/2020",175],["KW 40\/2020",174],["KW 41\/2020",231],["KW 42\/2020",343],["KW 43\/2020",481],["KW 44\/2020",879],["KW 45\/2020",961]]        },
+              {
+          name: "0-9",
+          data: [["KW 9\/2020",0],["KW 10\/2020",1],["KW 11\/2020",2],["KW 12\/2020",15],["KW 13\/2020",20],["KW 14\/2020",33],["KW 15\/2020",32],["KW 16\/2020",18],["KW 17\/2020",21],["KW 18\/2020",8],["KW 19\/2020",18],["KW 20\/2020",17],["KW 21\/2020",22],["KW 22\/2020",21],["KW 23\/2020",68],["KW 24\/2020",44],["KW 25\/2020",55],["KW 26\/2020",22],["KW 27\/2020",24],["KW 28\/2020",4],["KW 29\/2020",20],["KW 30\/2020",14],["KW 31\/2020",18],["KW 32\/2020",31],["KW 33\/2020",34],["KW 34\/2020",66],["KW 35\/2020",52],["KW 36\/2020",51],["KW 37\/2020",44],["KW 38\/2020",59],["KW 39\/2020",50],["KW 40\/2020",61],["KW 41\/2020",89],["KW 42\/2020",143],["KW 43\/2020",207],["KW 44\/2020",381],["KW 45\/2020",431]]        },
+          ]
+  });
+})();
+</script>
+
+  <h3 id="verstorben">Verstorbene</h3>
+
+  <p>Die Entwicklung der Todesfälle mit laborbestätigtem COVID-19 zeigt die folgende Abbildung:</p>
+
+  <figure role="group">
+  <h4> Entwicklung der Anzahl der mit einer COVID-19-Infektion Verstorbenen</h4>
+  <div id="chart_timeline_deceased" class="chart "></div>
+  <figcaption class="subtitle">Abbildung 9. Entwicklung der Anzahl der mit einer laborbestätigten COVID-19-Infektion Verstorbenen, Niedersachsen, Datenstand: 08.11.2020 09:00 (n=822)</figcaption>
+</figure>
+
+<script>
+(function () {
+  var chart_data = [[1580774400000,0],[1580860800000,0],[1580947200000,0],[1581033600000,0],[1581120000000,0],[1581206400000,0],[1581292800000,0],[1581379200000,0],[1581465600000,0],[1581552000000,0],[1581638400000,0],[1581724800000,0],[1581811200000,0],[1581897600000,0],[1581984000000,0],[1582070400000,0],[1582156800000,0],[1582243200000,0],[1582329600000,0],[1582416000000,0],[1582502400000,0],[1582588800000,0],[1582675200000,0],[1582761600000,0],[1582848000000,0],[1582934400000,0],[1583020800000,0],[1583107200000,0],[1583193600000,0],[1583280000000,0],[1583366400000,0],[1583452800000,0],[1583539200000,0],[1583625600000,0],[1583712000000,0],[1583798400000,1],[1583884800000,0],[1583971200000,1],[1584057600000,0],[1584144000000,0],[1584230400000,1],[1584316800000,0],[1584403200000,1],[1584489600000,5],[1584576000000,2],[1584662400000,7],[1584748800000,4],[1584835200000,0],[1584921600000,5],[1585008000000,5],[1585094400000,18],[1585180800000,11],[1585267200000,36],[1585353600000,25],[1585440000000,16],[1585526400000,20],[1585612800000,15],[1585699200000,20],[1585785600000,22],[1585872000000,32],[1585958400000,20],[1586044800000,9],[1586131200000,25],[1586217600000,19],[1586304000000,25],[1586390400000,18],[1586476800000,16],[1586563200000,9],[1586649600000,12],[1586736000000,11],[1586822400000,19],[1586908800000,21],[1586995200000,11],[1587081600000,11],[1587168000000,7],[1587254400000,9],[1587340800000,11],[1587427200000,10],[1587513600000,7],[1587600000000,12],[1587686400000,7],[1587772800000,3],[1587859200000,2],[1587945600000,10],[1588032000000,7],[1588118400000,8],[1588204800000,7],[1588291200000,0],[1588377600000,0],[1588464000000,0],[1588550400000,8],[1588636800000,6],[1588723200000,2],[1588809600000,1],[1588896000000,3],[1588982400000,2],[1589068800000,1],[1589155200000,1],[1589241600000,4],[1589328000000,4],[1589414400000,1],[1589500800000,2],[1589587200000,1],[1589673600000,1],[1589760000000,3],[1589846400000,5],[1589932800000,1],[1590019200000,0],[1590105600000,3],[1590192000000,1],[1590278400000,0],[1590364800000,1],[1590451200000,2],[1590537600000,0],[1590624000000,1],[1590710400000,1],[1590796800000,1],[1590883200000,1],[1590969600000,0],[1591056000000,1],[1591142400000,1],[1591228800000,1],[1591315200000,0],[1591401600000,0],[1591488000000,0],[1591574400000,1],[1591660800000,0],[1591747200000,1],[1591833600000,0],[1591920000000,4],[1592006400000,0],[1592092800000,0],[1592179200000,1],[1592265600000,1],[1592352000000,4],[1592438400000,2],[1592524800000,0],[1592611200000,0],[1592697600000,0],[1592784000000,0],[1592870400000,1],[1592956800000,0],[1593043200000,0],[1593129600000,2],[1593216000000,0],[1593302400000,0],[1593388800000,1],[1593475200000,0],[1593561600000,0],[1593648000000,1],[1593734400000,0],[1593820800000,1],[1593907200000,1],[1593993600000,1],[1594080000000,0],[1594166400000,1],[1594252800000,0],[1594339200000,0],[1594425600000,0],[1594512000000,0],[1594598400000,0],[1594684800000,1],[1594771200000,0],[1594857600000,0],[1594944000000,0],[1595030400000,0],[1595116800000,0],[1595203200000,0],[1595289600000,0],[1595376000000,0],[1595462400000,0],[1595548800000,1],[1595635200000,0],[1595721600000,0],[1595808000000,0],[1595894400000,0],[1595980800000,0],[1596067200000,1],[1596153600000,1],[1596240000000,0],[1596326400000,0],[1596412800000,0],[1596499200000,0],[1596585600000,0],[1596672000000,0],[1596758400000,1],[1596844800000,0],[1596931200000,0],[1597017600000,0],[1597104000000,0],[1597190400000,1],[1597276800000,0],[1597363200000,0],[1597449600000,1],[1597536000000,1],[1597622400000,1],[1597708800000,2],[1597795200000,0],[1597881600000,1],[1597968000000,0],[1598054400000,0],[1598140800000,0],[1598227200000,1],[1598313600000,0],[1598400000000,1],[1598486400000,1],[1598572800000,0],[1598659200000,0],[1598745600000,0],[1598832000000,0],[1598918400000,0],[1599004800000,0],[1599091200000,0],[1599177600000,0],[1599264000000,0],[1599350400000,1],[1599436800000,0],[1599523200000,5],[1599609600000,1],[1599696000000,0],[1599782400000,2],[1599868800000,0],[1599955200000,1],[1600041600000,0],[1600128000000,2],[1600214400000,2],[1600300800000,1],[1600387200000,0],[1600473600000,1],[1600560000000,3],[1600646400000,1],[1600732800000,0],[1600819200000,1],[1600905600000,3],[1600992000000,0],[1601078400000,7],[1601164800000,0],[1601251200000,0],[1601337600000,1],[1601424000000,1],[1601510400000,0],[1601596800000,2],[1601683200000,1],[1601769600000,0],[1601856000000,2],[1601942400000,3],[1602028800000,1],[1602115200000,2],[1602201600000,1],[1602288000000,4],[1602374400000,1],[1602460800000,8],[1602547200000,3],[1602633600000,3],[1602720000000,1],[1602806400000,1],[1602892800000,0],[1602979200000,1],[1603065600000,2],[1603152000000,2],[1603238400000,5],[1603324800000,13],[1603411200000,7],[1603497600000,5],[1603584000000,8],[1603670400000,6],[1603756800000,9],[1603843200000,4],[1603929600000,5],[1604016000000,4],[1604102400000,3],[1604188800000,1],[1604275200000,5],[1604361600000,1],[1604448000000,1],[1604534400000,0],[1604620800000,2],[1604707200000,1],[1604793600000,0]];
+  
+  var chart_data_mean_7 = chart_data.map(function (point, idx) {
+    var idx_7 = (idx-7 < 0) ? 0 : idx-7;
+    var sum_7 = chart_data.slice(idx_7, idx).reduce(function (acc, val) { return acc + val[1]}, 0); //sum current and last 6 days
+    var sum_7_mean = Math.round((sum_7/7 + Number.EPSILON) * 100) / 100; //round 2 decimals
+    return [point[0], sum_7_mean];
+  });
+  
+  new Highcharts.Chart({
+    chart: {
+      renderTo: 'chart_timeline_deceased',
+      type: 'column'
+    },
+
+    exporting: {
+      filename: "Covid-19_NDS_" + 'Versorben_Datum',
+    },
+    
+    credits: {
+      text: "Datenstand: " + '08.11.2020 09:00',
+    },    
+    
+    tooltip: {
+      xDateFormat: "%d.%m.%Y",
+      shared: true
+    },
+
+    xAxis: {
+      type: 'datetime',
+      title: {
+        text: 'Verstorben Datum',
+        style: {color: '#000'}
+      }
+    },
+
+    yAxis: [
+      {
+        title: {
+          text: 'Anzahl der neuen Todesfälle'
+        }
+      }
+    ],
+
+    series: [
+    {
+      type: 'column',
+      name: 'Todesfallzahl',
+      data: chart_data,
+      zoneAxis: 'x',
+      zones: [
+        {
+          value: new Date().setDate(new Date('2020-11-08').getDate() -3) //timestamp last updated - 3 days
+        },
+        {
+          color: 'rgba(3,78,123,0.5)'
+        }
+      ]
+    },
+    {
+      type: 'spline',
+      name: 'Mittelwert der letzten 7 Tage',
+      data: chart_data_mean_7,
+      marker: {
+        enabled: false
+      },
+      zoneAxis: 'x',
+      zones: [
+        {
+          value: new Date().setDate(new Date().getDate() -3) //timestamp today - 3 days
+        },
+        {
+          dashStyle: 'Dot'
+        }
+      ]
+    }
+    ]
+  });
+})();
+</script>
+  <p>Alters- und Geschlechtsverteilung der Verstorbenen (absolut und relativ): </p>
+    
+  <figure role="group">
+  <h4>Geschlechtsspezifische Altersverteilung der Verstorbenen</h4>
+  <div id="chart_deceased_age_sex" class="chart "></div>
+  <figcaption class="subtitle">Abbildung 10. Geschlechtsspezifische Altersverteilung der mit einer laborbestätigten COVID-19-Infektion Verstorbenen, bei denen Angaben zu Alter und Geschlecht vorhanden sind, Niedersachsen, Datenstand: 08.11.2020 09:00 (n=818)</figcaption>
+</figure>
+
+<script>
+(function () {
+
+  new Highcharts.Chart({
+    chart: {
+      renderTo: 'chart_deceased_age_sex',
+      type: 'column'
+    },
+
+    exporting: {
+      filename: "Covid-19_NDS_" + 'Altersgruppe_Verstorben',
+    },
+    
+    credits: {
+      text: "Datenstand: " + '08.11.2020 09:00',
+    },
+
+    xAxis: {
+      categories: ["0-9","10-19","20-29","30-39","40-49","50-59","60-69","70-79","80-89","90+"],
+      title: {
+        text: 'Altersgruppe'
+      }
+    },
+
+    yAxis: [
+      {
+        title: {
+          text: 'Verstorbene'
+        }
+              }
+    ],
+
+    series: [
+              {
+          name: "männlich",
+          data: [["0-9",0],["10-19",0],["20-29",1],["30-39",2],["40-49",7],["50-59",17],["60-69",54],["70-79",124],["80-89",187],["90+",51]]        },
+              {
+          name: "weiblich",
+          data: [["0-9",0],["10-19",0],["20-29",1],["30-39",1],["40-49",6],["50-59",11],["60-69",15],["70-79",61],["80-89",171],["90+",109]]        },
+              {
+          name: "divers",
+          data: [["0-9",0],["10-19",0],["20-29",0],["30-39",0],["40-49",0],["50-59",0],["60-69",0],["70-79",0],["80-89",0],["90+",0]]        },
+          ]
+  });
+})();
+</script>
+    
+  <figure role="group">
+  <h4>Geschlechtsspezifische Altersverteilung der Verstorbenen pro 100.000 Einwohner</h4>
+  <div id="chart_deceased_age_sex_inc" class="chart "></div>
+  <figcaption class="subtitle">Abbildung 11. Geschlechtsspezifische Altersverteilung der mit einer laborbestätigten COVID-19-Infektion Verstorbenen pro 100.000 Einwohner (nur Fälle mit Angaben zu Geschlecht und Alter; Wert für Geschlecht divers aufgrund fehlender Bevölkerungsstatistik nicht berechenbar), Niedersachsen, Datenstand: 08.11.2020 09:00 (n=818)</figcaption>
+</figure>
+
+<script>
+(function () {
+
+  new Highcharts.Chart({
+    chart: {
+      renderTo: 'chart_deceased_age_sex_inc',
+      type: 'column'
+    },
+
+    exporting: {
+      filename: "Covid-19_NDS_" + 'Altersgruppe_Verstorben_Inzidenz',
+    },
+    
+    credits: {
+      text: "Datenstand: " + '08.11.2020 09:00',
+    },
+
+    xAxis: {
+      categories: ["0-9","10-19","20-29","30-39","40-49","50-59","60-69","70-79","80-89","90+"],
+      title: {
+        text: 'Altersgruppe'
+      }
+    },
+
+    yAxis: [
+      {
+        title: {
+          text: 'Verstorbene/100.000 Einwohner'
+        }
+              }
+    ],
+
+    series: [
+              {
+          name: "männlich",
+          data: [["0-9",0],["10-19",0],["20-29",0.2],["30-39",0.4],["40-49",1.5],["50-59",2.6],["60-69",10.9],["70-79",35.7],["80-89",97.9],["90+",234.8]]        },
+              {
+          name: "weiblich",
+          data: [["0-9",0],["10-19",0],["20-29",0.2],["30-39",0.2],["40-49",1.2],["50-59",1.7],["60-69",2.9],["70-79",15.3],["80-89",60.5],["90+",184.1]]        },
+          ]
+  });
+})();
+</script>
+</section><section id="info">
+  <h2>Erläuterungen</h2>
+
+  <p>Das Meldedatum ist das Datum, an dem die kommunale Gesundheitsbehörde des Landkreises oder der  kreisfreien Stadt (Quelle: <a href="https://www.mi.niedersachsen.de/themen/kommunen/landkreise/landkreise-und-kreisfreie-staedte-157705.html" target="_blank">Niedersächsisches Innenministerium</a>) Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat. Zwischen der Meldung an das Gesundheitsamt und der Übermittlung der Fälle an das NLGA können einige Tage vergehen. Dieser Melde- und Übermittlungsverzug beinhaltet neben der organisatorischen Bearbeitung der Meldungen auch die inhaltliche Prüfung der Fälle auf die Erfüllung der jeweils gültigen Falldefinition.</p>
+
+  <h3 class="left">Datenstand</h3>
+
+  <p>Berichtet werden die elektronisch übermittelten Meldedaten in Niedersachsen zum angezeigten Datenstand. Wegen der Notwendigkeit, Meldedaten möglichst zeitnah zu berichten, können diese vor Publikation nicht vollständig auf Plausibilität und Korrektheit geprüft werden. Daher können, vor allem in den neu berichteten Fällen, einzelne Angaben, z.B. zum Alter, unkorrekt sein. </p>
+
+  <p>Die gegenüber dem vorherigen Tag neu ausgewiesenen Fällen sind nicht zwingend auch erst seit der gestrigen Auflistung neu aufgetreten. Fallzahlanstiege können auch dadurch bedingt sein, dass die Gesundheitsämter als erste Priorität die notwendigen Infektionsschutzmaßnahmen einleiten und die standardisierte Falldatenübermittlung erst danach mit zeitlicher Verzögerung erfolgt. Dies gilt vor allem, wenn viele Fälle in einem kurzen Zeitraum auftreten.</p>
+
+  <p>Da sich das Infektionsgeschehen sehr dynamisch entwickelt, kann es zu Abweichungen zwischen NLGA und Angaben anderer Stellen, etwa den betroffenen Landkreisen oder kreisfreien Städten oder dem RKI (Datenstand RKI: 00:00 Uhr), kommen.</p>
+
+  <h3 class="left">7-Tagesinzidenz</h3>
+
+  <p>Die 7-Tagesinzidenz pro 100 000 Einwohner bildet die Fälle der letzten sieben Tage pro 100.000 Einwohner ab. Bei den Fällen der letzten sieben Tage handelt es sich um die aufsummierten Fälle mit Meldedatum der letzten sieben Tage vor dem Datum des Datenstandes. Die Bezugsgröße „pro 100.000 Einwohner“ normiert auf den Bevölkerungstand am 31.12.2019 (Quelle für die Bevölkerungsdaten: <a href="https://www1.nls.niedersachsen.de/statistik">Landesamt für Statistik Niedersachsen</a>).</p>
+
+
+  <h3 class="left">Verstorbene</h3>
+
+  <p>In der Auflistung der verstorbenen Fälle werden alle Fälle genannt, bei denen eine Covid-19-Erkrankung nachgewiesen wurde und die verstorben sind, unabhängig von der direkten Todesursache. Dadurch werden ggf. auch Fälle geführt, die nicht an, sondern mit der Infektion verstarben (z.B. Schlaganfall oder unheilbare Krebserkrankung). Dieses Vorgehen stimmt mit dem Vorgehen des RKI überein.</p>
+
+  <p>Möglicherweise werden für einen Landkreis oder eine kreisfreie Stadt weniger (Todes)Fälle berichtet, als am Vortag. Die Meldedaten werden stetig aktualisiert und korrigiert. Zudem werden Fälle ggf. an eine andere kommunale Gesundheitsbehörde abgegeben, z.B. wenn der Fall von einem Krankenhaus in LK X gemeldet wurde, aber in LK Y wohnhaft ist (auch bundesweit).</p>
+
+  <h3 class="left">Genesene</h3>
+
+  <p>Wie viele Infizierte inzwischen genesen sind, kann den Meldedaten nicht direkt entnommen werden. Es ist allerdings möglich, anhand der folgenden Kriterien eine Schätzung zu den zwischenzeitlich genesenen Meldefällen in Niedersachsen abzugeben: Die Fälle sind nicht verstorben und eine der beiden Bedingungen trifft zu:</p>
+
+  <ul>
+    <li>Fall wurde nicht hospitalisiert und es lag keine Lungenentzündung vor: genesen, wenn Meldedatum mindestens 14 Tage zurückliegt</li>
+    <li>Fall wurde hospitalisiert und/oder Lungenentzündung lag vor: genesen, wenn Meldedatum mindestens 28 Tage zurückliegt.</li>
+  </ul>
+</section><section id="downloads">
+
+<h2>Downloads</h2>
+
+<ul>
+  <li> 
+    <b>Fälle pro Landkreis</b> (Anzahl, Inzidenz, 7-Tagesinzidenz, Todesfälle): 
+    <a href="/corona/download.php?csv">CSV anzeigen</a>/ 
+    <a href="/corona/download.php?csv-file">Datei herunterladen</a>
+  </li>
+  <li>
+    <b>Fälle pro Geschlecht und Altersgruppe</b> (Fälle, Inzidenz, Fälle 7-Tage, 7-Tages-Inzienz, Todesfälle, Todesfälle Inzidenz): 
+    <a href="/corona/download.php?csv_alter">CSV anzeigen</a>/ 
+    <a href="/corona/download.php?csv_alter-file">Datei herunterladen</a>
+  </li>
+  <li>
+    <b>Fälle pro Tag</b> (Fälle, Todesfälle): 
+    <a href="/corona/download.php?csv_tag">CSV anzeigen</a>/ 
+    <a href="/corona/download.php?csv_tag-file">Datei herunterladen</a>
+  </li>
+  <li>
+    <b>Fälle pro Tag und Landkreis</b> (Anzahl, 7-Tagesinzidenz): 
+    <a href="/corona/download.php?csv_tag_region">CSV anzeigen</a>/ 
+    <a href="/corona/download.php?csv_tag_region-file">Datei herunterladen</a>
+  </li>
+  <li>
+    <b>Fälle pro Meldewoche und Altersgruppe</b>: 
+    <a href="/corona/download.php?csv_woche_alter">CSV anzeigen</a>/ 
+    <a href="/corona/download.php?csv_woche_alter-file">Datei herunterladen</a>
+  </li>
+</ul>
+</section>
+<script>
+//jump to anchor in iframe
+(function () {
+  //this would be the solution if we could set document.domain = "niedersachsen.de" on the main site as well
+  //but we haz no accezz :/
+  // try {
+  //   document.domain = "niedersachsen.de";
+  // } catch(e) {
+  //   console.log(e);
+  // }
+
+  // document.querySelector('nav').addEventListener('click', function (e) {
+  //   if (!e.target.href) return;
+  //   jumpToAnchor(e.target.hash);
+  // });
+
+  // function jumpToAnchor(hash) {
+  //   const top = document.querySelector(hash).offsetTop;
+  //   window.parent.scroll(0, top);
+  // }
+})()
+</script></div>
+</body>
+</html>
