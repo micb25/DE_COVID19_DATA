@@ -1,6 +1,7 @@
 name: daily MV update
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "30 18 * * *"
 

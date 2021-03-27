@@ -66,7 +66,7 @@ else:
         i += 1
         
         pre = PDF_RE.findall( r.text.replace("\n", "") )
-        if len(pre) < 0:
+        if len(pre) < 1:
             print("Download failed (link not found, #1)!")
             continue
             
