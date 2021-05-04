@@ -1,6 +1,7 @@
 name: daily NI update
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "30 19 * * *"
 
