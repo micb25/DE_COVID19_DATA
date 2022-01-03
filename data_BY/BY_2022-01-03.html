@@ -1,0 +1,1657 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Coronavirus: Übersichtskarte der Fälle in Bayern</title>
+  <meta name="keywords" content="Baysern, Corona, Coronafälle, Fallzahlen" />
+  <meta name="description" content="Coronavirus: Übersichtskarte der Fälle in Bayern" />
+  <meta name="keytomain" content="0" />
+  <meta name="date" content="2020-03-05" />
+  <meta name="update-date" content="2020-11-02" />
+  <meta name="copyright" content="Bayerisches Landesamt für Gesundheit und Lebensmittelsicherheit 2020" />
+  <meta name="web" content="lgl_internet_2019" />
+  <meta name="lang" content="de" />
+  <meta name="copyright_ID" content="114" />
+  <meta name="comment_ID1" content="" />
+  <meta name="ConfigHeader" content="11000101" />
+  <meta name="ConfigFooter" content="111101101010" />
+  <meta name="ConfigConvertTor" content="000" />
+  <meta name="robots" content="index, follow" />
+  <meta name="template_header_data" content="internet_webGesundheitInfektionsschutzinfektionskrankheiten_a_zcoronaviruskarte_coronavirus" />
+  <meta name="template_footer_stamp" content="20200731230803785" />
+  <meta name="template_header_stamp" content="20200716105917783" />
+  <meta name="template_metainfo" content="standard" />
+  <meta name="template_header" content="standard" />
+  <meta name="template_footer" content="standard" />
+  <meta name="DC.TITLE" content="Coronavirus: Übersichtskarte der Fälle in Bayern" />
+  <meta name="DC.DATE.CREATION" content="2020-03-05" />
+  <meta name="DC.DATE.MODIFIED" content="2020-11-02" />
+  <meta name="DC.RIGHTS" content="Bayerisches Landesamt für Gesundheit und Lebensmittelsicherheit 2020" />
+  <meta name="DC.LANGUAGE" content="de" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link href="../../../../../style/css/jquery.mmenu.all.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../style/css/main.css" rel="stylesheet" type="text/css">
+  <link href="css/karte.css" rel="stylesheet" type="text/css">
+  <style>
+    table th.text-left {
+      cursor: pointer;
+      position: relative;
+    }
+
+    table th.text-left::after {
+      content: "";
+      background-color: transparent;
+      border: solid #ffffff;
+      border-width: 0 2px 2px 0;
+      display: inline-block;
+      padding: 3px;
+      margin-right: 0.5rem;
+      margin-left: -1.1rem;
+      position: absolute;
+      right: 1rem;
+      top: 0.5rem;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      top: 0.35rem;
+    }
+  </style>
+</head>
+
+<body id="corona">
+  <div id="center">
+    <div id="schriftzug">
+  <ul id="navi_meta" class="navi-meta">
+    <li><a href="/das_lgl/index.htm" title="zur Rubrik Das LGL">Das <abbr
+          title="Bayerische Landesamt für Gesundheit und Lebensmittelsicherheit">LGL</abbr></a></li>
+    <li><a href="/presse/index.htm" title="zur Rubrik Presse">Presse</a></li>
+    <li><a href="/karriere/index.htm" title="zur Rubrik Karriere">Karriere</a></li>
+    <li><a href="/az/index.htm" title="zur Rubrik Stichwortregister">A-Z</a></li>
+    <li><a href="/kontakt/index.htm" title="zur Rubrik Kontakt zum LGL">Kontakt</a></li>
+    <li><a href="/impressum/index.htm" title="zur Rubrik Impressum">Impressum</a></li>
+    <li><a href="/datenschutz/index.htm" title="zur Rubrik Datenschutz">Datenschutz</a></li>
+    <li><a href="/barrierefreiheitserklaerung/index.htm" title="interner Link">Barrierefreiheit</a></li>
+    <li title="icon" class="icon"><a class="icon-gebaerdenSprache" href="/gebaerdensprache/index.htm"
+        title="Inhalt des Internetangebots in Gebärdensprache">Gebärdensprache</a></li>
+    <li title="icon" class="icon"><a class="icon-leichteSprache" href="/leichte_sprache/index.htm"
+        title="Inhalt des Internetangebots in Leichter Sprache">Leichte Sprache</a></li>
+  </ul>
+  <div class="logo"><a href="/index.htm"><img src="/style/layout/logo_lgl_schriftzug.png"
+        alt="Behördenbezeichnung mit Staatswappen: Bayerisches Landesamt für Gesundheit und Lebensmittelsicherheit"></a>
+  </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top Sticky" data-toggle="sticky-onscroll"> <a
+    class="navbar-toggler hamburger hamburger--stand" href="#mainmenu" aria-label="Menu" aria-controls="mainmenu"><span
+      class="hamburger-box"><span class="hamburger-inner"></span></span></a>
+  <div id="mainmenu" class="container-fluid">
+    <div id="panel-menu" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="nav-item" id="nav_startseite"><a class="nav-link" href="/index.htm"
+            title="Startseite der Website des Bayerischen Landesamtes für Gesundheit und Lebensmittelsicherheit">Startseite</a>
+        </li>
+        <!-- 1. Ebene Corona -->
+        <li class="nav-item dropdown menu-large" id="nav_sarscov2"> <a class="nav-link" data-toggle="dropdown"
+            href="/sars_cov_2/index.htm" title="zur Rubrik SARS-CoV-2">SARS-CoV-2</a>
+          <!-- 2. Ebene -->
+          <ul class="dropdown-menu megamenu" aria-labelledby="dropdown">
+            <li class="sub"><a href="/sars_cov_2/index.htm" title="zur Rubrik Forschung">SARS-CoV-2 Übersicht</a></li>
+            <li class="sub"><a href="/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/karte_coronavirus/fallzahlen_uebersicht.htm"
+                title="zur Rubrik Fallzahlen">Fallzahlen</a>
+            	<ul>
+                	<li><a href="/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/karte_coronavirus/index.htm#wKennzahlen" title="interner Link">Wichtige Kennzahlen</a></li>
+                    <li><a href="/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/karte_coronavirus/index.htm#karte" title="interner Link">Übersichtskarte</a></li>
+                    <li><a href="/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/karte_coronavirus/index.htm#landkreise" title="interner Link">Fälle nach Regierungsbezirken und Landkreisen</a></li>
+                </ul>    
+            </li>
+            <li class="sub"><a
+                href="/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/impfung_covid19.htm"
+                title="zur Rubrik Impfung">Impfung</a></li>
+            <li class="sub"><a
+                href="/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/informationen_aktuell.htm"
+                title="zur Rubrik Aktuelles">Aktuelles</a>
+                <ul>
+                	<li><a href="/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/post_covid_foerderinitiative.htm" title="interner Link">Post-COVID-Syndrom</a></li>
+                </ul>
+            </li>
+            <li class="sub"><a href="/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/faq.htm"
+                title="zur Rubrik FAQs">FAQs</a></li>
+            <li class="sub"><a
+                href="/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/covid_uebersicht.htm"
+                title="zur Rubrik Informationen">Informationen</a></li>
+            <li class="sub"><a href="/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/hotlines.htm"
+                title="zur Rubrik Hotlines">Hotlines</a></li>
+            <li class="sub"><a
+                href="/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/covid_glossar.htm"
+                title="zur Rubrik Glossar">Glossar</a></li>
+            <li class="sub"><a
+                href="/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/2019_sars_cov2.htm"
+                title="zur Rubrik Fachliches">Fachliches</a></li>
+            <li class="sub"><a
+                href="/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/covid_rechtliches.htm"
+                title="zur Rubrik Rechtliches">Rechtliches</a></li>
+          </ul>
+        </li>
+        <!-- 1. Ebene Arbeitsschutz -->
+        <li class="nav-item dropdown menu-large" id="nav_arbeitsschutz"><a class="nav-link" data-toggle="dropdown"
+            href="/arbeitsschutz/index.htm" title="zur Rubrik Arbeitsschutz">Arbeitsschutz</a>
+          <!-- 2. Ebene -->
+          <ul class="dropdown-menu megamenu">
+            <li class="sub"><a href="/arbeitsschutz/index.htm" title="zur Rubrik Arbeitsschutz">Arbeitsschutz
+                Übersicht</a>
+              <ul>
+                <li><a href="/arbeitsschutz/index.htm" title="zur Rubrik Arbeitsschutz">Übersicht</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/arbeitsschutz/technischer_arbeitsschutz/index.htm"
+                title="zur Rubrik Technischer Arbeisschutz">Technischer Arbeitsschutz</a>
+              <ul>
+                <li><a href="/arbeitsschutz/technischer_arbeitsschutz/index.htm"
+                    title="zur Rubrik Technischer Arbeisschutz">Übersicht</a></li>
+                <li><a href="/arbeitsschutz/technischer_arbeitsschutz/rechtsgrundlagen/index.htm"
+                    title="zur Rubrik Rechtsgrundlagen">Rechtsgrundlagen</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/arbeitsschutz/stofflicher_arbeitsschutz/index.htm"
+                title="zur Rubrik Stofflicher Arbeitsschutz">Stofflicher Arbeitsschutz</a>
+              <ul>
+                <li><a href="/arbeitsschutz/stofflicher_arbeitsschutz/index.htm"
+                    title="zur Rubrik Stofflicher Arbeitsschutz">Übersicht</a></li>
+                <li><a href="/arbeitsschutz/stofflicher_arbeitsschutz/biologische_arbeitsstoffe/index.htm"
+                    title="Link zur Rubrik Biologische Arbeitsstoffe">Biologische Arbeitsstoffe</a></li>
+                <li><a href="/arbeitsschutz/stofflicher_arbeitsschutz/chemische_arbeitsstoffe/index.htm"
+                    title="Link zur Rubrik Chemische Arbeitsstoffe">Chemische Arbeitsstoffe</a></li>
+                <li><a href="/arbeitsschutz/stofflicher_arbeitsschutz/reach/index.htm"
+                    title="Link zur Rubrik Reach">Reach</a></li>
+                <li><a href="/arbeitsschutz/stofflicher_arbeitsschutz/projekte_a_z/index.htm"
+                    title="Link zur Rubrik Projekte A-Z">Projekte A-Z</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/arbeitsschutz/sozialer_arbeitsschutz/index.htm"
+                title="zur Rubrik Sozialer Arbeitsschutz">Sozialer Arbeitsschutz</a>
+              <ul>
+                <li><a href="/arbeitsschutz/sozialer_arbeitsschutz/index.htm"
+                    title="zur Rubrik Sozialer Arbeitsschutz">Übersicht</a></li>
+                <li><a href="/arbeitsschutz/sozialer_arbeitsschutz/rechtsgrundlagen/index.htm"
+                    title="zur Rubrik Rechtsgrundlagen">Rechtsgrundlagen</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/arbeitsschutz/praevention/index.htm" title="zur Rubrik Prävention">Prävention</a>
+              <ul>
+                <li><a href="/arbeitsschutz/praevention/index.htm" title="zur Rubrik Prävention">Übersicht</a></li>
+                <li><a href="/arbeitsschutz/praevention/fachausstellung_arbeitsschutz/index.htm"
+                    title="zur Rubrik Fachausstellung Arbeitsschutz">Fachausstellung Arbeitsschutz</a></li>
+                <li><a href="/arbeitsschutz/praevention/lehrschau_arbeite_sicher/index.htm"
+                    title="zur Rubrik Lehrschau Arbeite Sicher">Lehrschau "Arbeite Sicher"</a></li>
+                <li><a href="/arbeitsschutz/praevention/gesundheitsfoerderung/index.htm"
+                    title="zur Rubrik Betriebliche Gesundheitsförderung">Betriebliche Gesundheitsförderung</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/arbeitsschutz/managementsysteme/index.htm"
+                title="zur Rubrik Managementsysteme">Managementsysteme</a>
+              <ul>
+                <li><a href="/arbeitsschutz/managementsysteme/index.htm"
+                    title="zur Rubrik Managementsysteme">Übersicht</a></li>
+                <li><a href="/arbeitsschutz/managementsysteme/ohris/index.htm" title="zur Rubrik OHRIS">OHRIS</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/arbeitsschutz/arbeitsmedizin/index.htm"
+                title="zur Rubrik Arbeitsmedizin">Arbeitsmedizin</a>
+              <ul>
+                <li><a href="/arbeitsschutz/arbeitsmedizin/index.htm" title="zur Rubrik Arbeitsmedizin">Übersicht</a>
+                </li>
+                <li><a href="/arbeitsschutz/arbeitsmedizin/arbeitspsychologie/index.htm"
+                    title="zur Rubrik Arbeitspsychologie">Arbeitspsychologie</a>
+                  <ul class="nav">
+                    <li><a href="/arbeitsschutz/arbeitsmedizin/arbeitspsychologie/index.htm"
+                        title="zur Rubrik Arbeitspsychologie">Übersicht</a></li>
+                    <li><a href="/arbeitsschutz/arbeitsmedizin/arbeitspsychologie/psychische_belastung/index.htm"
+                        title="zur Rubrik Psychische Belastungen">Psychische Belastungen</a></li>
+                    <li><a href="/arbeitsschutz/arbeitsmedizin/arbeitspsychologie/burnout/index.htm"
+                        title="zur Rubrik Burnout">Burnout</a></li>
+                    <li><a href="/arbeitsschutz/arbeitsmedizin/arbeitspsychologie/mobbing/index.htm"
+                        title="zur Rubrik Mobbing">Mobbing</a></li>
+                  </ul>
+                </li>
+                <li><a href="/arbeitsschutz/arbeitsmedizin/arbeitsmedizinische_vorsorge/index.htm"
+                    title="zur Rubrik Arbeitsmedizinische Vorsorge">Arbeitsmedizinische Vorsorge</a></li>
+                <li><a href="/arbeitsschutz/arbeitsmedizin/arbeitsepidemiologie/index.htm"
+                    title="zur Rubrik Arbeitsepidemiologie">Arbeitsepidemiologie</a></li>
+                <li><a href="/arbeitsschutz/arbeitsmedizin/berufskrankheiten/index.htm"
+                    title="zur Rubrik Berufskrankheiten">Berufskrankheiten</a></li>
+                <li><a href="/arbeitsschutz/arbeitsmedizin/ergonomie/index.htm"
+                    title="zur Rubrik Ergonomie">Ergonomie</a></li>
+                <li><a href="/arbeitsschutz/arbeitsmedizin/infektionsgefaehrdung/index.htm"
+                    title="zur Rubrik Infektionsgefährdung">Infektionsgefährdung</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/arbeitsschutz/rechtsgrundlagen/index.htm"
+                title="zur Rubrik Rechtsgrundlagen">Rechtsgrundlagen</a>
+              <ul>
+                <li><a href="/arbeitsschutz/rechtsgrundlagen/index.htm"
+                    title="zur Rubrik Rechtsgrundlagen">Übersicht</a></li>
+                <li><a href="/arbeitsschutz/rechtsgrundlagen/arbeitsmedizin/index.htm"
+                    title="zur Rubrik Arbeitsmedizin">Arbeitsmedizin</a></li>
+                <li><a href="/arbeitsschutz/rechtsgrundlagen/sozialer_arbeitsschutz/index.htm"
+                    title="zur Rubrik Sozialer Arbeitsschutz">Sozialer Arbeitsschutz</a></li>
+                <li><a href="/arbeitsschutz/rechtsgrundlagen/stofflicher_arbeitsschutz/index.htm"
+                    title="zur Rubrik Stofflicher Arbeitsschutz">Stofflicher Arbeitsschutz</a></li>
+                <li><a href="/arbeitsschutz/rechtsgrundlagen/technischer_arbeitsschutz/index.htm"
+                    title="zur Rubrik Technischer Arbeitsschutz">Technischer Arbeitsschutz</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/arbeitsschutz/amis/index.htm" title="zur Rubrik AMIS-Bayern">AMIS-Bayern</a>
+              <ul>
+                <li><a href="/arbeitsschutz/amis/index.htm" title="zur Rubrik AMIS-Bayern0">Übersicht</a></li>
+                <li><a href="/arbeitsschutz/amis/ueber_uns/index.htm" title="zur Rubrik Über uns">Über uns</a></li>
+                <li><a href="/arbeitsschutz/amis/beratung_sicherheitstechnisch/index.htm" title="zur Rubrik Sicherheitstechnische Beratung">Sicherheitstechnische Beratung</a></li>
+                <li><a href="/arbeitsschutz/amis/beratung_arbeitsmedizinisch/index.htm" title="zur Rubrik Arbeitsmedizinische Beratung"> Arbeitsmedizinische Beratung</a></li>
+                <li><a href="/arbeitsschutz/amis/beratung_arbeitspsychologisch/index.htm" title="zur Rubrik Arbeitspsychologische Beratung"> Arbeitspsychologische Beratung</a></li>
+                <li><a href="/arbeitsschutz/amis/schwerpunktthemen/index.htm" title="zur Rubrik Schwerpunktthemen">Schwerpunktthemen</a></li>
+                <li><a href="/arbeitsschutz/amis/schulungsangebote/index.htm" title="zur Rubrik Schulungsangebote"> Schulungsangebote</a></li>
+                <li><a href="/arbeitsschutz/amis/gefaehrdungsbeurteilung/index.htm" title="zur Rubrik Gefährdungsbeurteilung"> Gefährdungsbeurteilung</a></li>
+                <li><a href="/arbeitsschutz/amis/begehungen/index.htm" title="zur Rubrik Begehungen"> Begehungen</a></li>
+                <li><a href="/arbeitsschutz/amis/bem/index.htm" title="zur Rubrik Betriebliches Wiedereingliederungsmanagement"> Betriebliches Eingliederungs&shy;management (BEM)</a></li>
+                <li><a href="/arbeitsschutz/amis/mutterschutz/index.htm"> Mutterschutz</a></li>
+                <li><a href="/arbeitsschutz/amis/laga/index.htm" title="zur Rubrik Landesarbeitsgemeinschaft AMIS-Bayern"> Landesarbeitsgemeinschaft AMIS-Bayern (LAGA)</a></li>
+                <li><a href="/arbeitsschutz/amis/faq/index.htm" title="zur Rubrik FAQs"> FAQs</a></li>
+                <li><a href="/arbeitsschutz/amis/formulare_dokumente/index.htm" title="zur Rubrik Formulare und Dokumente"> Formulare und Dokumente</a></li>
+                <li><a href="/arbeitsschutz/amis/kontakt/index.htm" title="zur Rubrik Kontakt"> Kontakt</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- 1. Ebene Lebensmittel-->
+        <li class="nav-item dropdown menu-large" id="nav_lebensmittel"><a class="nav-link" data-toggle="dropdown"
+            href="/lebensmittel/index.htm" title="zur Rubrik Lebensmittel">Lebensmittel</a>
+          <!-- 2. Ebene -->
+          <ul class="dropdown-menu megamenu">
+            <li class="sub"><a href="/lebensmittel/index.htm" title="zur Rubrik Lebensmittel">Lebensmittel Übersicht</a>
+              <ul>
+                <li><a href="/lebensmittel/index.htm" title="zur Rubrik Lebensmittel">Übersicht</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/lebensmittel/chemie/index.htm" title="zur Rubrik Chemie">Chemie</a>
+              <ul>
+                <li><a href="/lebensmittel/chemie/index.htm" title="zur Rubrik Chemie">Übersicht</a></li>
+                <li><a href="/lebensmittel/chemie/inhaltsstoffe/index.htm"
+                    title="zur Rubrik Inhaltsstoffe">Inhaltsstoffe</a>
+                  <ul>
+                    <li><a href="/lebensmittel/chemie/inhaltsstoffe/index.htm"
+                        title="zur Rubrik Inhaltsstoffe">Übersicht</a></li>
+                    <li><a href="/lebensmittel/chemie/inhaltsstoffe/spurenelemente/index.htm"
+                        title="zur Rubrik Spurenelemente">Spurenelemente</a></li>
+                    <li><a href="/lebensmittel/chemie/inhaltsstoffe/naehrstoffe/index.htm"
+                        title="zur Rubrik Spurenelemente">Nährstoffe</a></li>
+                    <li><a href="/lebensmittel/chemie/inhaltsstoffe/pflanzeninhaltsstoffe/index.htm"
+                        title="zur Rubrik Spurenelemente">Pflanzeninhaltsstoffe</a></li>
+                  </ul>
+                </li>
+                <li><a href="/lebensmittel/chemie/pflanzenschutzmittel/index.htm"
+                    title="zur Rubrik Pflanzenschutzmittel">Pflanzenschutzmittel</a>
+                  <ul>
+                    <li><a href="/lebensmittel/chemie/pflanzenschutzmittel/index.htm"
+                        title="zur Rubrik Pflanzenschutzmittel">Übersicht</a></li>
+                    <li><a href="/lebensmittel/chemie/pflanzenschutzmittel/pestizide_pflanzlich_lm/index.htm"
+                        title="zur Rubrik pflanzliche Lebensmittel">pflanzliche Lebensmittel</a></li>
+                    <li><a href="/lebensmittel/chemie/pflanzenschutzmittel/pestizide_tierisch_lm/index.htm"
+                        title="zur Rubrik Lebensmittel tierischer Herkunft">Lebensmittel tierischer Herkunft</a></li>
+                    <li><a href="/lebensmittel/chemie/pflanzenschutzmittel/pestizide_frauenmilch/index.htm"
+                        title="zur Rubrik Frauenmilch">Frauenmilch</a></li>
+                    <li><a href="/lebensmittel/chemie/pflanzenschutzmittel/pestizide_trinkwasser/index.htm"
+                        title="zur Rubrik Trinkwasser">Trinkwasser</a></li>
+                  </ul>
+                </li>
+                <li><a href="/lebensmittel/chemie/arzneimittelrueckstaende/index.htm"
+                    title="zur Rubrik Arzneimittelrückstände">Arzneimittelrückstände</a>
+                  <ul>
+                    <li><a href="/lebensmittel/chemie/arzneimittelrueckstaende/index.htm"
+                        title="zur Rubrik Arzneimittelrückstände">Übersicht</a></li>
+                    <li><a href="/lebensmittel/chemie/arzneimittelrueckstaende/antibiotika/index.htm"
+                        title="zur Rubrik Antibiotika">Antibiotika</a></li>
+                    <li><a href="/lebensmittel/chemie/arzneimittelrueckstaende/hormone/index.htm"
+                        title="zur Rubrik Hormone">Hormone</a></li>
+                  </ul>
+                </li>
+                <li><a href="/lebensmittel/chemie/schimmelpilzgifte/index.htm"
+                    title="zur Rubrik Schimmelpilzgifte ">Schimmelpilzgifte</a>
+                  <ul>
+                    <li><a href="/lebensmittel/chemie/schimmelpilzgifte/hoechstmengenregelungen/index.htm" title="zur Rubrik Höchstmengenregelungen">Höchstmengenregelungen</a></li>
+                    <li><a href="/lebensmittel/chemie/schimmelpilzgifte/aflatoxine/index.htm" title="zur Rubrik Aflatoxine ">Aflatoxine</a></li>
+                    <li><a href="/lebensmittel/chemie/schimmelpilzgifte/ochratoxine/index.htm" title="zur Rubrik Ochratoxine">Ochratoxine</a></li>
+                    <li><a href="/lebensmittel/chemie/schimmelpilzgifte/trichothecene/index.htm" title="zur Rubrik Trichothecene">Trichothecene</a></li>
+                    <li><a href="/lebensmittel/chemie/schimmelpilzgifte/zearalenon/index.htm" title="zur Rubrik Zearalenon">Zearalenon</a></li>
+                    <li><a href="/lebensmittel/chemie/schimmelpilzgifte/fumonisine/index.htm" title="zur Rubrik Fumonisine">Fumonisine</a></li>                
+                    <li><a href="/lebensmittel/chemie/schimmelpilzgifte/mutterkornalkaloide/index.htm" title="zur Rubrik Mutterkorn und Mutterkornalkaloide">Mutterkorn und Mutterkornalkaloide</a></li>			
+                    <li><a href="/lebensmittel/chemie/schimmelpilzgifte/patulin/index.htm" title="zur Rubrik Patulin">Patulin</a></li>
+                    <li><a href="/lebensmittel/chemie/schimmelpilzgifte/alternaria_toxine/index.htm" title="zur Rubrik Alternaria-Toxine">Alternaria-Toxine</a></li>
+              </ul>
+                </li>
+                <li><a href="/lebensmittel/chemie/kontaminanten/index.htm"
+                    title="zur Rubrik Kontaminanten/ Verunreinigungen">Kontaminanten/ Verunreinigungen</a></li>
+                <li><a href="/lebensmittel/chemie/schwermetalle/index.htm"
+                    title="zur Rubrik Schwermetalle und andere Elemente">Schwermetalle und andere Elemente</a>
+                  <ul>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/index.htm"
+                        title="zur Rubrik Schwermetalle und andere Elemente">Übersicht</a></li>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/aluminium/index.htm"
+                        title="Link zur Rubrik Aluminium">Aluminium</a></li>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/antimon/index.htm"
+                        title="Link zur Rubrik Antimon">Antimon</a></li>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/arsen/index.htm"
+                        title="Link zur Rubrik Arsen">Arsen</a></li>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/blei/index.htm"
+                        title="Link zur Rubrik Blei">Blei</a></li>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/cadmium/index.htm"
+                        title="Link zur Rubrik Cadmium">Cadmium</a></li>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/chrom/index.htm"
+                        title="Link zur Rubrik Chrom">Chrom</a></li>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/eisen/index.htm"
+                        title="Link zur Rubrik Eisen">Eisen</a></li>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/jod/index.htm" title="Link zur Rubrik Jod">Jod</a>
+                    </li>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/cobalt/index.htm"
+                        title="Link zur Rubrik Kobalt">Kobalt</a></li>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/kupfer/index.htm"
+                        title="Link zur Rubrik Kupfer">Kupfer</a></li>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/nickel/index.htm"
+                        title="Link zur Rubrik Nickel">Nickel</a></li>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/quecksilber/index.htm"
+                        title="Link zur Rubrik Quecksilber">Quecksilber</a></li>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/selen/index.htm"
+                        title="Link zur Rubrik Selen">Selen</a></li>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/silber/index.htm"
+                        title="Link zur Rubrik Silber">Silber</a></li>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/thallium/index.htm"
+                        title="Link zur Rubrik Thallium">Thallium</a></li>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/titandioxid/index.htm"
+                        title="Link zur Rubrik Titandioxid">Titandioxid</a></li>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/uran/index.htm"
+                        title="Link zur Rubrik Uran">Uran</a></li>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/zink/index.htm"
+                        title="Link zur Rubrik Zink">Zink</a></li>
+                    <li><a href="/lebensmittel/chemie/schwermetalle/zinn/index.htm"
+                        title="Link zur Rubrik Zinn">Zinn</a></li>
+                  </ul>
+                </li>
+                <li><a href="/lebensmittel/chemie/toxische_reaktionsprodukte/index.htm"
+                    title="zur Rubrik Toxische Reaktionsprodukte">Toxische Reaktionsprodukte</a>
+                  <ul>
+                    <li><a href="/lebensmittel/chemie/toxische_reaktionsprodukte/formaldehyd/index.htm"
+                        title="zur Rubrik Toxische Reaktionsprodukte">Übersicht</a></li>
+                    <li><a href="/lebensmittel/chemie/toxische_reaktionsprodukte/acrylamid/index.htm"
+                        title="zur Rubrik Acrylamid">Acrylamid</a></li>
+                    <li><a href="/lebensmittel/chemie/toxische_reaktionsprodukte/bpa/index.htm"
+                        title="zur Rubrik Bisphenol A (BPA)">Bisphenol A (BPA)</a></li>
+                    <li><a href="/lebensmittel/chemie/toxische_reaktionsprodukte/cyanid/index.htm"
+                        title="zur Rubrik Cyanid">Cyanid</a></li>
+                    <li><a href="/lebensmittel/chemie/toxische_reaktionsprodukte/deg/index.htm"
+                        title="zur Rubrik Diethylenglykol (DEG)">Diethylenglykol (DEG)</a></li>
+                    <li><a href="/lebensmittel/chemie/toxische_reaktionsprodukte/ethylcarbamat/index.htm"
+                        title="zur Rubrik Ethylcarbamat (EC)">Ethylcarbamat (EC)</a></li>
+                    <li><a href="/lebensmittel/chemie/toxische_reaktionsprodukte/formaldehyd/index.htm"
+                        title="zur Rubrik Formaldehyd">Formaldehyd</a></li>
+                    <li><a href="/lebensmittel/chemie/toxische_reaktionsprodukte/furan/index.htm"
+                        title="zur Rubrik Furan">Furan</a></li>
+                    <li><a href="/lebensmittel/chemie/toxische_reaktionsprodukte/glycidamid/index.htm"
+                        title="zur Rubrik Glycidamid">Glycidamid</a></li>
+                    <li><a href="/lebensmittel/chemie/toxische_reaktionsprodukte/hydroxymethylfurfural/index.htm"
+                        title="zur Rubrik Hydroxymethylfurfural">Hydroxymethylfurfural</a></li>
+                    <li><a href="/lebensmittel/chemie/toxische_reaktionsprodukte/melamin/index.htm"
+                        title="zur Rubrik Melamin">Melamin</a></li>
+                    <li><a href="/lebensmittel/chemie/toxische_reaktionsprodukte/nitrosamine/index.htm"
+                        title="zur Rubrik Nitrosamine">Nitrosamine</a></li>
+                    <li><a href="/lebensmittel/chemie/toxische_reaktionsprodukte/semicarbazid/index.htm"
+                        title="zur Rubrik Semicarbazid">Semicarbazid</a></li>
+                    <li><a href="/lebensmittel/chemie/toxische_reaktionsprodukte/trans_fettsaeuren/index.htm"
+                        title="zur Rubrik Trans-Fettsäuren">Trans-Fettsäuren</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="sub break-after"><a href="/lebensmittel/az/index.htm"
+                title="zur Rubrik Lebensmittel A-Z">Lebensmittel A-Z</a>
+              <ul>
+                <li><a href="/lebensmittel/az/index.htm" title="zur Rubrik Lebensmittel A-Z">Übersicht</a></li>
+              </ul>
+            </li>
+            <li class="sub break-before"><a href="/lebensmittel/warengruppen/index.htm"
+                title="zu Rubrik Warengruppen">Warengruppen</a>
+              <ul>
+                <li><a href="/lebensmittel/warengruppen/index.htm" title="zu Rubrik Warengruppen">Übersicht</a></li>
+                <li class="wgruppen dropdown"><a class="dropdown-toggle" id="dropDownWarengruppen"
+                    data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#"
+                    title="zur Rubrik Warengruppen">Alle Warengruppen</a>
+                  <ul class="dropdown-menu megamenu-wg" aria-labelledby="dropDownWarengruppen">
+                    <li><a href="/lebensmittel/warengruppen/wc_32_alkoholfreie_getraenke/index.htm"
+                        title="zur Rubrik alkoholfreie Getränke">alkoholfreie Getränke </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_54_aromastoffe/index.htm"
+                        title="zur Rubrik Aromastoffe">Aromastoffe </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_36_biere/index.htm" title="zur Rubrik Biere">Biere </a>
+                    </li>
+                    <li><a href="/lebensmittel/warengruppen/wc_17_brote_kleingebaecke/index.htm"
+                        title="zur Rubrik Brote, Kleingebäcke">Brote, Kleingebäcke </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_04_butter/index.htm" title="zur Rubrik Butter">Butter
+                      </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_49_diaetische_lebensmittel/index.htm"
+                        title="zur Rubrik diätische Lebensmittel">diätische Lebensmittel </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_05_eier/index.htm" title="zur Rubrik Eier">Eier </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_18_feine_backwaren/index.htm"
+                        title="zur Rubrik feine Backwaren">feine Backwaren </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_50_fertiggerichte/index.htm"
+                        title="zur Rubrik Fertiggerichte">Fertiggerichte </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_13_fette_oele/index.htm"
+                        title="zur Rubrik Fette, Öle">Fette, Öle </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_10_fische/index.htm" title="zur Rubrik Fische">Fische
+                      </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_11_fischerzeugnisse/index.htm"
+                        title="zur Rubrik Fischerzeugnisse">Fischerzeugnisse </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_06_fleisch/index.htm" title="zur Rubrik Fleisch">Fleisch
+                      </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_07_fleischerzeugnisse/index.htm"
+                        title="zur Rubrik Fleischerzeugnisse">Fleischerzeugnisse </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_25_frischgemuese/index.htm"
+                        title="zur Rubrik Frischgemüse">Frischgemüse </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_29_frischobst/index.htm"
+                        title="zur Rubrik Frischobst">Frischobst </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_31_fruchtsaefte/index.htm"
+                        title="zur Rubrik Fruchtsäfte">Fruchtsäfte </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_26_gemueseerzeugnisse/index.htm"
+                        title="zur Rubrik Gemüseerzeugnisse">Gemüseerzeugnisse </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_15_getreide/index.htm"
+                        title="zur Rubrik Getreide">Getreide </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_16_getreideprodukte/index.htm"
+                        title="zur Rubrik Getreideprodukte">Getreideprodukte </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_53_gewuerze/index.htm" title="zur Rubrik Gewürze">Gewürze
+                      </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_56_hilfsmittel/index.htm"
+                        title="zur Rubrik Hilfsmittel">Hilfsmittel </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_40_honige/index.htm" title="zur Rubrik Honige">Honige
+                      </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_23_huelsenfruechte_schalenobst/index.htm"
+                        title="zur Rubrik Hülsenfrüchte, Schalenobst">Hülsenfrüchte, Schalenobst </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_46_kaffee/index.htm" title="zur Rubrik Kaffee">Kaffee
+                      </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_45_kakao/index.htm" title="zur Rubrik Kakao">Kakao </a>
+                    </li>
+                    <li><a href="/lebensmittel/warengruppen/wc_24_kartoffeln/index.htm"
+                        title="zur Rubrik Kartoffeln">Kartoffeln </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_03_kaese/index.htm" title="zur Rubrik Käse">Käse </a>
+                    </li>
+                    <li><a href="/lebensmittel/warengruppen/wc_41_konfitueren/index.htm"
+                        title="zur Rubrik Konfitüren">Konfitüren </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_12_krustentiere/index.htm"
+                        title="zur Rubrik Krustentiere">Krustentiere </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_20_mayonnaisen_feinkostsalate/index.htm"
+                        title="zur Rubrik Mayonnaisen, Feinkostsalate">Mayonnaisen, Feinkostsalate </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_01_milch/index.htm" title="zur Rubrik Milch">Milch </a>
+                    </li>
+                    <li><a href="/lebensmittel/warengruppen/wc_02_milchprodukte/index.htm"
+                        title="zur Rubrik Milchprodukte">Milchprodukte </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_51_nahrungsergaenzungsmittel/index.htm"
+                        title="zur Rubrik Nahrungsergänzungsmittel">Nahrungs&shy;ergänzungsmittel </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_30_obsterzeugnisse/index.htm"
+                        title="zur Rubrik Obsterzeugnisse">Obsterzeugnisse</a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_27_pilze/index.htm" title="zur Rubrik Pilze">Pilze </a>
+                    </li>
+                    <li><a href="/lebensmittel/warengruppen/wc_28_pilzerzeugnisse/index.htm"
+                        title="zur Rubrik Pilzerzeugnisse">Pilzerzeugnisse </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_21_puddinge_desserts/index.htm"
+                        title="zur Rubrik Puddinge, Desserts">Puddinge, Desserts </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_48_saeuglingsnahrung/index.htm"
+                        title="zur Rubrik Säuglingsnahrung">Säuglingsnahrung </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_44_schokoladen/index.htm"
+                        title="zur Rubrik Schokoladen">Schokoladen </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_42_speiseeis/index.htm"
+                        title="zur Rubrik Speiseeis">Speiseeis </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_37_spirituosen/index.htm"
+                        title="zur Rubrik Spirituosen">Spirituosen </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_14_suppen_sossen/index.htm"
+                        title="zur Rubrik Suppen, Soßen">Suppen, Soßen </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_43_suesswaren/index.htm"
+                        title="zur Rubrik Süßwaren">Süßwaren </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_47_tee/index.htm" title="zur Rubrik Tee">Tee </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_22_teigwaren/index.htm"
+                        title="zur Rubrik Teigwaren">Teigwaren </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_59_trinkwasser/index.htm"
+                        title="zur Rubrik Trinkwasser">Trinkwasser </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_35_weinaehnliche_getraenke/index.htm"
+                        title="zur Rubrik weinähnliche Getränke">weinähnliche Getränke </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_33_weine/index.htm" title="zur Rubrik Weine">Weine </a>
+                    </li>
+                    <li><a href="/lebensmittel/warengruppen/wc_34_erzeugnisse_wein/index.htm"
+                        title="zur Rubrik Weinerzeugnisse">Weinerzeugnisse </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_08_wurstwaren/index.htm"
+                        title="zur Rubrik Wurstwaren">Wurstwaren </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_52_wuerzmittel/index.htm"
+                        title="zur Rubrik Würzmittel">Würzmittel </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_39_zucker/index.htm" title="zur Rubrik Zucker">Zucker
+                      </a></li>
+                    <li><a href="/lebensmittel/warengruppen/wc_57_zusatzstoffe/index.htm"
+                        title="zur Rubrik Zusatzstoffe">Zusatzstoffe </a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/lebensmittel/hygiene/index.htm" title="zur Rubrik Hygiene">Hygiene</a>
+              <ul>
+                <li><a href="/lebensmittel/hygiene/index.htm" title="zur Rubrik Hygiene">Übersicht</a></li>
+                <li><a href="/lebensmittel/hygiene/hygienischer_umgang/index.htm"
+                    title="zur Rubrik Hygienischer Umgang mit Lebensmitteln">Hygienischer Umgang mit Lebensmitteln</a>
+                  <ul>
+                    <li><a href="/lebensmittel/hygiene/hygienischer_umgang/index.htm"
+                        title="zur Rubrik Hygienischer Umgang mit Lebensmitteln">Übersicht</a></li>
+                    <li><a href="/lebensmittel/hygiene/hygienischer_umgang/verbrauchertipps/index.htm"
+                        title="zur Rubrik Verbrauchertipps">Verbrauchertipps</a></li>
+                    <li><a href="/lebensmittel/hygiene/hygienischer_umgang/betriebshygiene/index.htm"
+                        title="zur Rubrik Betriebshygiene">Betriebshygiene</a></li>
+                  </ul>
+                </li>
+                <li><a href="/lebensmittel/hygiene/verderb/index.htm" title="zur Rubrik Verderb">Verderb</a></li>
+                <li><a href="/lebensmittel/hygiene/fleischhygiene/index.htm"
+                    title="zur Rubrik Fleischhygiene">Fleischhygiene</a>
+                  <ul>
+                    <li><a href="/lebensmittel/hygiene/fleischhygiene/index.htm"
+                        title="zur Rubrik Fleischhygiene">Übersicht</a></li>
+                    <li><a href="/lebensmittel/hygiene/fleischhygiene/bakteriologisch/index.htm"
+                        title="zur Rubrik Bakteriologische Fleischuntersuchungen">Bakteriologische
+                        Fleischuntersuchungen</a></li>
+                    <li><a href="/lebensmittel/hygiene/fleischhygiene/hemmstofftest/index.htm"
+                        title="zur Rubrik Biologischer Hemmstofftest">Biologischer Hemmstofftest</a></li>
+                    <li><a href="/lebensmittel/hygiene/fleischhygiene/trichinenuntersuchungen/index.htm"
+                        title="zur Rubrik Trichinenuntersuchungen">Trichinenuntersuchungen</a></li>
+                  </ul>
+                </li>
+                <li><a href="/lebensmittel/hygiene/bakterien/index.htm"
+                    title="zur Rubrik Lebensmittelerkrankungen durch Bakterien">Bakterien</a>
+                  <ul>
+                    <li><a href="/lebensmittel/hygiene/bakterien/index.htm"
+                        title="zur Rubrik Lebensmittelerkrankungen durch Bakterien">Übersicht</a></li>
+                    <li><a href="/lebensmittel/hygiene/bakterien/bacillus_cereus/index.htm"
+                        title="zur Rubrik Bacillus cereus">Bacillus cereus</a></li>
+                    <li><a href="/lebensmittel/hygiene/bakterien/campylobacter/index.htm"
+                        title="zur Rubrik Campylobacter">Campylobacter</a></li>
+                    <li><a href="/lebensmittel/hygiene/bakterien/clostridium_botulinum/index.htm"
+                        title="zur Rubrik Clostridium botulinum">Clostridium botulinum</a></li>
+                    <li><a href="/lebensmittel/hygiene/bakterien/clostridium_perfringens/index.htm"
+                        title="zur Rubrik Clostridium perfringens">Clostridium perfringens</a></li>
+                    <li><a href="/lebensmittel/hygiene/bakterien/cronobacter/index.htm"
+                        title="zur Rubrik Cronobacter">Cronobacter</a></li>
+                    <li><a href="/lebensmittel/hygiene/bakterien/ehec/index.htm"
+                        title="zur Rubrik EHEC (Enterohämorrhagische Escherichia coli) , STEC, VTEC">EHEC
+                        (Enterohämorrhagische Escherichia coli) , STEC, VTEC</a></li>
+                    <li><a href="/lebensmittel/hygiene/bakterien/listerien/index.htm"
+                        title="zur Rubrik Listerien">Listerien</a></li>
+                    <li><a href="/lebensmittel/hygiene/bakterien/salmonellen/index.htm"
+                        title="zur Rubrik Salmonellen">Salmonellen</a></li>
+                    <li><a href="/lebensmittel/hygiene/bakterien/staphylococcus_aureus/index.htm"
+                        title="zur Rubrik Staphylococcus aureus">Staphylococcus aureus</a></li>
+                    <li><a href="/lebensmittel/hygiene/bakterien/vibrionen/index.htm"
+                        title="zur Rubrik Vibrionen">Vibrionen</a></li>
+                    <li><a href="/lebensmittel/hygiene/bakterien/yersinia_enterocolitica/index.htm"
+                        title="zur Rubrik Yersinia enterocolitica">Yersinia enterocolitica</a></li>
+                  </ul>
+                </li>
+                <li><a href="/lebensmittel/hygiene/viren/index.htm"
+                    title="zur Rubrik Lebensmittelerkrankungen durch Viren">Viren</a></li>
+                <li><a href="/lebensmittel/hygiene/pilze/index.htm"
+                    title="zur Rubrik Lebensmittelerkrankungen durch Pilze">Pilze</a></li>
+                <li><a href="/lebensmittel/hygiene/parasiten/index.htm"
+                    title="zur Rubrik Lebensmittelerkrankungen durch Parasiten">Parasiten</a></li>
+                <li><a href="/lebensmittel/hygiene/prionen/index.htm"
+                    title="zur Rubrik Lebensmittelerkrankungen durch Prionen">Prionen</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/lebensmittel/kennzeichnung/index.htm"
+                title="zur Rubrik Kennzeichnung">Kennzeichnung</a>
+              <ul>
+                <li><a href="/lebensmittel/kennzeichnung/index.htm" title="zur Rubrik Kennzeichnung">Übersicht</a></li>
+                <li><a href="/lebensmittel/kennzeichnung/taeuschungsschutz/index.htm"
+                    title="zur Rubrik Täuschungsschutz">Täuschungsschutz</a>
+                  <ul>
+                    <li><a href="/lebensmittel/kennzeichnung/taeuschungsschutz/index.htm"
+                        title="zur Rubrik Täuschungsschutz">Übersicht</a></li>
+                    <li><a href="/lebensmittel/kennzeichnung/taeuschungsschutz/kennzeichnungsmaengel/index.htm"
+                        title="zur Rubrik Kennzeichnungsmängel">Kennzeichnungsmängel</a></li>
+                    <li><a href="/lebensmittel/kennzeichnung/taeuschungsschutz/imitate/index.htm"
+                        title="zur Rubrik Imitate">Imitate</a></li>
+                  </ul>
+                </li>
+                <li><a href="/lebensmittel/kennzeichnung/echtheit_herkunft/index.htm"
+                    title="zur Rubrik Echtheit/Herkunft">Echtheit/Herkunft</a>
+                  <ul>
+                    <li><a href="/lebensmittel/kennzeichnung/echtheit_herkunft/index.htm"
+                        title="zur Rubrik Echtheit/Herkunft">Übersicht</a></li>
+                    <li><a href="/lebensmittel/kennzeichnung/echtheit_herkunft/getraenke/index.htm"
+                        title="zur Rubrik Getränke">Getränke</a></li>
+                    <li><a href="/lebensmittel/kennzeichnung/echtheit_herkunft/pflanzliche_lebensmittel/index.htm"
+                        title="zur Rubrik Pflanzliche Lebensmittel">Pflanzliche Lebensmittel</a></li>
+                    <li><a href="/lebensmittel/kennzeichnung/echtheit_herkunft/tierische_lebensmittel/index.htm"
+                        title="zur Rubrik Pflanzliche Lebensmittel">Lebensmittel tierischer Herkunft</a></li>
+                    <li><a href="/lebensmittel/kennzeichnung/echtheit_herkunft/gentechnische_lebensmittel/index.htm"
+                        title="zur Rubrik Gentechnisch veränderte Lebens- und Futtermittel">Gentechnisch veränderte
+                        Lebens- und Futtermittel</a></li>
+                  </ul>
+                </li>
+                <li><a href="/lebensmittel/kennzeichnung/allergene/index.htm" title="zur Rubrik Allergene">Allergene</a>
+                  <ul>
+                    <li><a href="/lebensmittel/kennzeichnung/allergene/index.htm"
+                        title="zur Rubrik Allergene">Übersicht</a></li>
+                    <li><a href="/lebensmittel/kennzeichnung/allergene/allergene_lebensmittel/index.htm"
+                        title="zur Rubrik Allergene in Lebensmitteln">in Lebensmitteln</a></li>
+                    <li><a href="/lebensmittel/kennzeichnung/allergene/allergene_bedarfsgegenstaende/index.htm"
+                        title="zur Rubrik Allergene in Bedarfsgegenständen">in Bedarfsgegenständen</a></li>
+                    <li><a href="/lebensmittel/kennzeichnung/allergene/allergene_kosmetika/index.htm"
+                        title="zur Rubrik Allergene in Kosmetika">in Kosmetika</a></li>
+                  </ul>
+                </li>
+                <li><a href="/lebensmittel/kennzeichnung/zusatzstoffe/index.htm"
+                    title="zur Rubrik Zusatzstoffe">Zusatzstoffe</a></li>
+                <li><a href="/lebensmittel/kennzeichnung/naehrwertdeklaration/index.htm"
+                    title="zur Rubrik Nährwertkennzeichnungen">Nährwertkennzeichnungen</a></li>
+                <li><a href="/lebensmittel/kennzeichnung/health_claims/index.htm"
+                    title="zur Rubrik Health-Claims">Health-Claims</a></li>
+                <li><a href="/lebensmittel/kennzeichnung/leitfaden/index.htm"
+                    title="zur Rubrik Leitfaden zur Lebensmittel-Kennzeichnung">Leitfaden zur
+                    Lebensmittel-Kennzeichnung</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/lebensmittel/technologien/index.htm"
+                title="zur Rubrik Technologien">Technologien</a>
+              <ul>
+                <li><a href="/lebensmittel/technologien/index.htm" title="zur Rubrik Technologien">Übersicht</a></li>
+                <li><a href="/lebensmittel/technologien/gentechnik/index.htm"
+                    title="zur Rubrik Gentechnik">Gentechnik</a></li>
+                <li><a href="/lebensmittel/technologien/bestrahlung/index.htm"
+                    title="zur Rubrik Bestrahlung von Lebensmitteln">Bestrahlung von Lebensmitteln</a></li>
+                <li><a href="/lebensmittel/technologien/nanotechnologie/index.htm"
+                    title="zur Rubrik Nanotechnologie">Nanotechnologie</a></li>
+                <li><a href="/lebensmittel/technologien/funktionelle_lebensmittel/index.htm"
+                    title="zur Rubrik Funktionelle Lebensmittel/ Novel Food">Funktionelle Lebensmittel/ Novel Food</a>
+                </li>
+                <li><a href="/lebensmittel/technologien/hochdruckbehandlung/index.htm"
+                    title="zur Rubrik Hochdruckbehandlung">Hochdruckbehandlung</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/lebensmittel/ueberwachung/index.htm"
+                title="zur Rubrik Überwachung">Überwachung</a>
+              <ul>
+                <li><a href="/lebensmittel/ueberwachung/index.htm" title="zur Rubrik Überwachung">Übersicht</a></li>
+                <li><a href="/lebensmittel/ueberwachung/betriebskontrollen/index.htm"
+                    title="zur Rubrik &quot;Betriebskontrollen der SE (bis Ende 2017)&quot;">Betriebskontrollen der
+                    <abbr title="Spzialeinheit">SE</abbr> (bis Ende 2017)</a>
+                  <ul>
+                    <li><a href="/lebensmittel/ueberwachung/betriebskontrollen/index.htm"
+                        title="zur Rubrik &quot;Betriebskontrollen der SE (bis Ende 2017)&quot;">Übersicht</a></li>
+                    <li><a href="/lebensmittel/ueberwachung/betriebskontrollen/uebersicht/index.htm"
+                        title="zur Rubrik &quot;Übersicht&quot;">Übersicht</a></li>
+                    <li><a href="/lebensmittel/ueberwachung/betriebskontrollen/jahresuebersicht/index.htm"
+                        title="zur Rubrik &quot;Betriebskontrollen Jahresübersicht&quot;">Betriebskontrollen
+                        Jahresübersicht</a></li>
+                    <li><a href="/lebensmittel/ueberwachung/betriebskontrollen/branchenuebersicht/index.htm"
+                        title="zur Rubrik &quot;Betriebskontrollen Branchenübersicht&quot;">Betriebskontrollen
+                        Branchenübersicht</a></li>
+                  </ul>
+                </li>
+                <li><a href="/lebensmittel/ueberwachung/schnellwarnsystem/index.htm"
+                    title="zur Rubrik &quot;Kontaktstelle der EU-Schnellwarnsysteme&quot;">Kontaktstelle der <abbr
+                      title="Europäische Union">EU</abbr>-Schnellwarnsysteme</a></li>
+                <li><a href="/lebensmittel/ueberwachung/lebensmittelwarnungen/index.htm"
+                    title="zur Rubrik &quot;Lebensmittelwarnungen&quot;">Lebensmittelwarnungen</a></li>
+                <li><a href="/lebensmittel/ueberwachung/informationen_40_1a/index.htm"
+                    title="zur Rubrik &quot;Lebensmittelwarnungen und Informationen nach § 40 1a&quot;">Informationen
+                    nach § 40 Abs. 1a</a></li>
+                <li><a href="/lebensmittel/ueberwachung/hotline_vertrauliche_hinweise/index.htm"
+                    title="zur Rubrik &quot;Hotline Vertrauliche Hinweise und Vertrauensperson&quot;">Hotline
+                    Vertrauliche Hinweise und Vertrauensperson</a></li>
+                <li><a href="/lebensmittel/ueberwachung/tizian/index.htm"
+                    title="zur Rubrik &quot;TIZIAN&quot;">TIZIAN</a></li>
+                <li><a href="/lebensmittel/ueberwachung/entwicklung_fruehwarnsystem/index.htm"
+                    title="zur Rubrik &quot;Entwicklung eines Frühwarnsystems&quot;">Entwicklung eines
+                    Frühwarnsystems</a></li>
+                <li><a href="/lebensmittel/ueberwachung/internethandel/index.htm"
+                    title="zur Rubrik &quot;Überwachung Internethandel&quot;">Überwachung Internethandel</a></li>
+                <li><a href="/lebensmittel/ueberwachung/bela/index.htm" title="zur Rubrik &quot;BELA&quot;">BELA</a>
+                </li>
+                <li><a href="/lebensmittel/ueberwachung/rechtsgrundlagen/index.htm"
+                    title="zur Rubrik &quot;Rechtsgrundlagen&quot;">Rechtsgrundlagen </a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- 1. Ebene Produkte-->
+        <li class="nav-item dropdown menu-large" id="nav_produkte"><a class="nav-link" data-toggle="dropdown"
+            href="/produkte/index.htm" title="zur Rubrik Produkte">Produkte</a>
+          <!-- 2. Ebene -->
+          <ul class="dropdown-menu megamenu">
+            <li class="sub"><a href="/produkte/index.htm" title="zur Rubrik Produkte">Produkte Übersicht</a>
+              <ul>
+                <li><a href="/produkte/index.htm" title="zur Rubrik Produkte">zur Übersicht</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/produkte/bedarfsgegenstaende/index.htm"
+                title="zur Rubrik Bedarfsgegenstände">Bedarfsgegenstände</a>
+              <ul>
+                <li><a href="/produkte/bedarfsgegenstaende/index.htm"
+                    title="zur Rubrik Bedarfsgegenstände">Übersicht</a></li>
+                <li><a href="/produkte/bedarfsgegenstaende/bg_lebensmittelkontakt/index.htm"
+                    title="zur Rubrik Bedarfsgegenstände mit Lebensmittelkontakt">Bedarfsgegenstände mit
+                    Lebensmittelkontakt</a></li>
+                <li><a href="/produkte/bedarfsgegenstaende/bg_koerperkontakt/index.htm"
+                    title="zur Rubrik Bedarfsgegenstände mit Körperkontakt">Bedarfsgegenstände mit Körperkontakt</a>
+                </li>
+                <li><a href="/produkte/bedarfsgegenstaende/reinigungsmittel/index.htm"
+                    title="zur Rubrik Reinigungs- und Pflegemittel">Reinigungs- und Pflegemittel</a></li>
+                <li><a href="/produkte/bedarfsgegenstaende/raumluftverbesserer/index.htm"
+                    title="zur Rubrik Raumluftverbesserer">Raumluftverbesserer</a></li>
+                <li><a href="/produkte/bedarfsgegenstaende/rechtsgrundlagen/index.htm"
+                    title="zur Rubrik Rechtsgrundlagen">Rechtsgrundlagen</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/produkte/kosmetika/index.htm" title="zur Rubrik Kosmetika">Kosmetika</a>
+              <ul>
+                <li><a href="/produkte/kosmetika/index.htm" title="zur Rubrik Kosmetika">Übersicht</a></li>
+                <li><a href="/produkte/kosmetika/kosmetische_mittel/index.htm"
+                    title="zur Rubrik Kosmetische Mittel">Kosmetische Mittel</a></li>
+                <li><a href="/produkte/kosmetika/taetowiermittel/index.htm"
+                    title="zur Rubrik Tätowiermittel">Tätowiermittel</a></li>
+                <li><a href="/produkte/kosmetika/informationen/index.htm"
+                    title="zur Rubrik Informationen für Hersteller und Importeure">Informationen für Hersteller und
+                    Importeure</a></li>
+                <li><a href="/produkte/kosmetika/rechtsgrundlagen/index.htm"
+                    title="zur Rubrik Rechtsgrundlagen">Rechtsgrundlagen</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/produkte/chemikalien/index.htm" title="zur Rubrik Chemikalien">Chemikalien</a>
+              <ul>
+                <li><a href="/produkte/chemikalien/index.htm" title="zur Rubrik Chemikalien">Übersicht</a></li>
+                <li><a href="/produkte/chemikalien/reach/index.htm" title="zur Rubrik REACH">REACH</a></li>
+                <li><a href="/produkte/chemikalien/ueberpruefungen/index.htm"
+                    title="zur Rubrik Überprüfungen">Überprüfungen</a></li>
+                <li><a href="/produkte/chemikalien/kennzeichnung/index.htm"
+                    title="zur Rubrik Kennzeichnung">Kennzeichnung</a></li>
+                <li><a href="/produkte/chemikalien/sachkunde/index.htm" title="zur Rubrik Überprüfungen">Sachkunde</a>
+                </li>
+                <li><a href="/produkte/chemikalien/biozide/index.htm" title="zur Rubrik Kennzeichnung">Biozide</a></li>
+                <li><a href="/produkte/chemikalien/rechtsgrundlagen/index.htm"
+                    title="zur Rubrik Rechtsgrundlagen">Rechtsgrundlagen</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/produkte/spielzeug/index.htm" title="zur Rubrik Spielzeug">Spielzeug</a>
+              <ul>
+                <li><a href="/produkte/spielzeug/index.htm" title="zur Rubrik Spielzeug">Übersicht</a></li>
+                <li><a href="/produkte/spielzeug/ueberpruefungen/index.htm"
+                    title="zur Rubrik Überprüfungen">Überprüfungen/ Untersuchungen</a></li>
+                <li><a href="/produkte/spielzeug/rechtsgrundlagen/index.htm"
+                    title="zur Rubrik Rechtsgrundlagen">Rechtsgrundlagen</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/produkte/az/index.htm" title="zur Rubrik Produkte A-Z">Produkte A-Z</a>
+              <ul>
+                <li><a href="/produkte/az/index.htm" title="zur Rubrik Produkte A-Z">Übersicht</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/produkte/technische_geraete/index.htm"
+                title="zur Rubrik Technische Geräte">Technische Geräte</a>
+              <ul>
+                <li><a href="/produkte/technische_geraete/index.htm" title="zur Rubrik Technische Geräte">Übersicht</a>
+                </li>
+                <li><a href="/produkte/technische_geraete/hinweise/index.htm" title="zur Rubrik Hinweise">Hinweise</a>
+                </li>
+                <li><a href="/produkte/technische_geraete/ueberpruefungen/index.htm"
+                    title="zur Rubrik Überprüfungen">Überprüfungen</a></li>
+                <li><a href="/produkte/technische_geraete/rechtsgrundlagen/index.htm"
+                    title="zur Rubrik Rechtsgrundlagen">Rechtsgrundlagen</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/produkte/medizinprodukte/index.htm"
+                title="zur Rubrik Medizinprodukte">Medizinprodukte</a>
+              <ul>
+                <li><a href="/produkte/medizinprodukte/index.htm" title="zur Rubrik Medizinprodukte">Übersicht</a></li>
+                <li><a href="/produkte/medizinprodukte/aktive_medizinprodukte/index.htm"
+                    title="zur Rubrik Aktive Medizinprodukte">Aktive Medizinprodukte</a></li>
+                <li><a href="/produkte/medizinprodukte/nichtaktive_medizinprodukte/index.htm"
+                    title="zur Rubrik Nichtaktive Medizinprodukte">Nichtaktive Medizinprodukte</a></li>
+                <li><a href="/produkte/medizinprodukte/rechtsgrundlagen/index.htm"
+                    title="zur Rubrik Rechtsgrundlagen">Rechtsgrundlagen</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/produkte/tabak/index.htm" title="zur Rubrik Tabak">Tabak</a>
+              <ul>
+                <li><a href="/produkte/tabak/index.htm" title="zur Rubrik Tabak">Übersicht</a></li>
+                <li><a href="/produkte/tabak/tabakerzeugnisse/index.htm"
+                    title="zur Rubrik Tabakerzeugnisse">Tabakerzeugnisse</a></li>
+                <li><a href="/produkte/tabak/e_zigarette/index.htm" title="zur Rubrik E-Zigarette"><abbr
+                      title="elektrische">E</abbr>-Zigarette</a></li>
+                <li><a href="/produkte/tabak/zusatzstoffe/index.htm"
+                    title="zur Rubrik Inhaltsstoffe und Zusatzstoffe">Inhalts- und Zusatzstoffe</a></li>
+                <li><a href="/produkte/tabak/rechtsgrundlagen/index.htm"
+                    title="zur Rubrik Rechtsgrundlagen">Rechtsgrundlagen</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/produkte/ueberwachung/index.htm" title="zur Rubrik Überwachung">Überwachung</a>
+              <ul>
+                <li><a href="/produkte/ueberwachung/index.htm" title="zur Rubrik Überwachung">Übersicht</a></li>
+                <li><a href="/produkte/ueberwachung/rechtsgrundlagen/index.htm"
+                    title="zur Rubrik Rechtsgrundlagen">Rechtsgrundlagen</a></li>
+                <li><a href="/produkte/ueberwachung/aufgaben/index.htm" title="zur Rubrik Aufgaben des LGL">Aufgaben des
+                    LGL</a></li>
+                <li><a href="/produkte/ueberwachung/gewerbeaufsicht/index.htm"
+                    title="zur Rubrik Gewerbeaufsichtsämter">Gewerbeaufsichtsämter</a></li>
+                <li><a href="/produkte/ueberwachung/rapex/index.htm"
+                    title="zur Rubrik EU-Schnellwarnungen">EU-Schnellwarnungen</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/produkte/tnp/index.htm" title="zur Rubrik Tierische Nebenprodukte">Tierische
+                Nebenprodukte</a>
+              <ul>
+                <li><a href="/produkte/tnp/index.htm" title="zur Rubrik Tierische Nebenprodukte">Übersicht</a></li>
+                <li><a href="/produkte/tnp/kategorien/index.htm" title="zur Rubrik Kategorien">Kategorien</a></li>
+                <li><a href="/produkte/tnp/rechtsgrundlagen/index.htm"
+                    title="zur Rubrik Rechtsgrundlagen">Rechtsgrundlagen</a></li>
+                <li><a href="/produkte/tnp/aufgaben/index.htm" title="zur Rubrik Aufgaben des LGL">Aufgaben des LGL</a>
+                </li>
+                <li><a href="/produkte/tnp/grenzbereich/index.htm" title="zur Rubrik Gewerbeaufsichtsämter">Grenzbereich
+                    Lebensmittel &#8211; tierische Nebenprodukte</a></li>
+                <li><a href="/produkte/tnp/betriebszahlen/index.htm" title="zur Rubrik Regierungen">Betriebszahlen</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- 1. Ebene Gesundheit -->
+        <li class="nav-item dropdown menu-large" id="nav_gesundheit"><a class="nav-link" data-toggle="dropdown"
+            href="/gesundheit/index.htm" title="zur Rubrik Gesundheit">Gesundheit</a>
+          <ul class="dropdown-menu megamenu">
+            <li class="sub"><a href="/gesundheit/index.htm" title="zur Rubrik Gesundheit">Gesundheit Übersicht</a>
+              <ul>
+                <li><a href="/gesundheit/index.htm" title="zur Rubrik Gesundheit">Übersicht</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/gesundheit/hygiene/index.htm" title="zur Rubrik Hygiene">Hygiene</a>
+              <ul>
+                <li><a href="/gesundheit/hygiene/index.htm" title="zur Rubrik Hygiene">Übersicht</a></li>
+                <li><a href="/gesundheit/hygiene/wasserhygiene/index.htm"
+                    title="zur Rubrik Wasserhygiene">Wasserhygiene</a></li>
+                <li><a href="/gesundheit/hygiene/hygiene_medizinische_einrichtungen/index.htm"
+                    title="zur Rubrik Hygiene in medizinischen Einrichtungen">Hygiene in medizinischen Einrichtungen
+                  </a></li>
+                <li><a href="/gesundheit/hygiene/einrichtungen_ambulant_operieren/index.htm"
+                    title="zur Rubrik Hygiene in Einrichtungen für ambulantes Operieren">Hygiene in Einrichtungen für
+                    ambulantes Operieren</a></li>
+                <li class="sub"><a href="/gesundheit/hygiene/gesundheitseinrichtungen_taeglichen_lebens/index.htm"
+                    title="zur Rubrik Hygiene in Gesundheitseinrichtungen und anderen Bereichen des täglichen Lebens">Hygiene
+                    in Gesundheits&shy;einrichtungen und anderen Bereichen des täglichen Lebens</a>
+                  <ul>
+                    <li><a href="/gesundheit/hygiene/gesundheitseinrichtungen_taeglichen_lebens/index.htm"
+                        title="zur Rubrik Hygiene in Gesundheitseinrichtungen und anderen Bereichen des täglichen Lebens">Übersicht</a>
+                    </li>
+                    <li><a
+                        href="/gesundheit/hygiene/gesundheitseinrichtungen_taeglichen_lebens/stationaere_pflege/index.htm"
+                        title="zur Rubrik Stationäre Pflege">Stationäre Pflege</a></li>
+                    <li><a
+                        href="/gesundheit/hygiene/gesundheitseinrichtungen_taeglichen_lebens/ambulante_pflege/index.htm"
+                        title="zur Rubrik Ambulante Pflege">Ambulante Pflege</a></li>
+                    <li><a
+                        href="/gesundheit/hygiene/gesundheitseinrichtungen_taeglichen_lebens/gemeinschaftseinrichtungen/index.htm"
+                        title="zur Rubrik Gemeinschaftseinrichtungen">Gemeinschafts&shy;einrichtungen</a></li>
+                    <li><a
+                        href="/gesundheit/hygiene/gesundheitseinrichtungen_taeglichen_lebens/rettungsdienst/index.htm"
+                        title="zur Rubrik Rettungsdienst">Rettungsdienst</a></li>
+                    <li><a
+                        href="/gesundheit/hygiene/gesundheitseinrichtungen_taeglichen_lebens/tatoo_piercingstudios/index.htm"
+                        title="zur Rubrik Tatoo- und Piercingstudios">Tatoo- und Piercingstudios</a></li>
+                  </ul>
+                </li>
+                <li><a href="/gesundheit/hygiene/sei/index.htm"
+                    title="zur Rubrik Spezialeinheit Infektionshygiene">SEI</a></li>
+                <li><a href="/gesundheit/hygiene/lare/index.htm" title="zur Rubrik LARE">LARE</a>
+                  <ul>
+                    <li><a href="/gesundheit/hygiene/lare/index.htm" title="zur Rubrik LARE">Übersicht</a></li>
+                    <li><a href="/gesundheit/hygiene/lare/mitglieder/index.htm"
+                        title="zur Rubrik LARE-Mitglieder">Mitglieder</a></li>
+                    <li><a href="/gesundheit/hygiene/lare/arbeitsgruppen/index.htm"
+                        title="zur Rubrik LARE-Arbeitsgruppen">Arbeitsgruppen</a></li>
+                    <li><a href="/gesundheit/hygiene/lare/veranstaltungen/index.htm"
+                        title="zur Rubrik Veranstaltungen">Veranstaltungen</a></li>
+                    <li><a href="/gesundheit/hygiene/lare/faq/index.htm" title="zur Rubrik FAQ">FAQ</a></li>
+                    <li><a href="/gesundheit/hygiene/lare/merkblaetter/index.htm"
+                        title="zur Rubrik Merkblätter">Merkblätter</a></li>
+                    <li><a href="/gesundheit/hygiene/lare/stellungnahmen/index.htm"
+                        title="zur Rubrik Stellungnahmen">Stellungnahmen</a></li>
+                    <li><a href="/gesundheit/hygiene/lare/hintergrundinformationen/index.htm"
+                        title="zur Rubrik Hintergrundinformationen">Hintergundinformationen</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/gesundheit/infektionsschutz/index.htm"
+                title="zur Rubrik Infektionsschutz">Infektionsschutz</a>
+              <ul>
+                <li><a href="/gesundheit/infektionsschutz/index.htm" title="zur Rubrik Infektionsschutz">Übersicht</a>
+                </li>
+                <li><a href="/gesundheit/infektionsschutz/infektionskrankheiten_a_z/index.htm"
+                    title="zur Rubrik Infektionskrankheiten A-Z">Infektionskrankheiten A-Z</a></li>
+                <li><a href="/gesundheit/infektionsschutz/infektionswege/index.htm"
+                    title="zur Rubrik Infektionswege">Infektionswege</a></li>
+                <li><a href="/gesundheit/infektionsschutz/infektionsepidemiologie/index.htm"
+                    title="zur Rubrik Infektionsepidemiologie">Infektionsepidemiologie</a>
+                  <ul>
+                    <li><a href="/gesundheit/infektionsschutz/infektionsepidemiologie/index.htm"
+                        title="zur Rubrik Infektionsepidemiologie">Übersicht</a></li>
+                    <li><a href="/gesundheit/infektionsschutz/infektionsepidemiologie/aktuelle_meldezahlen/index.htm"
+                        title="zur Rubrik Aktuelle Meldezahlen">Aktuelle Meldezahlen</a></li>
+                    <li><a href="/gesundheit/infektionsschutz/infektionsepidemiologie/vergangene_meldezahlen/index.htm"
+                        title="zur Rubrik Meldedaten der vergangenen Jahre">Meldedaten der vergangenen Jahre </a></li>
+                  </ul>
+                </li>
+                <li><a href="/gesundheit/infektionsschutz/asylbewerber_gesundheit/index.htm"
+                    title="zur Rubrik Asylbewerber und Gesundheit">Asylbewerber und Gesundheit</a></li>
+                <li><a href="/gesundheit/infektionsschutz/barda/index.htm" title="zur Rubrik BARDa"><abbr
+                      title="Bayerische Antibiotikaresistenz-Datenbank">BARDa</abbr></a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/gesundheit/arzneimittel/index.htm"
+                title="zur Rubrik Arzneimittel">Arzneimittel</a>
+              <ul>
+                <li><a href="/gesundheit/arzneimittel/index.htm" title="zur Rubrik Arzneimittel">Übersicht</a></li>
+                <li><a href="/gesundheit/arzneimittel/allgemeine_informationen/index.htm"
+                    title="zur Rubrik Allgemeine Informationen">Allgemeine Informationen</a>
+                  <ul>
+                    <li><a href="/gesundheit/arzneimittel/allgemeine_informationen/index.htm"
+                        title="zur Rubrik Allgemeine Informationen">Übersicht</a></li>
+                    <li><a
+                        href="/gesundheit/arzneimittel/allgemeine_informationen/definition_rechtsgrundlagen/index.htm"
+                        title="zur Rubrik Definition, Rechtsgrundlagen">Definition, Rechtsgrundlagen</a></li>
+                    <li><a
+                        href="/gesundheit/arzneimittel/allgemeine_informationen/abgrenzung_nahrungsergaenzungsmittel/index.htm"
+                        title="zur Rubrik Abgrenzung von Nahrungsergänzungsmitteln">Abgrenzung von
+                        Nahrungsergänzungs&shy;mitteln</a></li>
+                    <li><a href="/gesundheit/arzneimittel/allgemeine_informationen/faelschungen/index.htm"
+                        title="zur Rubrik Fälschungen">Fälschungen</a></li>
+                    <li><a href="/gesundheit/arzneimittel/allgemeine_informationen/versandhandel/index.htm"
+                        title="zur Rubrik Versandhandel">Versandhandel</a></li>
+                    <li><a href="/gesundheit/arzneimittel/allgemeine_informationen/haltbarkeit/index.htm"
+                        title="zur Rubrik Haltbarkeit">Haltbarkeit</a></li>
+                    <li><a href="/gesundheit/arzneimittel/allgemeine_informationen/entsorgung/index.htm"
+                        title="zur Rubrik Entsorgung">Entsorgung</a></li>
+                  </ul>
+                </li>
+                <li><a href="/gesundheit/arzneimittel/warnungen_verbraucherinformationen/index.htm"
+                    title="zur Rubrik Warnungen und Verbraucherinformationen">Warnungen /
+                    Verbraucher&shy;informationen</a>
+                  <ul>
+                    <li><a href="/gesundheit/arzneimittel/warnungen_verbraucherinformationen/index.htm"
+                        title="zur Rubrik Warnungen und Verbraucherinformationen">Übersicht</a></li>
+                    <li><a href="/gesundheit/arzneimittel/warnungen_verbraucherinformationen/warnungen/index.htm"
+                        title="zur Rubrik Warnungen">Warnungen</a></li>
+                    <li><a
+                        href="/gesundheit/arzneimittel/warnungen_verbraucherinformationen/verbraucherinformationen/index.htm"
+                        title="zur Rubrik Verbraucherinformationen">Verbraucher&shy;informationen</a></li>
+                  </ul>
+                </li>
+                <li><a href="/gesundheit/arzneimittel/fachthemen/index.htm" title="zur Rubrik Fachthemen">Fachthemen</a>
+                  <ul>
+                    <li><a href="/gesundheit/arzneimittel/fachthemen/index.htm"
+                        title="zur Rubrik Fachthemen">Übersicht</a></li>
+                    <li><a href="/gesundheit/arzneimittel/fachthemen/doping/index.htm"
+                        title="zur Rubrik Doping">Doping</a></li>
+                    <li><a href="/gesundheit/arzneimittel/fachthemen/psychoaktive_substanzen/index.htm"
+                        title="zur Rubrik Psychoaktive Substanzen">Psychoaktive Substanzen</a></li>
+                    <li><a href="/gesundheit/arzneimittel/fachthemen/betaeubungsmittelverkehr_verkehr/index.htm"
+                        title="zur Rubrik Betäubungsmittel-Verkehr">Betäubungsmittel-Verkehr</a></li>
+                    <li><a href="/gesundheit/arzneimittel/fachthemen/vckj_sicherheit/index.htm"
+                        title="zur Rubrik vCKJ-Sicherheit">vCKJ-Sicherheit</a></li>
+                    <li><a href="/gesundheit/arzneimittel/fachthemen/arzneimitteltherapiesicherheit/index.htm"
+                        title="zur Rubrik Arzneimitteltherapiesicherheit">Arzneimitteltherapie&shy;sicherheit</a></li>
+                  </ul>
+                </li>
+                <li><a href="/gesundheit/arzneimittel/fachaufgaben_untersuchungen/index.htm"
+                    title="zur Rubrik Fachaufgaben und Untersuchungen">Fachaufgaben / Untersuchungen</a>
+                  <ul>
+                    <li><a href="/gesundheit/arzneimittel/fachaufgaben_untersuchungen/index.htm"
+                        title="zur Rubrik Fachaufgaben und Untersuchungen">Übersicht</a></li>
+                    <li><a href="/gesundheit/arzneimittel/fachaufgaben_untersuchungen/fachaufgaben/index.htm"
+                        title="zur Rubrik Fachaufgaben">Fachaufgaben</a></li>
+                    <li><a href="/gesundheit/arzneimittel/fachaufgaben_untersuchungen/untersuchungen/index.htm"
+                        title="zur Rubrik Untersuchungsergebnisse">Untersuchungsergebnisse</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/gesundheit/praevention/index.htm" title="zur Rubrik Prävention">Prävention</a>
+              <ul>
+                <li><a href="/gesundheit/praevention/index.htm" title="zur Rubrik Prävention">Übersicht</a></li>
+                <li><a href="/gesundheit/praevention/kindergesundheit/index.htm"
+                    title="zur Rubrik Kindergesundheit">Kindergesundheit</a>
+                  <ul>
+                    <li><a href="/gesundheit/praevention/kindergesundheit/index.htm"
+                        title="zur Rubrik Kindergesundheit">Übersicht</a></li>
+                    <li><a href="/gesundheit/praevention/kindergesundheit/neugeborenenscreening/index.htm"
+                        title="zur Rubrik Neugeborenenscreening">Neugeborenenscreening</a></li>
+                    <li><a href="/gesundheit/praevention/kindergesundheit/neugeborenen_hoerscreening/index.htm"
+                        title="zur Rubrik Neugeborenen-Hörscreening">Neugeborenen- Hörscreening</a></li>
+                    <li><a href="/gesundheit/praevention/kindergesundheit/stillen/index.htm"
+                        title="zur Rubrik Stillen">Stillen</a></li>
+                    <li><a href="/gesundheit/praevention/kindergesundheit/sicherer_babyschlaf/index.htm"
+                        title="zur Rubrik Sicherer Babyschlaf">Sicherer Babyschlaf</a></li>
+                    <li><a href="/gesundheit/praevention/kindergesundheit/schuetteltrauma/index.htm"
+                        title="zur Rubrik Schüttelrauma">Schütteltrauma</a></li>
+                    <li><a href="/gesundheit/praevention/kindergesundheit/gesik/index.htm"
+                        title="zur Rubrik Screening im Kindergartenalter (GESIK)">Screening im Kinder&shy;gartenalter
+                        (GESIK)</a></li>
+                    <li><a href="/gesundheit/praevention/kindergesundheit/schuleingangsuntersuchung/index.htm"
+                        title="zur Rubrik Schuleingangsuntersuchung">Schuleingangs- untersuchung</a></li>
+                    <li><a href="/gesundheit/praevention/kindergesundheit/jugendgesundheitsuntersuchung/index.htm"
+                        title="zur Rubrik Jugendgesundheitsuntersuchung">Jugendgesundheits- untersuchung J1</a></li>
+                  </ul>
+                </li>
+                <li><a href="/gesundheit/praevention/impfen/index.htm" title="zur Rubrik Impfen">Impfen</a>
+                  <ul>
+                    <li><a href="/gesundheit/praevention/impfen/index.htm" title="zur Rubrik Impfen">Übersicht</a></li>
+                    <li><a href="/gesundheit/praevention/impfen/schutzimpfungen/index.htm"
+                        title="zur Rubrik Schutzimpfungen">Schutzimpfungen</a></li>
+                    <li><a href="/gesundheit/praevention/impfen/lagi/index.htm"
+                        title="zur Rubrik Landesarbeitsgemeinschaft Impfen">Landesarbeits&shy;gemeinschaft Impfen</a>
+                    </li>
+                    <li><a href="/gesundheit/praevention/impfen/nip_geschaeftsstelle/index.htm"
+                        title="zur Rubrik Geschäftsstelle Nationaler Impfplan">Geschäftsstelle Nationaler Impfplan</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="/gesundheit/praevention/sucht/index.htm" title="zur Rubrik Sucht">Sucht</a></li>
+                <li><a href="/gesundheit/praevention/freizeitlaerm/index.htm">Freizeitlärm</a></li>
+                <li><a href="/gesundheit/praevention/sonne_hitze/index.htm"
+                    title="zur Rubrik Sonne/Hitze">Sonne/Hitze</a></li>
+                <li><a href="/gesundheit/praevention/kurorte_heilbaeder/index.htm"
+                    title="zur Rubrik Kurorte und Heilbäder">Kurorte und Heilbäder</a>
+                  <ul>
+                    <li><a href="/gesundheit/praevention/kurorte_heilbaeder/ikom/index.htm"
+                        title="zur Rubrik IKOM">Institut für Kurortmedizin und Gesundheitsförderung (IKOM)</a></li>
+                    <li><a href="/gesundheit/praevention/kurorte_heilbaeder/foerderprogramm/index.htm"
+                        title="zur Rubrik Förderprogramm"> Förderprogramm</a></li>
+                    <li><a href="/gesundheit/praevention/kurorte_heilbaeder/ku_he_mo_pc/index.htm"
+                        title="zur Rubrik Projektconsulting „Förderprogramm für Kurorte und Heilbäder“ (KuHeMo-PC)">
+                        Projektconsulting „Förderprogramm für Kurorte und Heilbäder“ (KuHeMo-PC)</a></li>
+                    <li> <a href="/gesundheit/praevention/kurorte_heilbaeder/experten_hearings/index.htm"
+                        title="zur Rubrik Expertenhearings/Runtischgespräche">Expertenhearings / Rundtischgespräche</a>
+                    </li>
+                    <li> <a href="/gesundheit/praevention/kurorte_heilbaeder/kurgipfel/index.htm"
+                        title="zur Rubrik Kurgipfel / Infotag Gesundes Bayern">Kurgipfel / Infotag Gesundes Bayern</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/gesundheit/arbeitsplatz_umwelt/index.htm"
+                title="zur Rubrik Arbeitsplatz und Umwelt">Arbeitsplatz &amp; Umwelt</a>
+              <ul>
+                <li><a href="/gesundheit/arbeitsplatz_umwelt/index.htm"
+                    title="zur Rubrik Arbeitsplatz und Umwelt">Übersicht</a></li>
+                <li><a href="/gesundheit/arbeitsplatz_umwelt/arbeitsmedizin/index.htm"
+                    title="zur Rubrik Arbeitsmedizin">Arbeitsmedizin</a></li>
+                <li><a href="/gesundheit/arbeitsplatz_umwelt/biologische_umweltfaktoren/index.htm"
+                    title="zur Rubrik Biologische Umweltfaktioren">Biologische Umweltfaktoren</a>
+                  <ul>
+                    <li><a href="/gesundheit/arbeitsplatz_umwelt/biologische_umweltfaktoren/index.htm"
+                        title="zur Rubrik Biologische Umweltfaktioren">Übersicht</a></li>
+                    <li><a href="/gesundheit/arbeitsplatz_umwelt/biologische_umweltfaktoren/ambrosia/index.htm"
+                        title="zur Rubrik Ambrosia">Ambrosia</a></li>
+                    <li><a
+                        href="/gesundheit/arbeitsplatz_umwelt/biologische_umweltfaktoren/eichenprozessionsspinner/index.htm"
+                        title="zur Rubrik Eichenprozessionspinner">Eichenprozessions-&nbsp; spinner</a></li>
+                    <li><a href="/gesundheit/arbeitsplatz_umwelt/biologische_umweltfaktoren/bioaerosole/index.htm"
+                        title="zur Rubrik Bioaerosole">Bioaerosole</a></li>
+                    <li><a
+                        href="/gesundheit/arbeitsplatz_umwelt/biologische_umweltfaktoren/inhalationsallergie/index.htm"
+                        title="zur Rubrik Inhalationsallergie">Inhalationsallergie</a></li>
+                  </ul>
+                </li>
+                <li><a href="/gesundheit/arbeitsplatz_umwelt/chemische_umweltfaktoren/index.htm"
+                    title="zur Rubrik Chemische Umweltfaktoren">Chemische Umweltfaktoren</a></li>
+                <li><a href="/gesundheit/arbeitsplatz_umwelt/physikalische_umweltfaktoren/index.htm"
+                    title="zur Rubrik Physikalische Umweltfaktoren">Physikalische Umweltfaktoren</a></li>
+                <li><a href="/gesundheit/arbeitsplatz_umwelt/umweltepidemiologie/index.htm"
+                    title="zur Rubrik Umweltmedizin/Umweltepidemiologie">Umweltepidemiologie</a></li>
+                <li><a href="/gesundheit/arbeitsplatz_umwelt/expositionsmessungen/index.htm"
+                    title="zur Rubrik Expositionsmessungen">Expositionsmessungen</a>
+                  <ul>
+                    <li><a href="/gesundheit/arbeitsplatz_umwelt/expositionsmessungen/index.htm"
+                        title="zur Rubrik Expositionsmessungen">Übersicht</a></li>
+                    <li><a href="/gesundheit/arbeitsplatz_umwelt/expositionsmessungen/humanbiomonitoring/index.htm"
+                        title="zur Rubrik Humanbiomonitoring">Humanbiomonitoring</a></li>
+                    <li><a href="/gesundheit/arbeitsplatz_umwelt/expositionsmessungen/innenraummessungen/index.htm"
+                        title="zur Rubrik Innenraumluftmessung">Innenraummessungen</a></li>
+                  </ul>
+                </li>
+                <li><a href="/gesundheit/arbeitsplatz_umwelt/klimawandel_gesundheit/index.htm"
+                    title="zur Rubrik Klimawandel und Gesundheit">Klimawandel &amp; Gesundheit</a>
+                	<ul>
+                        <li><a href="/gesundheit/arbeitsplatz_umwelt/klimawandel_gesundheit/index.htm" title="zur Rubrik Klimawandel und Gesundheit">Übersicht</a></li>
+                        <li><a href="/gesundheit/arbeitsplatz_umwelt/klimawandel_gesundheit/hitzeaktionsplaene/index.htm" title="zur Rubrik Hitzeaktionspläne">Hitzeaktionspläne</a></li>
+                        <li><a href="/gesundheit/arbeitsplatz_umwelt/klimawandel_gesundheit/nichtinfektioese_krankheiten/index.htm" title="zur Rubrik Nichtinfektiöse Krankheiten">Nichtinfektiöse Krankheiten</a></li>
+                        <li><a href="/gesundheit/arbeitsplatz_umwelt/klimawandel_gesundheit/infektionskrankheiten/index.htm" title="zur Rubrik Infektionskrankheiten">Infektionskrankheiten</a></li>
+                        <li><a href="/gesundheit/arbeitsplatz_umwelt/klimawandel_gesundheit/allergene_toxine/index.htm" title="zur Rubrik Allergene und Toxine">Allergene und Toxine</a></li>
+                        <li><a href="/gesundheit/arbeitsplatz_umwelt/klimawandel_gesundheit/lagik/index.htm" title="zur Rubrik LAGiK">LAGiK</a></li>
+                      </ul>    
+                </li>
+                <li><a href="/gesundheit/arbeitsplatz_umwelt/projekte_a_z/index.htm"
+                    title="zur Rubrik Projekte A-Z">Projekte A-Z</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/gesundheit/sozialmedizin/index.htm"
+                title="zur Rubrik Sozialmedizin">Sozialmedizin</a>
+              <ul>
+                <li><a href="/gesundheit/sozialmedizin/index.htm" title="zur Rubrik Sozialmedizin">Übersicht</a></li>
+                <li><a href="/gesundheit/sozialmedizin/epidemiologie/index.htm"
+                    title="zur Rubrik Epidemiololgie">Epidemiologie</a></li>
+                <li><a href="/gesundheit/sozialmedizin/oegd_handbuch/index.htm"
+                    title="zur Rubrik ÖGD-Handbuch">ÖGD-Handbuch</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/gesundheit/krebsregister/index.htm"
+                title="zur Rubrik Krebsregister">Krebsregister</a>
+              <ul>
+                <li><a href="/gesundheit/krebsregister/index.htm" title="zur Rubrik Krebsregister">Übersicht</a></li>
+                <li><a href="/gesundheit/krebsregister/ueber_das_krebsregister/index.htm"
+                    title="zur Rubrik Über uns">Über uns</a>
+                  <ul>
+                    <li><a href="/gesundheit/krebsregister/ueber_das_krebsregister/kontakte/index.htm"
+                        title="zur Rubrik Kontakt">Kontakt</a></li>
+                    <li><a href="/gesundheit/krebsregister/ueber_das_krebsregister/gesetzliche_grundlagen/index.htm"
+                        title="zur Rubrik Gesetzliche Grundlagen">Gesetzliche Grundlagen</a></li>
+                  </ul>
+                </li>
+                <li><a href="/gesundheit/krebsregister/patienten/index.htm"
+                    title="zur Rubrik Patientinnen und Patienten">Patientinnen und Patienten</a>
+                  <ul>
+                    <li><a href="/gesundheit/krebsregister/patienten/faq/index.htm" title="zur Rubrik FAQ"><abbr
+                          title="Häufig gestellte Fragen">FAQ</abbr></a></li>
+                  </ul>
+                </li>
+                <li><a href="/gesundheit/krebsregister/aerzte/index.htm"
+                    title="zur Rubrik Arztinnen und Ärzte">Ärztinnen und Ärzte</a>
+                  <ul>
+                    <li><a href="/gesundheit/krebsregister/aerzte/meldepflicht/index.htm"
+                        title="zur Rubrik Melde- und Informationspflicht">Melde- und Informations&shy;pflicht</a></li>
+                    <li><a href="/gesundheit/krebsregister/aerzte/meldeverguetung/index.htm"
+                        title="zur Rubrik Meldevergütung">Meldevergütung</a></li>
+                    <li><a href="/gesundheit/krebsregister/aerzte/meldeform/index.htm"
+                        title="zur Rubrik Form der Meldungen">Form der Meldungen</a></li>
+                    <li><a href="/gesundheit/krebsregister/aerzte/qualitaetskonferenzen/index.htm"
+                        title="zur Rubrik Qualitätskonferenzen">Qualitätskonferenzen</a></li>
+                    <li><a href="/gesundheit/krebsregister/aerzte/behandlungsbezogener_datenabruf/index.htm"
+                        title="zur Rubrik Behandlungsbezogener Datenabruf">Behandlungsbezogener Datenabruf</a></li>
+                  </ul>
+                </li>
+                <li><a href="/gesundheit/krebsregister/auswertung_forschung/index.htm"
+                    title="zur Rubrik Auswertungen und Forschung">Auswertungen und Forschung</a>
+                  <ul>
+                    <li><a href="/gesundheit/krebsregister/auswertung_forschung/jahresberichte/index.htm"
+                        title="zur Rubrik Jahresberichte">Jahresberichte</a></li>
+                    <li><a href="/gesundheit/krebsregister/auswertung_forschung/datenbank/index.htm"
+                        title="zur Rubrik Datenbank">Datenbank</a></li>
+                    <li><a href="/gesundheit/krebsregister/auswertung_forschung/forschung/index.htm"
+                        title="zur Rubrik Forschung">Forschung</a></li>
+                    <li><a href="/gesundheit/krebsregister/auswertung_forschung/veroeffentlichungen/index.htm"
+                        title="zur Rubrik Veröffentlichungen">Veröffentlichungen</a></li>
+                  </ul>
+                </li>
+                <li><a href="/gesundheit/krebsregister/service/index.htm" title="zur Rubrik Service">Service</a>
+                  <ul>
+                    <li><a href="/gesundheit/krebsregister/service/newsletter/index.htm"
+                        title="zur Rubrik Newsletter"><span lang="en">Newsletter</span></a></li>
+                    <li><a href="/gesundheit/krebsregister/service/downloads/index.htm"
+                        title="zur Rubrik Downloads"><span lang="en">Downloads</span></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/gesundheit/gesundheitsberichterstattung/index.htm"
+                title="zur Rubrik Gesundheitsberichterstattung">Gesundheitsberichterstattung</a>
+              <ul>
+                <li><a href="/gesundheit/gesundheitsberichterstattung/index.htm"
+                    title="zur Rubrik Gesundheitsberichterstattung">Übersicht</a></li>
+                <li><a href="/gesundheit/gesundheitsberichterstattung/themen/index.htm"
+                    title="zur Rubrik Themen">Themen</a></li>
+                <li><a href="/gesundheit/gesundheitsberichterstattung/gesundheitsindikatoren/index.htm"
+                    title="zur Rubrik Gesundheitsindikatoren">Gesundheitsindikatoren</a></li>
+                <li><a href="/gesundheit/gesundheitsberichterstattung/gesundheitsatlas/index.htm"
+                    title="zur Rubrik Gesundheitsatlas">Gesundheitsatlas</a></li>
+                <li><a href="/gesundheit/gesundheitsberichterstattung/methoden_handlungshilfen/index.htm"
+                    title="zur Rubrik Methoden und Handlungshilfen">Methoden und Handlungshilfen</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/gesundheit/gesundheitsversorgung/index.htm"
+                title="zur Rubrik Gesundheitsversorgung">Gesundheitsversorgung</a>
+              <ul>
+                <li><a href="/gesundheit/gesundheitsversorgung/index.htm"
+                    title="zur Rubrik Gesundheitsversorgung">Übersicht</a></li>
+                <li><a href="/gesundheit/gesundheitsversorgung/gesundheitsregionenplus/index.htm"
+                    title="zur Rubrik Gesundheitsregionenplus">Gesundheitsregionen<sup>plus</sup></a>
+                  <ul>
+                    <li><a href="/gesundheit/gesundheitsversorgung/gesundheitsregionenplus/index.htm"
+                        title="zur Rubrik Gesundheitsregionenplus">Übersicht</a></li>
+                    <li><a
+                        href="/gesundheit/gesundheitsversorgung/gesundheitsregionenplus/gefoerderte_regionen/index.htm"
+                        title="zur Rubrik geförderte Regionen">Geförderte Regionen</a></li>
+                    <li><a href="/gesundheit/gesundheitsversorgung/gesundheitsregionenplus/leitfaden/index.htm"
+                        title="zur Rubrik Leitfaden">Leitfaden</a></li>
+                    <li><a href="/gesundheit/gesundheitsversorgung/gesundheitsregionenplus/projektdatenbank/index.htm"
+                        title="zur Rubrik Projektdatenbank">Projektdatenbank</a></li>
+                  </ul>
+                </li>
+                <li><a href="/gesundheit/gesundheitsversorgung/aerztliche_versorgung/index.htm"
+                    title="zur Rubrik Ärztliche Versorgung">Ärztliche Versorgung</a> </li>
+                <li><a href="/gesundheit/gesundheitsversorgung/bayerische_gesundheitsagentur/index.htm"
+                    title="zur Rubrik Bayerische Gesundheitsagentur">Bayerische Gesundheitsagentur</a>
+                  <ul>
+                    <li><a
+                        href="/gesundheit/gesundheitsversorgung/bayerische_gesundheitsagentur/foerderung_medizinstudierende/index.htm"
+                        title="zur Rubrik Förderung von Medizinstudierenden">Förderung von Medizinstudierenden</a></li>
+                    <li><a
+                        href="/gesundheit/gesundheitsversorgung/bayerische_gesundheitsagentur/niederlassungsfoerderung/index.htm"
+                        title="zur Rubrik Förderung der Niederlassung von Ärztinnen und Ärzten">Förderung der
+                        Niederlassung von Ärztinnen und Ärzten</a></li>
+                  </ul>
+                </li>
+                <li><a href="/gesundheit/gesundheitsversorgung/imv/index.htm"
+                    title="zur Rubrik Förderstelle Innovative medizinische Versorgungskonzepte (IMV)">Förderstelle
+                    IMV</a></li>
+                <li><a href="/gesundheit/gesundheitsversorgung/gesundheitsversorgungsforschung/index.htm"
+                    title="zur Rubrik Gesundheitsversorgungsforschung">Gesundheitsversorgungsforschung</a>
+                  <ul>
+                    <li><a href="/gesundheit/gesundheitsversorgung/gesundheitsversorgungsforschung/index.htm"
+                        title="zur Rubrik Gesundheitsversorgungsforschung">Übersicht</a></li>
+                    <li><a
+                        href="/gesundheit/gesundheitsversorgung/gesundheitsversorgungsforschung/lagev_ziele/index.htm"
+                        title="zur Rubrik Ziele und Aufgaben">Ziele/Aufgaben der LAGeV</a></li>
+                    <li><a
+                        href="/gesundheit/gesundheitsversorgung/gesundheitsversorgungsforschung/lagev_mitglieder/index.htm"
+                        title="zur Rubrik Mitglieder">Mitglieder der LAGeV</a></li>
+                    <li><a
+                        href="/gesundheit/gesundheitsversorgung/gesundheitsversorgungsforschung/lagev_kontakt/index.htm"
+                        title="zur Rubrik Stellungnahmen">Kontakt LAGeV Geschäftsstelle</a></li>
+                    <li><a
+                        href="/gesundheit/gesundheitsversorgung/gesundheitsversorgungsforschung/informationsplattform_versorgungsforschung/index.htm"
+                        title="zur Rubrik Informationsplattform Versorgungsforschung">Informationsplattform
+                        Versorgungsforschung</a></li>
+                    <li><a
+                        href="/gesundheit/gesundheitsversorgung/gesundheitsversorgungsforschung/schriftenreihe_versorgungsforschung/index.htm"
+                        title="zur Rubrik Schriftenreihe Versorgungsforschung">Schriftenreihe Versorgungsforschung</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="/gesundheit/gesundheitsversorgung/e_health/index.htm" title="zur Rubrik E-Health"><span
+                      lang="en">E-Health</span></a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- 1. Ebene Tiergesundheit -->
+        <li class="nav-item dropdown menu-large" id="nav_tiergesundheit"><a class="nav-link" data-toggle="dropdown"
+            href="/tiergesundheit/index.htm" title="zur Rubrik Tiergesundheit">Tiergesundheit</a>
+          <ul class="dropdown-menu megamenu">
+            <li class="sub"><a href="/tiergesundheit/index.htm" title="zur Rubrik Tiergesundheit">Tiergesundheit</a>
+              <ul>
+                <li><a href="/tiergesundheit/index.htm" title="zur Rubrik Tiergesundheit">zur Übersicht</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/tiergesundheit/tierkrankheiten/index.htm"
+                title="zur Rubrik Tierkrankheiten">Tierkrankheiten</a>
+              <ul>
+                <li><a href="/tiergesundheit/tierkrankheiten/index.htm" title="zur Rubrik Tierkrankheiten">Übersicht</a>
+                </li>
+                <li><a href="/tiergesundheit/tierkrankheiten/tierseuchenbekaempfung/index.htm"
+                    title="zur Rubrik Tierseuchenbekämpfung">Tierseuchenbekämpfung</a></li>
+                <li><a href="/tiergesundheit/tierkrankheiten/virusinfektionen/index.htm"
+                    title="zur Rubrik Virusinfektionen">Virusinfektionen</a></li>
+                <li><a href="/tiergesundheit/tierkrankheiten/bakterielle_pilzinfektionen/index.htm"
+                    title="zur Rubrik Bakterielle- und Pilzinfektionen">Bakterielle- und Pilzinfektionen</a></li>
+                <li><a href="/tiergesundheit/tierkrankheiten/parasitosen/index.htm"
+                    title="zur Rubrik Parasitosen">Parasitosen</a></li>
+                <li><a href="/tiergesundheit/tierkrankheiten/zoonosen/index.htm"
+                    title="zur Rubrik Zoonosen">Zoonosen</a></li>
+                <li><a href="/tiergesundheit/tierkrankheiten/tierkrankheiten_a_z/index.htm"
+                    title="zur Rubrik Tierkrankheiten A-Z">Tierkrankheiten A - Z</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/tiergesundheit/tierschutz/index.htm" title="zur Rubrik Tierschutz">Tierschutz</a>
+              <ul>
+                <li><a href="/tiergesundheit/tierschutz/index.htm" title="zur Rubrik Tierschutz">Übersicht</a></li>
+                <li><a href="/tiergesundheit/tierschutz/index.htm" title="zur Rubrik Tierhaltung Nutztiere">Tierhaltung
+                    Nutztiere</a>
+                  <ul>
+                    <li><a href="/tiergesundheit/tierschutz/tierhaltung_nutztiere/index.htm"
+                        title="zur Rubrik Tierhaltung Nutztiere">Übersicht</a></li>
+                    <li><a href="/tiergesundheit/tierschutz/tierhaltung_nutztiere/gefluegel/index.htm"
+                        title="zur Rubrik Tierhaltung Nutztiere: Geflügel">Geflügel</a></li>
+                    <li><a href="/tiergesundheit/tierschutz/tierhaltung_nutztiere/kaninchen/index.htm"
+                        title="zur Rubrik Tierhaltung Nutztiere: Kaninchen">Kaninchen</a></li>
+                    <li><a href="/tiergesundheit/tierschutz/tierhaltung_nutztiere/enten/index.htm"
+                        title="zur Rubrik Tierhaltung Nutztiere: Enten">Enten</a></li>
+                    <li><a href="/tiergesundheit/tierschutz/tierhaltung_nutztiere/weiderinder/index.htm"
+                        title="zur Rubrik Tierhaltung Nutztiere: Weiderinder">Weiderinder</a></li>
+                    <li><a href="/tiergesundheit/tierschutz/tierhaltung_nutztiere/schweine/index.htm"
+                        title="zur Rubrik Tierhaltung Nutztiere: Schweine">Schweine</a></li>
+                    <li><a href="/tiergesundheit/tierschutz/tierhaltung_nutztiere/fische_garnelen/index.htm"
+                        title="zur Rubrik Tierhaltung Nutztiere: Fische und Garnelen">Fische und Garnelen</a></li>
+                  </ul>
+                </li>
+                <li><a href="/tiergesundheit/tierschutz/tierhaltung_heimtiere/index.htm"
+                    title="zur Rubrik Tierhaltung Heimtiere">Tierhaltung Heimtiere</a>
+                  <ul>
+                    <li><a href="/tiergesundheit/tierschutz/tierhaltung_heimtiere/index.htm"
+                        title="zur Rubrik Tierhaltung Heimtiere">Übersicht</a></li>
+                    <li><a href="/tiergesundheit/tierschutz/tierhaltung_heimtiere/hunde/index.htm"
+                        title="zur Rubrik Tierhaltung Heimtiere: Hunde">Hunde</a></li>
+                    <li><a href="/tiergesundheit/tierschutz/tierhaltung_heimtiere/katzen/index.htm"
+                        title="zur Rubrik Tierhaltung Heimtiere: Katzen">Katzen</a></li>
+                    <li><a href="/tiergesundheit/tierschutz/tierhaltung_heimtiere/reptilien/index.htm"
+                        title="zur Rubrik Tierhaltung Heimtiere: Reptilien">Reptilien</a></li>
+                  </ul>
+                </li>
+                <li><a href="/tiergesundheit/tierschutz/tierhaltung_wildtiere/index.htm"
+                    title="zur Rubrik Tierhaltung Wildtiere">Tierhaltung Wildtiere</a>
+                  <ul>
+                    <li><a href="/tiergesundheit/tierschutz/tierhaltung_wildtiere/index.htm"
+                        title="zur Rubrik Tierhaltung Wildtiere">Übersicht</a></li>
+                    <li><a href="/tiergesundheit/tierschutz/tierhaltung_wildtiere/greifvoegel/index.htm"
+                        title="zur Rubrik Tierhaltung Wildtiere: Greifvoegel">Greifvögel</a></li>
+                    <li><a href="/tiergesundheit/tierschutz/tierhaltung_wildtiere/hummer/index.htm"
+                        title="zur Rubrik Tierhaltung Wildtiere: Hummer">Hummer</a></li>
+                    <li><a href="/tiergesundheit/tierschutz/tierhaltung_wildtiere/zirkustiere/index.htm"
+                        title="zur Rubrik Tierhaltung Wildtiere: Zirkustiere">Zirkustiere</a></li>
+                  </ul>
+                </li>
+                <li><a href="/tiergesundheit/tierschutz/schlachten/index.htm"
+                    title="zur Rubrik Schlachten">Schlachten</a>
+                  <ul>
+                    <li><a href="/tiergesundheit/tierschutz/schlachten/index.htm"
+                        title="zur Rubrik Schlachten">Übersicht</a></li>
+                    <li><a href="/tiergesundheit/tierschutz/schlachten/elektrobetaeubung/index.htm"
+                        title="zur Rubrik Elektrobetäubung">Elektrobetäubung</a></li>
+                    <li><a href="/tiergesundheit/tierschutz/schlachten/bolzenschussbetaeubung/index.htm"
+                        title="zur Rubrik Bolzenschussbetäubung">Bolzenschussbetäubung</a></li>
+                  </ul>
+                </li>
+                <li><a href="/tiergesundheit/tierschutz/toetung/index.htm" title="zur Rubrik Töten von Tieren">Töten von
+                    Tieren</a></li>
+                <li><a href="/tiergesundheit/tierschutz/transport/index.htm" title="zur Rubrik Transport">Transport</a>
+                  <ul>
+                    <li><a href="/tiergesundheit/tierschutz/transport/index.htm"
+                        title="zur Rubrik Transport">Übersicht</a></li>
+                    <li><a href="/tiergesundheit/tierschutz/transport/fische/index.htm"
+                        title="zur Rubrik Fische">Fische</a></li>
+                    <li><a href="/tiergesundheit/tierschutz/transport/gehegewild/index.htm"
+                        title="zur Rubrik Gehegewild">Gehegewild</a></li>
+                  </ul>
+                </li>
+                <li><a href="/tiergesundheit/tierschutz/tierhandel/index.htm"
+                    title="zur Rubrik Tierhandel">Tierhandel</a>
+                  <ul>
+                    <li><a href="/tiergesundheit/tierschutz/tierhandel/index.htm"
+                        title="zur Rubrik Tierhandel">Übersicht</a></li>
+                    <li><a href="/tiergesundheit/tierschutz/tierhandel/zoohandel/index.htm"
+                        title="zur Rubrik Zoohandel">Zoohandel</a></li>
+                    <li><a href="/tiergesundheit/tierschutz/tierhandel/tierboersen/index.htm"
+                        title="zur Rubrik Tierbörsen">Tierbörsen</a></li>
+                    <li><a href="/tiergesundheit/tierschutz/tierhandel/futtertiere/index.htm"
+                        title="zur Rubrik Futtertiere">Futtertiere</a></li>
+                  </ul>
+                </li>
+                <li><a href="/tiergesundheit/tierschutz/tierschutzverstoesse/index.htm"
+                    title="zur Rubrik Tierschutzverstöße">Tierschutzverstöße</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/tiergesundheit/tierarzneimittel/index.htm"
+                title="zur Rubrik Tierarzneimittel">Tierarzneimittel</a>
+              <ul>
+                <li><a href="/tiergesundheit/tierarzneimittel/index.htm"
+                    title="zur Rubrik Tierarzneimittel">Übersicht</a></li>
+                <li><a href="/tiergesundheit/tierarzneimittel/zulassung/index.htm"
+                    title="zur Rubrik Zulassung">Zulassung</a></li>
+                <li><a href="/tiergesundheit/tierarzneimittel/apothekenmonopol/index.htm"
+                    title="zur Rubrik Apothekenmonopol">Apothekenmonopol</a></li>
+                <li><a href="/tiergesundheit/tierarzneimittel/dispensierrecht/index.htm"
+                    title="Tierärztliches Dispensierrecht">Tierärztliches Dispensierrecht</a></li>
+                <li><a href="/tiergesundheit/tierarzneimittel/einzelhandel/index.htm"
+                    title="zur Rubrik Arzneimitteleinzelhandel">Arzneimitteleinzelhandel</a></li>
+                <li><a href="/tiergesundheit/tierarzneimittel/erwerb_tierhalter/index.htm"
+                    title="zur Rubrik Erwerb durch Tierhalter">Erwerb durch Tierhalter</a></li>
+                <li><a href="/tiergesundheit/tierarzneimittel/anwendung_tierhalter/index.htm"
+                    title="zur Rubrik Zulassung">Anwendung durch Tierhalter</a></li>
+                <li><a href="/tiergesundheit/tierarzneimittel/lebensmittelliefernde_tiere/index.htm"
+                    title="zur Rubrik Arzneimittel für Lebensmittel liefernde Tiere">Arzneimittel für Lebensmittel
+                    liefernde Tiere</a></li>
+                <li><a href="/tiergesundheit/tierarzneimittel/tam_futtermittel/index.htm"
+                    title="zur Rubrik Tierarzneimittel und Futtermittel">Tierarzneimittel und Futtermittel</a></li>
+                <li><a href="/tiergesundheit/tierarzneimittel/ueberwachung/index.htm"
+                    title="zur Rubrik Überwachung">Überwachung</a></li>
+                <li><a href="/tiergesundheit/tierarzneimittel/are_vet/index.htm" title="zur Rubrik ARE-Vet">ARE-Vet</a>
+                  <ul>
+                    <li><a href="/tiergesundheit/tierarzneimittel/are_vet/index.htm"
+                        title="zur Rubrik ARE-Vet">Übersicht</a></li>
+                    <li><a href="/tiergesundheit/tierarzneimittel/are_vet/mitglieder/index.htm"
+                        title="zur Rubrik Mitglieder">Mitglieder</a></li>
+                    <li><a href="/tiergesundheit/tierarzneimittel/are_vet/facharbeitsgruppen/index.htm"
+                        title="zur Rubrik Facharbeitsgruppen">Facharbeitsgruppen</a></li>
+                    <li><a href="/tiergesundheit/tierarzneimittel/are_vet/informationen/index.htm"
+                        title="zur Rubrik Informationen">Informationen</a></li>
+                    <li><a href="/tiergesundheit/tierarzneimittel/are_vet/gruendung/index.htm"
+                        title="zur Rubrik Gründung der ARE-Vet">Gründung der ARE-Vet</a></li>
+                    <li><a href="/tiergesundheit/tierarzneimittel/are_vet/therapieleitfaden_antibiotika/index.htm"
+                        title="zur Rubrik Therapieleitfaden Antibiotika">Therapieleitfaden Antibiotika</a></li>
+                    <li><a href="/tiergesundheit/tierarzneimittel/are_vet/geschaeftsstelle/index.htm"
+                        title="zur Rubrik Geschäftsstelle der ARE-Vet">Geschäftsstelle der ARE-Vet</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/tiergesundheit/futtermittel/index.htm"
+                title="zur Rubrik Futtermittel">Futtermittel</a>
+              <ul>
+                <li><a href="/tiergesundheit/futtermittel/index.htm" title="zur Rubrik Futtermittel">Übersicht</a></li>
+                <li><a href="/tiergesundheit/futtermittel/futtermittelkunde/index.htm"
+                    title="zur Rubrik Futtermittelkunde">Futtermittelkunde</a></li>
+                <li><a href="/tiergesundheit/futtermittel/futtermittelsicherheit/index.htm"
+                    title="zur Rubrik Futtermittelsicherheit">Futtermittelsicherheit</a>
+                  <ul>
+                    <li><a href="/tiergesundheit/futtermittel/futtermittelsicherheit/index.htm"
+                        title="zur Rubrik Futtermittelsicherheit">Übersicht</a></li>
+                    <li><a href="/tiergesundheit/futtermittel/futtermittelsicherheit/botanische_reinheit/index.htm"
+                        title="zur Rubrik Botanische Reinheit">Botanische Reinheit</a></li>
+                    <li><a href="/tiergesundheit/futtermittel/futtermittelsicherheit/tierische_bestandteile/index.htm"
+                        title="zur Rubrik Tierische Bestandteile">Tierische Bestandteile</a></li>
+                    <li><a href="/tiergesundheit/futtermittel/futtermittelsicherheit/verbotene_stoffe/index.htm"
+                        title="zur Rubrik Verbotene und unerwünschte Stoffe">Verbotene und unerwünschte Stoffe</a></li>
+                    <li><a
+                        href="/tiergesundheit/futtermittel/futtermittelsicherheit/mikrobiologische_qualitaet/index.htm"
+                        title="zur Rubrik Mikrobiologische Qualität">Mikrobiologische Qualität</a></li>
+                    <li><a href="/tiergesundheit/futtermittel/futtermittelsicherheit/zusatzstoffe/index.htm"
+                        title="zur Rubrik Zusatzstoffe">Zusatzstoffe</a></li>
+                    <li><a href="/tiergesundheit/futtermittel/futtermittelsicherheit/mykotoxine/index.htm"
+                        title="zur Rubrik Mykotoxine">Mykotoxine</a></li>
+                    <li><a href="/tiergesundheit/futtermittel/futtermittelsicherheit/beifuss_ambrosie/index.htm"
+                        title="zur Rubrik Beifuß-Ambrosie">Beifuß-Ambrosie</a></li>
+                    <li><a href="/tiergesundheit/futtermittel/futtermittelsicherheit/perfluorierte_tenside/index.htm"
+                        title="zur Rubrik Perfluorierte Tenside">Perfluorierte Tenside</a></li>
+                  </ul>
+                </li>
+                <li><a href="/tiergesundheit/futtermittel/tierernaehrung_veterinaermedizin/index.htm"
+                    title="zur Rubrik Tierernährung und Veterinärmedizin">Tierernährung und Veterinärmedizin</a></li>
+                <li><a href="/tiergesundheit/futtermittel/gentechnik/index.htm"
+                    title="zur Rubrik Gentechnik">Gentechnik</a></li>
+                <li><a href="/tiergesundheit/futtermittel/ueberwachung/index.htm"
+                    title="zur Rubrik Überwachung">Überwachung</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- 1. Ebene Aus-/Fort-/Weiterbildung -->
+        <li class="nav-item dropdown menu-large" id="nav_aus_fort_weiterbildung"> <a class="nav-link"
+            data-toggle="dropdown" href="/aus_fort_weiterbildung/index.htm"
+            title="zur Rubrik Aus-, Fort- und Weiterbildung">Fort-/Weiterbildung</a>
+          <ul class="dropdown-menu megamenu">
+            <li class="sub"><a href="/aus_fort_weiterbildung/index.htm"
+                title="zur Rubrik Aus-, Fort- und Weiterbildung">Fort-/Weiterbildung</a>
+              <ul>
+                <li><a href="/aus_fort_weiterbildung/index.htm"
+                    title="zur Rubrik Aus-, Fort- und Weiterbildung">Übersicht</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/aus_fort_weiterbildung/weiterbildung/index.htm"
+                title="zur Rubrik Weiterbildung">Weiterbildung</a>
+              <ul>
+                <li><a href="/aus_fort_weiterbildung/weiterbildung/index.htm"
+                    title="zur Rubrik Weiterbildung">Übersicht</a></li>
+                <li><a href="/aus_fort_weiterbildung/weiterbildung/arbeitsmedizin/index.htm"
+                    title="zur Rubrik Arbeitsmedizin/Betriebsmedizin">Arbeitsmedizin/ Betriebsmedizin</a></li>
+                <li><a href="/aus_fort_weiterbildung/weiterbildung/sozialmedizin/index.htm"
+                    title="zur Rubrik Sozialmedizin">Sozialmedizin</a></li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/aus_fort_weiterbildung/lgl_inhouse/index.htm"
+                title="zur Rubrik LGL-Inhouse">LGL-<span lang="en">Inhouse</span></a>
+              <ul>
+                <li><a href="/aus_fort_weiterbildung/lgl_inhouse/index.htm" title="zur Rubrik LGL-Inhouse">Übersicht</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sub"> <a href="/aus_fort_weiterbildung/fortbildung/index.htm"
+                title="zur Rubrik Fortbildung">Fortbildung</a>
+              <ul>
+                <li><a href="/aus_fort_weiterbildung/fortbildung/index.htm" title="zur Rubrik Fortbildung">Übersicht</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sub"><a href="/aus_fort_weiterbildung/veranstaltungen/index.htm"
+                title="zur Rubrik Veranstaltungen">Veranstaltungen</a>
+              <ul>
+                <li><a href="/aus_fort_weiterbildung/veranstaltungen/index.htm"
+                    title="zur Rubrik Veranstaltungen">Übersicht</a></li>
+                <li><a href="/aus_fort_weiterbildung/veranstaltungen/fasi/index.htm" title="zur Rubrik FASI">FASI</a>
+                </li>
+                <li><a href="/aus_fort_weiterbildung/veranstaltungen/erlanger_runde/index.htm"
+                    title="zur Rubrik Erlanger Runde">Erlanger Runde</a></li>
+                <li><a href="/aus_fort_weiterbildung/veranstaltungen/schleissheimer_forum/index.htm"
+                    title="zur Rubrik Schleißheimer Forum">Schleißheimer Forum</a></li>
+                <li><a href="/aus_fort_weiterbildung/veranstaltungen/kongresse_veranstaltungen/index.htm"
+                    title="zur Rubrik Bayerisches Kongresse und Veranstaltungen">Kongresse und Veranstaltungen</a></li>
+                <li><a href="/aus_fort_weiterbildung/veranstaltungen/ausstellungen/index.htm"
+                    title="zur Rubrik Ausstellungen">Ausstellungen</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>    <div id="kopfgrafik"><img src="../../../../../style/layout/kopfgrafiken/head_sars_cov_2.jpg" alt="" /></div>
+    <div id="content">
+      <!-- Janus Header Start -->
+      <div id="surfpfad">
+        <ul>
+          <li> <a href="../../../../../index.htm">Startseite</a> &gt;&gt; </li>
+          <li> <a href="../../../../index.htm">Gesundheit</a> &gt;&gt; </li>
+          <li> <a href="../../../index.htm">Infektionsschutz</a> &gt;&gt; </li>
+          <li> <a href="../../index.htm">Infektionskrankheiten A bis Z</a> &gt;&gt; </li>
+          <li> <a href="../index.htm">Coronavirus</a> &gt;&gt; </li>
+          <li> <a href="index.htm">Fallzahlen</a> </li>
+        </ul>
+        <div id="kopfsymbole">
+          <form id="FormName" action="../../../../../suche/index.htm" method="get" name="FormName">
+            <label for="suche">Volltextsuche</label>
+            <input type="text" name="q" id="suche" placeholder="Suche" size="21" maxlength="128" />
+            <button id="search_submit" title="Suche starten" type="submit"> <i class="fas fa-search"> </i>
+            </button>
+          </form>
+        </div>
+      </div>
+      <!-- Janus Header End -->
+      <div id="content_1c">
+        <script>
+          var publikationsDatum = '';
+        </script>
+        <div class="row">
+          <div class="col col-md-10 offset-md-3">
+            <h1>Coronavirus-Infektionszahlen in Bayern</h1>
+            <div style="border:solid red; padding:10px;">
+                <h1>Wartungsarbeiten</h1>
+                <p>Zurzeit werden Wartungsarbeiten durchgeführt, die Seite mit den SARS-COV-2-Fallzahlen steht in Kürze wieder zur Verfügung.</p>
+                <p>Wir bitten um ein wenig Geduld und bedanken uns für Ihr Verständnis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- id = content -->
+      <!-- Janus Footer Start -->
+      <div id="footer">
+        <div class="kommentar">
+          <div class="row no-gutters">
+            <div class="col-16 col-lg-10 offset-lg-3">
+              <ul class="funktionen">
+                <li> <a href="../../../../../style/script/versenden.php?titel=Coronavirus: Übersichtskarte der Fälle in Bayern&amp;url=www.lgl.bayern.de/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/karte_coronavirus/index.htm">Seite
+                    versenden</a> </li>
+                <li> <a title="Druckversion dieser Seite" onclick="window.print();return false;" href="#">Seite
+                    drucken</a> </li>
+              </ul>
+              <div class="autoren">
+                <p>Dokument aktualisiert am:
+                                  </p>
+                <dl>
+                  <dt>Autor:</dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fuss">
+          <div class="fuss-logo">
+            <div class="row no-gutters">
+              <div class="col-16 col-lg-10 offset-lg-3">
+                <div class="footer_nav">
+                  <ul>
+                    <li> <a href="../../../../../arbeitsschutz/index.htm" title="zur Rubrik Arbeitsschutz">Arbeitsschutz</a> </li>
+                    <li> <a href="../../../../../lebensmittel/index.htm" title="zur Rubrik Lebensmittel">Lebensmittel</a> </li>
+                    <li> <a href="../../../../../produkte/index.htm" title="zur Rubrik Produkte">Produkte</a> </li>
+                    <li> <a href="../../../../../gesundheit/index.htm" title="zur Rubrik Gesundheit">Gesundheit</a>
+                    </li>
+                    <li> <a href="../../../../../tiergesundheit/index.htm" title="zur Rubrik Tiergesundheit">Tiergesundheit</a> </li>
+                  </ul>
+                  <ul>
+                    <li> <a href="../../../../../aus_fort_weiterbildung/index.htm" title="zur Rubrik Fort- und  Weiterbildung">Fort-/Weiterbildung</a>
+                    </li>
+                    <li> <a href="../../../../../forschung/index.htm" title="zur Rubrik Forschung">Forschung</a>
+                    </li>
+                    <li> <a href="../../../../../das_lgl/index.htm" title="zur Rubrik Das LGL">Das
+                        LGL</a> </li>
+                    <li> <a href="../../../../../presse/index.htm" title="zur Rubrik Presse">Presse</a> </li>
+                    <li> <a href="../../../../../karriere/index.htm" title="zur Rubrik Karriere">Karriere</a> </li>
+                  </ul>
+                  <ul>
+                    <li> <a href="../../../../../kontakt/index.htm" title="zur Rubrik Kontakt">Kontakt</a> </li>
+                    <li> <a href="../../../../../sitemap/index.htm" title="zur Rubrik Sitemap">Sitemap</a> </li>
+                    <li> <a href="../../../../../az/index.htm" title="zur Rubrik A-Z">A-Z</a> </li>
+                    <li> <a href="../../../../../impressum/index.htm" title="zur Rubrik Impressum">Impressum</a>
+                    </li>
+                    <li> <a href="../../../../../datenschutz/index.htm" title="zur Rubrik Datenschutz">Datenschutz</a>
+                    </li>
+                  </ul>
+                </div>
+                <div id="seitenabschluss"> <span id="seitenabschlusstxt">© Bayerisches Landesamt für
+                    Gesundheit und Lebensmittelsicherheit 2020</span> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Janus Footer End -->
+    </div>
+  
+</body>
+
+</table>
+
+</html>
