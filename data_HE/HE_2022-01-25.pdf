@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <title>Sorry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="refresh" content="60; url=https://www.hessen.de">
+    <meta charset="utf-8" />
+    <style type="text/css" data-include>
+        :root {
+            --hw-dark: #00225f;
+        --hw-standard:  #003087;
+        --hw-kick: #3bf2db;
+        }
+    </style>
+    <link rel="stylesheet" media="all" href="assets/css/hw_main.style.css" />
+</head>
+<body>
+<div class="container-fluid">
+    <div class="pr-25 pt-20">
+        <a class="navbar-brand align-items-center d-inline-flex py-1" href="/"><img src="assets/logos/logo.svg">
+            <div class="align-self-center col">hessen.de</div>
+        </a>
+    </div>
+</div>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-auto">
+            <img src="assets/logos/under_construction_b.gif">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+            <article class="hw-dossier--full">
+                <div class="paragraph--view-mode--dossier-aufmacher">
+                    <p style="text-transform: uppercase;" class="topline-title topline-title topline mb-0">Wartung</p>
+                    <h1 style="text-transform: uppercase;" class="topline-title topline-title headline m-0">Wir sind bald für Sie da!</h1>
+                    <div class="teasertext">
+                        <p>Aufgrund von Wartungsarbeiten ist unsere Internetseite momentan leider nicht verfügbar. Wir bitten Sie deshalb um etwas Geduld. Bitte versuchen Sie es zu einem späteren Zeitpunkt.</p>
+                        <p class="cke-richtext-content">Sie erreichen uns per E-Mail unter <a href="mailto:info@stk.hessen.de"><span class="link-text">info@stk.hessen.de</span></a></p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+<!-- HEP_Wartungstoken -->
