@@ -9,7 +9,7 @@ DATAPATH = os.path.dirname(os.path.abspath(__file__)) + os.sep + ".." + os.sep +
 DATE_STR = datetime.fromtimestamp(datetime.now().timestamp()).strftime('%Y-%m-%d')
 FILENAME = "HB_{}.html".format(DATE_STR)
 FULLNAME = DATAPATH + FILENAME
-CSV_URL  = "https://www.gesundheit.bremen.de/service/aktuelles_aus_dem_ressort/pressemitteilungen-32660"
+CSV_URL  = "https://www.gesundheit.bremen.de/corona/zahlen/corona-fallzahlen-37649"
 
 if os.path.isfile(FULLNAME):
 
