@@ -4,13 +4,13 @@ Gesammelte COVID19-Daten von den deutschen Landesbehörden.
 
 | #           | Land                   | Ordner               | Quelle |
 | :-:         | :--                    | :--                  | :--    |
-| BW          | Baden-Württemberg      | [data_BW](data_BW/) | [https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/infektionen-und-todesfaelle-in-baden-wuerttemberg/](https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/infektionen-und-todesfaelle-in-baden-wuerttemberg/) |
+| BW          | Baden-Württemberg      | [data_BW](data_BW/) | [https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/die-aktuellen-corona-zahlen-fuer-baden-wuerttemberg/](https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/die-aktuellen-corona-zahlen-fuer-baden-wuerttemberg/) |
 | BY          | Bayern                 | [data_BY](data_BY/) | [https://www.lgl.bayern.de/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/karte_coronavirus/index.htm](https://www.lgl.bayern.de/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/karte_coronavirus/index.htm) |
 | BE          | Berlin                 | [data_BE](data_BE/) | [https://www.berlin.de/corona/lagebericht/desktop/corona.html#fallzahlen](https://www.berlin.de/corona/lagebericht/desktop/corona.html#fallzahlen) |
 | BB          | Brandenburg            | [data_BB](data_BB/) | [https://kkm.brandenburg.de/kkm/de/presse/pressemitteilungen/](https://kkm.brandenburg.de/kkm/de/presse/pressemitteilungen/)
-| HB          | Bremen                 | [data_HB](data_HB/) | [https://www.gesundheit.bremen.de/service/aktuelles_aus_dem_ressort/pressemitteilungen-32660](https://www.gesundheit.bremen.de/service/aktuelles_aus_dem_ressort/pressemitteilungen-32660) |
+| HB          | Bremen                 | [data_HB](data_HB/) | [https://www.gesundheit.bremen.de/corona/zahlen/corona-fallzahlen-37649](https://www.gesundheit.bremen.de/corona/zahlen/corona-fallzahlen-37649) |
 | HH          | Hamburg                | [data_HH](data_HH/) | [https://www.hamburg.de/corona-zahlen/](https://www.hamburg.de/corona-zahlen/) |
-| HE          | Hessen                 | [data_HE](data_HE/)  | [https://soziales.hessen.de/gesundheit/corona-hessen/taegliche-uebersicht-der-bestaetigten-sars-cov-2-faelle-hessen](https://soziales.hessen.de/gesundheit/corona-hessen/taegliche-uebersicht-der-bestaetigten-sars-cov-2-faelle-hessen)
+| HE          | Hessen                 | [data_HE](data_HE/)  | [https://soziales.hessen.de/Corona/Bulletin/Tagesaktuelle-Zahlen](https://soziales.hessen.de/Corona/Bulletin/Tagesaktuelle-Zahlen)
 | MV          | Mecklenburg-Vorpommern | [data_MV](data_MV/)  | [https://www.lagus.mv-regierung.de/Gesundheit/InfektionsschutzPraevention/Daten-Corona-Pandemie](https://www.lagus.mv-regierung.de/Gesundheit/InfektionsschutzPraevention/Daten-Corona-Pandemie)
 | NW          | Nordrhein-Westfalen    | [data_NW](data_NW/)  | [https://www.lzg.nrw.de/inf_schutz/corona_meldelage/index.html](https://www.lzg.nrw.de/inf_schutz/corona_meldelage/index.html)
 | NI          | Niedersachsen          | [data_NI](data_NI/) | [https://www.apps.nlga.niedersachsen.de/corona/iframe.php](https://www.apps.nlga.niedersachsen.de/corona/iframe.php) |
