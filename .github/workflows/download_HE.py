@@ -7,10 +7,11 @@ from datetime import datetime
 VERBOSE  = True
 DATAPATH = os.path.dirname(os.path.abspath(__file__)) + os.sep + ".." + os.sep + ".." + os.sep + "data_HE" + os.sep
 DATE_STR = datetime.fromtimestamp(datetime.now().timestamp()).strftime('%Y-%m-%d')
+MONTH_SHR = datetime.fromtimestamp(datetime.now().timestamp()).strftime('%Y-%m')
 DATE_SHR = datetime.fromtimestamp(datetime.now().timestamp()).strftime('%Y_%m_%d')
 FILENAME = "HE_{}.pdf".format(DATE_STR)
 FULLNAME = DATAPATH + FILENAME
-CSV_URL  = "https://soziales.hessen.de/sites/default/files/media/hsm/{}_bulletin_coronavirus.pdf".format(DATE_SHR)
+CSV_URL  = "https://soziales.hessen.de/sites/soziales.hessen.de/files/{}/{}_bulletin_coronavirus.pdf".format(MONTH_SHR,DATE_SHR)
 
 if os.path.isfile(FULLNAME):
 
