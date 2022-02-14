@@ -6,14 +6,18 @@ from datetime import datetime
 
 VERBOSE  = True
 DATAPATH = os.path.dirname(os.path.abspath(__file__)) + os.sep + ".." + os.sep + ".." + os.sep + "data_BW" + os.sep
+STR_YEAR = datetime.fromtimestamp(datetime.now().timestamp()).strftime('%Y')
 DATE_STR = datetime.fromtimestamp(datetime.now().timestamp()).strftime('%Y-%m-%d')
 DATE_SHR = datetime.fromtimestamp(datetime.now().timestamp()).strftime('%y%m%d')
 FILENAME = "BW_{}.pdf".format(DATE_STR)
 FULLNAME = DATAPATH + FILENAME
-CSV_URL1 = "https://www.baden-wuerttemberg.de/fileadmin/redaktion/dateien/PDF/Coronainfos/Corona_2022/{}_LGA_COVID19-Tagesbericht.pdf".format(DATE_SHR)
-CSV_URL2 = "https://www.gesundheitsamt-bw.de/fileadmin/LGA/_DocumentLibraries/SiteCollectionDocuments/05_Service/LageberichtCOVID19/{}_LGA_COVID19-Tagesbericht.pdf".format(DATE_STR)
-
-CSV_URLS = [CSV_URL1, CSV_URL2]
+CSV_URL1 = "https://www.baden-wuerttemberg.de/fileadmin/redaktion/dateien/PDF/Coronainfos/Corona_{}/{}_LGA_COVID19-Tagesbericht.pdf".format(STR_YEAR, DATE_SHR)
+CSV_URL2 = "https://www.baden-wuerttemberg.de/fileadmin/redaktion/dateien/PDF/Coronainfos/Corona_{}/{}_LGA_COVID19-Lagebericht.pdf".format(STR_YEAR, DATE_SHR)
+CSV_URL3 = "https://www.baden-wuerttemberg.de/fileadmin/redaktion/dateien/PDF/Coronainfos/Corona_{}/{}_LGA_COVID19-Inzidenzbericht.pdf".format(STR_YEAR, DATE_SHR)
+CSV_URL4 = "https://www.gesundheitsamt-bw.de/fileadmin/LGA/_DocumentLibraries/SiteCollectionDocuments/05_Service/LageberichtCOVID19/{}_LGA_COVID19-Tagesbericht.pdf".format(DATE_STR)
+CSV_URL5 = "https://www.gesundheitsamt-bw.de/fileadmin/LGA/_DocumentLibraries/SiteCollectionDocuments/05_Service/LageberichtCOVID19/{}_LGA_COVID19-Lagebericht.pdf".format(DATE_STR)
+CSV_URL6 = "https://www.gesundheitsamt-bw.de/fileadmin/LGA/_DocumentLibraries/SiteCollectionDocuments/05_Service/LageberichtCOVID19/{}_LGA_COVID19-Inzidenzbericht.pdf".format(DATE_STR)
+CSV_URLS = [CSV_URL1, CSV_URL2, CSV_URL3, CSV_URL4, CSV_URL5, CSV_URL6]
 
 if os.path.isfile(FULLNAME):
 
