@@ -1,0 +1,838 @@
+<!DOCTYPE html> <html>
+    <head><meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width"/>
+        <title>Landesportal Brandenburg | Startseite</title>
+       
+	<style type="text/css">
+.beitrag{
+		text-align: center;
+}	
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}	
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Open Sans,Helvetica,Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #161616;
+    text-rendering: optimizeLegibility;
+    background-color: transparent;
+    background: #FAFAFA;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+	
+	
+font-weight: normal;
+line-height: 1.5;
+color: #0a0a0a;
+background: #fefefe;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+html {
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.title_h2{
+		font-family: Open Sans,Helvetica,Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 1.688rem;
+		color: #161616;
+		text-rendering: optimizeLegibility;
+		background-color: transparent;
+		text-align: center;
+}
+h3 {
+    font-family: Open Sans,Helvetica,Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.375rem;
+    color: #161616;
+    text-rendering: optimizeLegibility;
+    background-color: transparent;
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: inherit;
+    text-rendering: optimizeLegibility;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    line-height: 1.4;
+}
+h6 {
+    font-family: Open Sans,Helvetica,Arial;
+    font-style: italic !important;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #161616;
+    text-rendering: optimizeLegibility;
+    background-color: transparent;
+    text-align: left;
+}
+#bb-absenderkennung a {
+    color: #fff;
+    background-color: transparent;
+}
+a:hover, a:active, a:visited, a:focus {
+    color: #C73C35;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+a {
+    color: #2199e8;
+    text-decoration: none;
+    line-height: inherit;
+    cursor: pointer;
+}
+#bb-absenderkennung {
+    height: 30px;
+    line-height: 30px;
+    background-color: #C73C35;
+    color: #fff;
+    white-space: nowrap;
+}
+.column, .columns {
+    padding-left: .9375rem;
+    padding-right: .9375rem;
+}
+
+.column, .columns {
+    width: 100%;
+    float: left;
+    padding-left: .625rem;
+    padding-right: .625rem;
+}
+.row .row {
+    margin-left: -0.9375rem;
+    margin-right: -0.9375rem;
+}
+
+.row .row {
+    max-width: none;
+    margin-left: -0.625rem;
+    margin-right: -0.625rem;
+}
+.row {
+    max-width: 71.25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+div {
+    display: block;
+}
+.bb-logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.medium-4 {
+    width: 33.33333%;
+}
+.medium-2 {
+    width: 16.66667%;
+}
+.bb-bottom-border {
+    height: 50px;
+    border-bottom: solid 1px #eee;
+}
+
+.bb-border {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+.bb-area-content {
+    min-height: 400px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #fff;
+}
+.bb-area-content a {
+    text-decoration: underline;
+}
+.small-12 {
+    width: 100%;
+}
+.row::before, .row::after {
+    content: ' ';
+    display: table;
+}
+.bb-area-footer-content {
+    background-color: #eee;
+}
+.bb-list-dark, .bb-mega-menu-list {
+    list-style-type: none;
+    margin-left: 0px;
+    border-top: 1px solid #161616;
+}
+.bb-list-dark li, .bb-mega-menu-list li {
+    border-bottom: 1px solid #161616;
+}
+.bb-list-dark a, .bb-mega-menu-list a, .bb-list-dark a:visited, .bb-mega-menu-list a:visited {
+    color: #161616;
+}
+.bb-list-dark a:hover, .bb-mega-menu-list a:hover {
+    color: #C73C35;
+}
+#bb-footer-bar {
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    background-color: #C73C35;
+}
+.bb-area-footer-bar {
+    background-color: #C73C35;
+}
+.bb-footer-items-right {
+    float: right;
+}
+
+.row {
+    max-width: 71.25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@charset "UTF-8";
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html {
+ font-family:sans-serif;
+ -ms-text-size-adjust:100%;
+ -webkit-text-size-adjust:100%
+}
+body {
+ margin:0
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+ display:block
+}
+
+[hidden],
+template {
+ display:none
+}
+a {
+ background-color:transparent
+}
+a:active,
+a:hover {
+ outline:0
+}
+
+b,
+strong {
+ font-weight:bold
+}
+
+h1 {
+ font-size:2em;
+ margin:.67em 0
+}
+
+small {
+ font-size:80%
+}
+
+img {
+ border:0
+}
+
+hr {
+ box-sizing:content-box;
+ height:0
+}
+
+html {
+ font-size:100%;
+ box-sizing:border-box
+}
+*,
+*::before,
+*::after {
+ box-sizing:inherit
+}
+body {
+ padding:0;
+ margin:0;
+ font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+ font-weight:normal;
+ line-height:1.5;
+ color:#0a0a0a;
+ background:#fefefe;
+ -webkit-font-smoothing:antialiased;
+ -moz-osx-font-smoothing:grayscale
+}
+img {
+ max-width:100%;
+ height:auto;
+ -ms-interpolation-mode:bicubic;
+ display:inline-block;
+ vertical-align:middle
+}
+
+
+[data-whatinput='mouse'] button {
+ outline:0
+}
+
+.row {
+ max-width:71.25rem;
+ margin-left:auto;
+ margin-right:auto
+}
+.row::before,
+.row::after {
+ content:' ';
+ display:table
+}
+.row::after {
+ clear:both
+}
+.row.collapse>.column,
+.row.collapse>.columns {
+ padding-left:0;
+ padding-right:0
+}
+.row .row {
+ max-width:none;
+ margin-left:-0.625rem;
+ margin-right:-0.625rem
+}
+@media screen and (min-width:40em) {
+ .row .row {
+  margin-left:-0.9375rem;
+  margin-right:-0.9375rem
+ }
+}
+
+.column,
+.columns {
+ width:100%;
+ float:left;
+ padding-left:.625rem;
+ padding-right:.625rem
+}
+@media screen and (min-width:40em) {
+ .column,
+ .columns {
+  padding-left:.9375rem;
+  padding-right:.9375rem
+ }
+}
+.column:last-child:not(:first-child),
+.columns:last-child:not(:first-child) {
+ float:right
+}
+.column.end:last-child:last-child,
+.end.columns:last-child:last-child {
+ float:left
+}
+.column.row.row,
+.row.row.columns {
+ float:none
+}
+.row .column.row.row,
+.row .row.row.columns {
+ padding-left:0;
+ padding-right:0;
+ margin-left:0;
+ margin-right:0
+}
+.small-1 {
+ width:8.33333%
+}
+
+.small-2 {
+ width:16.66667%
+}
+
+.small-3 {
+ width:25%
+}
+}
+.small-4 {
+ width:33.33333%
+}
+
+.small-5 {
+ width:41.66667%
+}
+
+.small-6 {
+ width:50%
+}
+
+.small-7 {
+ width:58.33333%
+}
+
+.small-8 {
+ width:66.66667%
+}
+
+.small-9 {
+ width:75%
+}
+
+.small-10 {
+ width:83.33333%
+}
+
+.small-11 {
+ width:91.66667%
+}
+.small-12 {
+ width:100%
+}
+
+@media screen and (min-width:40em) {
+ .medium-1 {
+  width:8.33333%
+ }
+ 
+ .medium-2 {
+  width:16.66667%
+ }
+ 
+ .medium-3 {
+  width:25%
+ }
+ 
+ .medium-4 {
+  width:33.33333%
+ }
+ 
+ .medium-5 {
+  width:41.66667%
+ }
+ 
+ .medium-6 {
+  width:50%
+ }
+ 
+ .medium-7 {
+  width:58.33333%
+ }
+ 
+ .medium-8 {
+  width:66.66667%
+ }
+ 
+ .medium-9 {
+  width:75%
+ }
+ 
+ .medium-10 {
+  width:83.33333%
+ }
+
+ .medium-11 {
+  width:91.66667%
+ }
+ 
+ .medium-12 {
+  width:100%
+ }
+ 
+ 
+}
+@media screen and (min-width:64em) {
+ .large-1 {
+  width:8.33333%
+ }
+ 
+ .large-2 {
+  width:16.66667%
+ }
+ 
+ .large-3 {
+  width:25%
+ }
+ 
+ .large-4 {
+  width:33.33333%
+ }
+ 
+ .large-5 {
+  width:41.66667%
+ }
+ 
+ .large-6 {
+  width:50%
+ }
+ 
+ .large-7 {
+  width:58.33333%
+ }
+ 
+ .large-8 {
+  width:66.66667%
+ }
+ 
+ .large-12 {
+  width:100%
+ }
+ 
+ 
+}
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+th,
+td {
+ margin:0;
+ padding:0
+}
+p {
+ font-size:inherit;
+ line-height:1.6;
+ margin-bottom:1rem;
+ text-rendering:optimizeLegibility
+}
+em,
+i {
+ font-style:italic;
+ line-height:inherit
+}
+strong,
+b {
+ font-weight:bold;
+ line-height:inherit
+}
+small {
+ font-size:80%;
+ line-height:inherit
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+ font-weight:normal;
+ font-style:normal;
+ color:inherit;
+ text-rendering:optimizeLegibility;
+ margin-top:0;
+ margin-bottom:.5rem;
+ line-height:1.4
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+ color:#cacaca;
+ line-height:0
+}
+h1 {
+ font-size:1.5rem
+}
+h2 {
+ font-size:1.25rem
+}
+h3 {
+ font-size:1.1875rem
+}
+h4 {
+ font-size:1.125rem
+}
+h5 {
+ font-size:1.0625rem
+}
+h6 {
+ font-size:1rem
+}
+@media screen and (min-width:40em) {
+ h1 {
+  font-size:3rem
+ }
+ h2 {
+  font-size:2.5rem
+ }
+ h3 {
+  font-size:1.9375rem
+ }
+ h4 {
+  font-size:1.5625rem
+ }
+ h5 {
+  font-size:1.25rem
+ }
+ h6 {
+  font-size:1rem
+ }
+}
+a {
+ color:#2199e8;
+ text-decoration:none;
+ line-height:inherit;
+ cursor:pointer
+}
+a:hover,
+a:focus {
+ color:#1585cf
+}
+a img {
+ border:0
+}
+hr {
+ max-width:75rem;
+ height:0;
+ border-right:0;
+ border-top:0;
+ border-bottom:1px solid #cacaca;
+ border-left:0;
+ margin:1.25rem auto;
+ clear:both
+}
+ul,
+ol,
+dl {
+ line-height:1.6;
+ margin-bottom:1rem;
+ list-style-position:outside
+}
+li {
+ font-size:inherit
+}
+ul {
+ list-style-type:disc;
+ margin-left:1.25rem
+}
+ol {
+ margin-left:1.25rem
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+ margin-left:1.25rem;
+ margin-bottom:0
+}
+dl {
+ margin-bottom:1rem
+}
+dl dt {
+ margin-bottom:.3rem;
+ font-weight:bold
+}
+
+
+
+
+.float-left {
+ float:left!important
+}
+.float-right {
+ float:right!important
+}
+.float-center {
+ display:block;
+ margin-left:auto;
+ margin-right:auto
+}
+
+.trennung {
+	-ms-hyphens: auto;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+	word-wrap: anywhere;
+	word-break: break-word;
+}
+
+
+		</style> 
+        <!-- When Theme is switchted. Replaces Main Color!-->
+        <!--link type="text/css" rel="stylesheet" href="https://style.brandenburg.de/2_3/css/app.css" /-->  
+
+		</head>
+    <body>
+        <div class="bb-stage">
+
+            <div class="row bb-border">
+                <div class="columns">
+
+
+                    <div class="row bb-area-header">
+                        <div class="columns">
+
+                            <div class="row">
+                                <div class="small-12 columns" id="bb-absenderkennung">
+
+                                    <a href="https://www.brandenburg.de/"
+                                       title="Link zur Startseite">
+                                        Landesregierung Brandenburg
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="columns" id="bb-logo-bar">
+                                    <div class="row">
+                                        <div class="small-12 medium-6 columns bb-logo">
+                                            <a href="https://www.brandenburg.de/" title="Link zum Landesportal Brandenburg">
+
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+							<div class="row">
+								<div class="columns" style="background-color:#FFFFFF">
+									<div class="row">
+										<div class="columns">
+											<div class="bb-bottom-border">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+                    </div>
+
+
+                    <div class="row bb-area-content">
+                        <div class="columns">
+                            <div class="bb-content">
+                                <div class="row">
+                                    <div class="columns">
+                                        <div class="row">
+                                            <div class="columns small-12">
+												<div class="beitrag">
+													<p class="title_h2">*** Störung ***</p>
+													<p>Dieses Angebot steht momentan nicht zur Verfügung.<br /></p>
+												</div>
+												<div class="impressum">
+													<br /><br /><br />
+													<h3>Impressum</h3>
+													<p>
+														Landesregierung Brandenburg <br />
+														Staatskanzlei <br />
+														14473 Potsdam <br />
+														Telefon: (0331) 866-0 <br />
+														E-Mail: poststelle@stk.brandenburg.de <br />
+													</p>
+													<p>
+														Das Land Brandenburg ist eine Körperschaft des Öffentlichen Rechts. Es wird vertreten durch Ministerpräsident Dr. Dietmar Woidke. <br />
+
+														Verantwortlich nach §5 Telemediengesetz und im Sinne von § 55 Abs. 2 RStV: <br />
+														Regierungssprecher Florian Engels
+													</p>
+												</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="row bb-area-footer">
+                <div class="columns">
+
+                    <div class="row bb-area-footer-content" style="padding-top:20px;">
+						<div class="medium-12 large-9 columns">
+						</div>
+                         <div class="hide-for-small-only medium-12 large-3 columns">
+                            <div id="bb-link-bar">
+                                <div class="row">
+                                    <div class="medium-6 large-12 columns">
+                                        <h6>Service</h6>
+                                        <ul class="bb-list-dark">
+                                            <li>
+                                                <a href="https://www.brandenburg.de"
+                                                   target="_blank"
+                                                   title="Link zum Landesportal Brandenburg">
+                                                    Landesportal Brandenburg
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="http://service.brandenburg.de"
+                                                   target="_blank"
+                                                   title="Link zum Serviceportal Brandenburg">
+                                                    Serviceportal Brandenburg
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="medium-6 large-12 columns">
+
+                                    </div>
+                                </div>
+                            </div>                
+                        </div>
+
+                    </div>
+
+                    <div class="row bb-area-footer-bar">
+                        <div class="columns">
+                            <div id="bb-footer-bar">
+                                <span class="hide-for-small-only">2020 | Landesregierung Brandenburg</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>  
+
+    </body>
+</html>
