@@ -30,17 +30,17 @@ else:
     r = requests.get(HTML_URL, headers=headers, allow_redirects=True, timeout=5.0)
     if r.status_code != 200:
         print("Download failed!")
-        sys.exit(1)
+        sys.exit(0)
         
     pre = PDF_RE.findall( r.text.replace("\n", "") )
     if len(pre) != 1:
         print("Download failed (link not found)!")
-        sys.exit(1)
+        sys.exit(0)
         
     p = requests.get(pre[0], headers=headers, allow_redirects=True, timeout=5.0)
     if p.status_code != 200:
         print("PDF Download failed!")
-        sys.exit(1)
+        sys.exit(0)
         
     with open(FULLNAME, 'wb') as df:
         df.write(p.content)

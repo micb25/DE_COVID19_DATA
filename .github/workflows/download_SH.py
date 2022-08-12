@@ -30,7 +30,7 @@ for i in range(0, 3):
         r = requests.get(CSV_URL[i], headers=headers, allow_redirects=True, timeout=5.0)
         if r.status_code != 200:
             print("Download failed!")
-            sys.exit(1)
+            sys.exit(0)
             
         with open(FULLNAME[i], 'wb') as df:
             df.write(r.content)

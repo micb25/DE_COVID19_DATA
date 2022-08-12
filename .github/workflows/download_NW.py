@@ -32,7 +32,7 @@ for district in districts:
     r = requests.get(CSV_URL, headers=headers, allow_redirects=True, timeout=5.0)
     if r.status_code != 200:
         print("Download failed!")
-        sys.exit(1)
+        sys.exit(0)
         
     with open(FULLNAME, 'wb') as df:
         df.write(r.content)

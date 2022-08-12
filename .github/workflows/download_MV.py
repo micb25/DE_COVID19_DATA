@@ -57,7 +57,7 @@ else:
     r = requests.get(HTML_URL, headers=headers, allow_redirects=True, timeout=5.0)
     if r.status_code != 200:
         print("Download failed!")
-        sys.exit(1)
+        sys.exit(0)
         
     i = -1
         

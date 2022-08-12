@@ -65,4 +65,4 @@ else:
             sys.exit(0)
     
     print("Download failed!")
-    sys.exit(1)
+    sys.exit(0)
